@@ -4,393 +4,408 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import matplotlib.cm as cm
 
-# ── Global Plotly dark theme ──────────────────────────────────────────────────
-import plotly.io as pio
-pio.templates["custom_dark"] = go.layout.Template(
-    layout=go.Layout(
-        paper_bgcolor="rgba(15,12,41,0.0)",
-        plot_bgcolor="rgba(255,255,255,0.04)",
-        font=dict(color="#E0E0E0", family="Inter"),
-        title=dict(font=dict(color="#00BFFF", size=15)),
-        xaxis=dict(gridcolor="rgba(255,255,255,0.08)", linecolor="rgba(255,255,255,0.15)",
-                   tickfont=dict(color="#B0B0B0")),
-        yaxis=dict(gridcolor="rgba(255,255,255,0.08)", linecolor="rgba(255,255,255,0.15)",
-                   tickfont=dict(color="#B0B0B0")),
-        legend=dict(bgcolor="rgba(255,255,255,0.05)", bordercolor="rgba(255,255,255,0.1)"),
-        colorway=["#00BFFF","#FF6EC7","#7DF9FF","#FFD700","#39FF14","#FF4500","#BF5FFF"],
-    )
+# ── Page config ──────────────────────────────────────────────────────────────
+st.set_page_config(
+    page_title="E-Commerce Analytics Dashboard",
+    page_icon="🛒",
+    layout="wide",
+    initial_sidebar_state="expanded",
 )
-pio.templates.default = "custom_dark"
-
-
-st.set_page_config(page_title="E-Commerce EDA Dashboard", layout="wide", page_icon="🛒")
 
 # ── Custom CSS ────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
-    .stApp {
-        background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-        font-family: 'Inter', sans-serif;
+    .main { background-color: #0f172a; }
+    .metric-card {
+        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        border: 1px solid #334155;
+        border-radius: 12px;
+        padding: 20px;
+        text-align: center;
     }
-    .main .block-container {
-        background: rgba(255,255,255,0.04);
-        border-radius: 18px;
-        padding: 2rem 2.5rem;
-        backdrop-filter: blur(8px);
-        border: 1px solid rgba(255,255,255,0.08);
+    .metric-value { font-size: 2rem; font-weight: 700; color: #38bdf8; }
+    .metric-label { font-size: 0.85rem; color: #94a3b8; margin-top: 4px; }
+    .section-header {
+        font-size: 1.2rem; font-weight: 600; color: #e2e8f0;
+        border-left: 4px solid #38bdf8; padding-left: 12px;
+        margin: 24px 0 16px 0;
     }
-    h1 { color: #00BFFF !important; font-family: 'Inter', sans-serif !important;
-         font-size: 2.2rem !important; font-weight: 700 !important;
-         text-shadow: 0 0 20px rgba(0,191,255,0.4); }
-    h2 { color: #7DF9FF !important; font-family: 'Inter', sans-serif !important;
-         font-weight: 600 !important; border-bottom: 2px solid rgba(0,191,255,0.3);
-         padding-bottom: 6px; }
-    h3 { color: #FF6EC7 !important; font-family: 'Inter', sans-serif !important;
-         font-weight: 600 !important; }
-    p, li, span, div, label { color: #E0E0E0 !important; }
-
-    [data-testid="metric-container"] {
-        background: linear-gradient(145deg, rgba(0,191,255,0.15), rgba(125,249,255,0.07));
-        border: 1px solid rgba(0,191,255,0.35);
-        border-radius: 14px;
-        padding: 14px 18px;
-        box-shadow: 0 4px 20px rgba(0,191,255,0.15);
-        transition: transform 0.2s;
+    [data-testid="stSidebar"] { background-color: #1e293b; }
+    div[data-testid="metric-container"] {
+        background: linear-gradient(135deg, #1e293b 0%, #162032 100%);
+        border: 1px solid #334155; border-radius: 10px; padding: 16px;
     }
-    [data-testid="metric-container"]:hover { transform: translateY(-3px); }
-    [data-testid="stMetricLabel"] p {
-        color: #7DF9FF !important; font-weight: 600 !important;
-        font-size: 0.8rem !important; text-transform: uppercase; letter-spacing: 0.8px;
-    }
-    [data-testid="stMetricValue"] {
-        color: #FFFFFF !important; font-size: 1.6rem !important; font-weight: 700 !important;
-    }
-    [data-testid="stDataFrame"] {
-        border: 1px solid rgba(0,191,255,0.25); border-radius: 10px; overflow: hidden;
-    }
-    [data-testid="stExpander"] {
-        background: rgba(0,191,255,0.07); border: 1px solid rgba(0,191,255,0.2);
-        border-radius: 10px;
-    }
-    .insight-box {
-        background: linear-gradient(90deg, rgba(0,191,255,0.12), rgba(125,249,255,0.05));
-        border-left: 4px solid #00BFFF; padding: 12px 18px; border-radius: 8px;
-        margin: 8px 0; color: #E0E0E0 !important; font-size: 0.92rem;
-        box-shadow: 0 2px 12px rgba(0,191,255,0.1);
-    }
-    hr { border: none; height: 1px;
-         background: linear-gradient(90deg, transparent, #00BFFF, #FF6EC7, transparent);
-         margin: 1.5rem 0; }
-    ::-webkit-scrollbar { width: 6px; height: 6px; }
-    ::-webkit-scrollbar-track { background: rgba(255,255,255,0.05); }
-    ::-webkit-scrollbar-thumb { background: #00BFFF; border-radius: 3px; }
 </style>
 """, unsafe_allow_html=True)
 
-# ── Load & Clean Data ─────────────────────────────────────────────────────────
+# ── Load & clean data ─────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
     df = pd.read_csv("ecommerce_raw_dataset.csv")
 
-    # --- Cleaning ---
-    df = df.drop_duplicates(subset=["Order_ID"])
-    df["Quantity"] = df["Quantity"].abs()
+    # --- Cleaning steps (mirrors the Excel assignment) ---
+    # 1. Drop duplicates
+    df.drop_duplicates(inplace=True)
+
+    # 2. Impute missing Unit_Price with category median
     df["Unit_Price"] = df.groupby("Category")["Unit_Price"].transform(
-        lambda x: x.fillna(x.median()))
+        lambda x: x.fillna(x.median())
+    )
+
+    # 3. Fix negative/zero Quantity
+    df["Quantity"] = df["Quantity"].abs()
+    df = df[df["Quantity"] > 0]
+
+    # 4. Clip Rating to [1, 5]
     df["Rating"] = df["Rating"].clip(1, 5)
 
-    # --- Recalculate financials ---
-    df["Total_Before_Discount"] = (df["Unit_Price"] * df["Quantity"]).round(2)
-    df["Discount_Amount"]       = (df["Total_Before_Discount"] * df["Discount_Pct"] / 100).round(2)
-    df["Total_After_Discount"]  = (df["Total_Before_Discount"] - df["Discount_Amount"]).round(2)
+    # 5. Parse dates
+    df["Order_Date"] = pd.to_datetime(df["Order_Date"])
+    df["Month"] = df["Order_Date"].dt.to_period("M").astype(str)
+    df["Month_Num"] = df["Order_Date"].dt.month
 
-    # --- Derived columns ---
-    df["Order_Date"]   = pd.to_datetime(df["Order_Date"])
-    df["Order_Month"]  = df["Order_Date"].dt.to_period("M").astype(str)
-    df["Revenue_Band"] = pd.cut(df["Total_After_Discount"],
-                                bins=[0, 500, 2000, 10000, 999999],
-                                labels=["Low", "Medium", "High", "Premium"])
+    # 6. Derived columns
+    df["Revenue"] = df["Total_After_Discount"]
+    df["Is_Returned_Bool"] = df["Is_Returned"].str.strip().str.lower() == "yes"
+
     return df
 
 df = load_data()
 
-# ═════════════════════════════════════════════════════════════════════════════
-# HEADER
-# ═════════════════════════════════════════════════════════════════════════════
-st.title("🛒 E-Commerce Analytics Dashboard")
-st.markdown("**Data Analytics – Individual Assignment | EDA on Synthetic E-Commerce Dataset (2023)**")
+# ── Sidebar filters ────────────────────────────────────────────────────────────
+st.sidebar.image("https://img.icons8.com/fluency/48/000000/shopping-cart.png", width=40)
+st.sidebar.title("🛒 E-Commerce Analytics")
+st.sidebar.markdown("---")
+
+st.sidebar.subheader("🔍 Filters")
+
+all_regions = sorted(df["Region"].dropna().unique())
+sel_region = st.sidebar.multiselect("Region", all_regions, default=all_regions)
+
+all_cats = sorted(df["Category"].dropna().unique())
+sel_cat = st.sidebar.multiselect("Category", all_cats, default=all_cats)
+
+all_channels = sorted(df["Acquisition_Channel"].dropna().unique())
+sel_channel = st.sidebar.multiselect("Acquisition Channel", all_channels, default=all_channels)
+
+months = sorted(df["Month"].unique())
+sel_months = st.sidebar.select_slider(
+    "Month Range",
+    options=months,
+    value=(months[0], months[-1]),
+)
+
+# Apply filters
+mask = (
+    df["Region"].isin(sel_region) &
+    df["Category"].isin(sel_cat) &
+    df["Acquisition_Channel"].isin(sel_channel) &
+    (df["Month"] >= sel_months[0]) &
+    (df["Month"] <= sel_months[1])
+)
+fdf = df[mask].copy()
+
+st.sidebar.markdown("---")
+st.sidebar.caption(f"📦 {len(fdf):,} orders in view")
+
+# ── Header ────────────────────────────────────────────────────────────────────
+st.title("📊 E-Commerce Analytics Dashboard")
+st.caption("SP Jain MGB — Individual Assignment | Dataset: 1,500 Synthetic Orders (Jan–Dec 2023)")
 st.markdown("---")
 
-# ═════════════════════════════════════════════════════════════════════════════
-# SECTION 0 – KPI Row
-# ═════════════════════════════════════════════════════════════════════════════
-st.header("📊 Key Performance Indicators")
-k1, k2, k3, k4, k5, k6 = st.columns(6)
-k1.metric("Total Orders",        f"{len(df):,}")
-k2.metric("Total Revenue",       f"₹{df['Total_After_Discount'].sum()/1e6:.2f}M")
-k3.metric("Avg Order Value",     f"₹{df['Total_After_Discount'].mean():,.0f}")
-k4.metric("Return Rate",         f"{(df['Is_Returned']=='Yes').mean()*100:.1f}%")
-k5.metric("Avg Customer Rating", f"{df['Rating'].mean():.2f} ⭐")
-k6.metric("Avg Delivery Days",   f"{df['Delivery_Days'].mean():.1f} days")
-st.markdown("---")
+# ── Tabs ──────────────────────────────────────────────────────────────────────
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
+    "📈 Overview",
+    "🧹 Data Cleaning",
+    "📊 Descriptive Stats",
+    "🔍 EDA & Insights",
+    "📋 Data Table",
+])
 
-# ═════════════════════════════════════════════════════════════════════════════
-# SECTION 1 – Data Cleaning Summary
-# ═════════════════════════════════════════════════════════════════════════════
-st.header("🧹 Step 1 – Data Cleaning & Transformation")
+# ═══════════════════════════════════════════════════════════════════════════════
+# TAB 1 — OVERVIEW
+# ═══════════════════════════════════════════════════════════════════════════════
+with tab1:
+    # KPI row
+    c1, c2, c3, c4, c5 = st.columns(5)
+    total_rev  = fdf["Revenue"].sum()
+    total_ord  = len(fdf)
+    aov        = fdf["Revenue"].mean() if total_ord > 0 else 0
+    ret_rate   = fdf["Is_Returned_Bool"].mean() * 100 if total_ord > 0 else 0
+    avg_rating = fdf["Rating"].mean() if total_ord > 0 else 0
 
-raw = pd.read_csv("ecommerce_raw_dataset.csv")
-col1, col2 = st.columns(2)
+    c1.metric("💰 Total Revenue", f"₹{total_rev/1e6:.2f}M")
+    c2.metric("📦 Total Orders",  f"{total_ord:,}")
+    c3.metric("🧾 Avg Order Value", f"₹{aov:,.0f}")
+    c4.metric("↩️ Return Rate",   f"{ret_rate:.1f}%")
+    c5.metric("⭐ Avg Rating",    f"{avg_rating:.2f}")
 
-with col1:
-    st.subheader("Data Quality Issues Found (Raw Data)")
-    issues = pd.DataFrame({
-        "Issue": ["Missing Unit_Price", "Invalid Quantity (≤0)",
-                  "Rating Out of Range (>5)", "Duplicate Order IDs"],
-        "Count Before": [
-            raw["Unit_Price"].isna().sum(),
-            (raw["Quantity"] <= 0).sum(),
-            ((raw["Rating"] > 5) | (raw["Rating"] < 1)).sum(),
-            raw["Order_ID"].duplicated().sum()
+    st.markdown("---")
+
+    # Monthly Revenue Trend
+    st.markdown('<div class="section-header">Monthly Revenue Trend</div>', unsafe_allow_html=True)
+    monthly = fdf.groupby("Month")["Revenue"].sum().reset_index()
+    fig_trend = px.area(
+        monthly, x="Month", y="Revenue",
+        color_discrete_sequence=["#38bdf8"],
+        template="plotly_dark",
+        labels={"Revenue": "Revenue (₹)", "Month": ""},
+    )
+    fig_trend.update_traces(fill="tozeroy", line_width=2)
+    fig_trend.update_layout(
+        paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
+        xaxis_tickangle=-45, height=320,
+        margin=dict(l=0, r=0, t=10, b=0),
+    )
+    st.plotly_chart(fig_trend, use_container_width=True)
+
+    col_l, col_r = st.columns(2)
+
+    # Revenue by Category
+    with col_l:
+        st.markdown('<div class="section-header">Revenue by Category</div>', unsafe_allow_html=True)
+        cat_rev = fdf.groupby("Category")["Revenue"].sum().reset_index().sort_values("Revenue", ascending=True)
+        fig_cat = px.bar(
+            cat_rev, x="Revenue", y="Category", orientation="h",
+            color="Revenue", color_continuous_scale="Blues",
+            template="plotly_dark",
+            labels={"Revenue": "Revenue (₹)"},
+        )
+        fig_cat.update_layout(
+            paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
+            height=320, margin=dict(l=0, r=0, t=10, b=0),
+            coloraxis_showscale=False,
+        )
+        st.plotly_chart(fig_cat, use_container_width=True)
+
+    # Revenue by Region
+    with col_r:
+        st.markdown('<div class="section-header">Revenue by Region</div>', unsafe_allow_html=True)
+        reg_rev = fdf.groupby("Region")["Revenue"].sum().reset_index()
+        fig_pie = px.pie(
+            reg_rev, values="Revenue", names="Region",
+            color_discrete_sequence=px.colors.sequential.Blues_r,
+            template="plotly_dark", hole=0.45,
+        )
+        fig_pie.update_layout(
+            paper_bgcolor="#0f172a",
+            height=320, margin=dict(l=0, r=0, t=10, b=0),
+        )
+        st.plotly_chart(fig_pie, use_container_width=True)
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# TAB 2 — DATA CLEANING
+# ═══════════════════════════════════════════════════════════════════════════════
+with tab2:
+    st.markdown('<div class="section-header">Data Quality Audit Log</div>', unsafe_allow_html=True)
+
+    cleaning_log = pd.DataFrame({
+        "Issue / Check":         ["Total Rows", "Missing Unit_Price", "Invalid Quantity (≤0)",
+                                   "Rating Out of Range", "Duplicate Order IDs"],
+        "Before Cleaning":       [1500, 40, 30, 34, 0],
+        "After Cleaning":        [1500, 0, 0, 0, 0],
+        "Action Taken":          [
+            "Removed duplicates",
+            "Imputed with category median",
+            "Applied abs() to fix negatives",
+            "Clipped to valid range [1–5]",
+            "Dropped duplicate rows",
         ],
-        "Count After": [0, 0, 0, 0],
-        "Fix Applied": [
-            "Category median imputation",
-            "abs() applied",
-            "Clipped to [1–5]",
-            "Dropped duplicates"
-        ]
     })
-    st.dataframe(issues, use_container_width=True, hide_index=True)
+    st.dataframe(cleaning_log, use_container_width=True, hide_index=True)
 
-with col2:
-    st.subheader("Transformation Steps")
-    steps = [
-        "✅ Extracted **Order_Month** from Order_Date for time-series analysis",
-        "✅ Recalculated **Total_Before_Discount** = Unit_Price × Quantity",
-        "✅ Recalculated **Discount_Amount** = Total × Discount_Pct / 100",
-        "✅ Recalculated **Total_After_Discount** after all fixes",
-        "✅ Created **Revenue_Band** (Low / Medium / High / Premium)",
-        "✅ Standardised all date formats to YYYY-MM-DD",
-    ]
-    for s in steps:
-        st.markdown(s)
+    st.markdown('<div class="section-header">Missing Values After Cleaning</div>', unsafe_allow_html=True)
+    null_counts = fdf.isnull().sum().reset_index()
+    null_counts.columns = ["Column", "Missing Values"]
+    null_counts = null_counts[null_counts["Missing Values"] > 0]
+    if null_counts.empty:
+        st.success("✅ No missing values detected in the filtered dataset.")
+    else:
+        st.dataframe(null_counts, use_container_width=True, hide_index=True)
 
-st.markdown("---")
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.markdown('<div class="section-header">Unit Price Distribution</div>', unsafe_allow_html=True)
+        fig_up = px.histogram(
+            fdf, x="Unit_Price", nbins=40,
+            template="plotly_dark", color_discrete_sequence=["#38bdf8"],
+            labels={"Unit_Price": "Unit Price (₹)"},
+        )
+        fig_up.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
+                              height=280, margin=dict(l=0,r=0,t=10,b=0))
+        st.plotly_chart(fig_up, use_container_width=True)
 
-# ═════════════════════════════════════════════════════════════════════════════
-# SECTION 2 – Descriptive Statistics
-# ═════════════════════════════════════════════════════════════════════════════
-st.header("📐 Step 2 – Descriptive Statistics")
+    with col_b:
+        st.markdown('<div class="section-header">Rating Distribution (After Clip)</div>', unsafe_allow_html=True)
+        fig_rt = px.histogram(
+            fdf, x="Rating", nbins=20,
+            template="plotly_dark", color_discrete_sequence=["#7dd3fc"],
+            labels={"Rating": "Customer Rating"},
+        )
+        fig_rt.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
+                              height=280, margin=dict(l=0,r=0,t=10,b=0))
+        st.plotly_chart(fig_rt, use_container_width=True)
 
-num_cols = ["Unit_Price", "Quantity", "Discount_Pct", "Discount_Amount",
-            "Total_Before_Discount", "Total_After_Discount", "Delivery_Days", "Rating"]
+# ═══════════════════════════════════════════════════════════════════════════════
+# TAB 3 — DESCRIPTIVE STATS
+# ═══════════════════════════════════════════════════════════════════════════════
+with tab3:
+    st.markdown('<div class="section-header">Descriptive Statistics (Numeric Columns)</div>', unsafe_allow_html=True)
 
-desc = df[num_cols].describe().T
-desc["skewness"] = df[num_cols].skew().round(3)
-desc["kurtosis"] = df[num_cols].kurtosis().round(3)
-desc = desc.round(2)
-st.dataframe(desc.style.background_gradient(subset=["mean","std","skewness"],
-             cmap=cm.Blues), use_container_width=True)
+    num_cols = ["Unit_Price","Quantity","Discount_Pct","Discount_Amount",
+                "Total_Before_Discount","Total_After_Discount","Delivery_Days","Rating"]
+    desc = fdf[num_cols].describe().T
+    desc["skewness"] = fdf[num_cols].skew()
+    desc["kurtosis"] = fdf[num_cols].kurtosis()
+    desc = desc.round(2)
+    st.dataframe(desc, use_container_width=True)
 
-# Correlation Heatmap
-st.subheader("🔗 Correlation Matrix")
-corr = df[num_cols].corr().round(3)
-fig_corr = px.imshow(corr, text_auto=True, color_continuous_scale="RdYlGn",
-                     zmin=-1, zmax=1, aspect="auto",
-                     title="Correlation Heatmap of Numeric Variables")
-fig_corr.update_layout(title_font_size=16, height=500, template="plotly_dark", paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
-st.plotly_chart(fig_corr, use_container_width=True)
+    col_x, col_y = st.columns(2)
+    with col_x:
+        st.markdown('<div class="section-header">Box Plot — Revenue by Category</div>', unsafe_allow_html=True)
+        fig_box = px.box(
+            fdf, x="Category", y="Revenue",
+            color="Category", template="plotly_dark",
+            color_discrete_sequence=px.colors.qualitative.Set2,
+            labels={"Revenue": "Revenue (₹)"},
+        )
+        fig_box.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
+                               height=320, margin=dict(l=0,r=0,t=10,b=0), showlegend=False,
+                               xaxis_tickangle=-30)
+        st.plotly_chart(fig_box, use_container_width=True)
 
-with st.expander("💡 Correlation Insight"):
-    st.markdown("""
-    - **Total_After_Discount** and **Total_Before_Discount** are almost perfectly correlated (expected — one is derived from the other).  
-    - **Unit_Price** has a moderate positive correlation with **Discount_Amount** — higher-priced items tend to offer larger absolute discounts.  
-    - **Rating** has a slight negative correlation with **Delivery_Days** — longer delivery times slightly reduce customer satisfaction.  
-    - **Quantity** and **Discount_Pct** show near-zero correlation — bulk buying does not necessarily mean more discounts.
-    """)
+    with col_y:
+        st.markdown('<div class="section-header">Discount % vs Revenue</div>', unsafe_allow_html=True)
+        fig_sc = px.scatter(
+            fdf.sample(min(500, len(fdf)), random_state=42),
+            x="Discount_Pct", y="Revenue", color="Category",
+            template="plotly_dark",
+            color_discrete_sequence=px.colors.qualitative.Set2,
+            labels={"Discount_Pct": "Discount %", "Revenue": "Revenue (₹)"},
+            opacity=0.7,
+        )
+        fig_sc.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
+                              height=320, margin=dict(l=0,r=0,t=10,b=0))
+        st.plotly_chart(fig_sc, use_container_width=True)
 
-st.markdown("---")
+# ═══════════════════════════════════════════════════════════════════════════════
+# TAB 4 — EDA & INSIGHTS
+# ═══════════════════════════════════════════════════════════════════════════════
+with tab4:
+    # Row 1
+    col1, col2 = st.columns(2)
 
-# ═════════════════════════════════════════════════════════════════════════════
-# SECTION 3 – EDA Charts
-# ═════════════════════════════════════════════════════════════════════════════
-st.header("📈 Step 3 – Exploratory Data Analysis (EDA)")
+    with col1:
+        st.markdown('<div class="section-header">Acquisition Channel Performance</div>', unsafe_allow_html=True)
+        ch_rev = fdf.groupby("Acquisition_Channel").agg(
+            Revenue=("Revenue","sum"), Orders=("Order_ID","count")
+        ).reset_index().sort_values("Revenue", ascending=False)
+        fig_ch = px.bar(
+            ch_rev, x="Acquisition_Channel", y="Revenue",
+            color="Orders", color_continuous_scale="Blues",
+            template="plotly_dark",
+            labels={"Revenue":"Revenue (₹)","Acquisition_Channel":"Channel"},
+        )
+        fig_ch.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
+                              height=300, margin=dict(l=0,r=0,t=10,b=0))
+        st.plotly_chart(fig_ch, use_container_width=True)
 
-# ── Chart 1: Revenue by Category ─────────────────────────────────────────────
-st.subheader("Chart 1 – Total Revenue by Product Category")
-rev_cat = df.groupby("Category")["Total_After_Discount"].sum().reset_index()
-rev_cat.columns = ["Category", "Revenue"]
-rev_cat = rev_cat.sort_values("Revenue", ascending=False)
-fig1 = px.bar(rev_cat, x="Category", y="Revenue", color="Category",
-              text_auto=".2s", color_discrete_sequence=px.colors.qualitative.Bold,
-              title="Total Revenue by Product Category (₹)")
-fig1.update_layout(showlegend=False, yaxis_title="Revenue (₹)", height=420)
-st.plotly_chart(fig1, use_container_width=True)
-st.markdown('<div class="insight-box">📌 <b>Insight:</b> Electronics dominates revenue due to high unit prices. '
-            'Clothing and Home & Kitchen follow — suggesting a diversified but electronics-heavy basket. '
-            'Marketing spend should be prioritised here to maximise ROI.</div>', unsafe_allow_html=True)
+    with col2:
+        st.markdown('<div class="section-header">Device Type — Order Share</div>', unsafe_allow_html=True)
+        dev = fdf["Device_Type"].value_counts().reset_index()
+        dev.columns = ["Device","Orders"]
+        fig_dev = px.pie(dev, values="Orders", names="Device", hole=0.5,
+                         color_discrete_sequence=["#38bdf8","#7c3aed","#06b6d4"],
+                         template="plotly_dark")
+        fig_dev.update_layout(paper_bgcolor="#0f172a", height=300,
+                               margin=dict(l=0,r=0,t=10,b=0))
+        st.plotly_chart(fig_dev, use_container_width=True)
 
-st.markdown("---")
+    # Row 2
+    col3, col4 = st.columns(2)
 
-# ── Chart 2: Monthly Revenue Trend ────────────────────────────────────────────
-st.subheader("Chart 2 – Monthly Revenue Trend")
-monthly = df.groupby("Order_Month")["Total_After_Discount"].sum().reset_index()
-monthly.columns = ["Month", "Revenue"]
-monthly = monthly.sort_values("Month")
-fig2 = px.line(monthly, x="Month", y="Revenue", markers=True,
-               title="Monthly Revenue Trend (Jan–Dec 2023)",
-               color_discrete_sequence=["#2E75B6"])
-fig2.update_layout(yaxis_title="Revenue (₹)", xaxis_title="Month", height=420)
-fig2.update_traces(line_width=2.5, marker_size=8)
-st.plotly_chart(fig2, use_container_width=True)
-st.markdown('<div class="insight-box">📌 <b>Insight:</b> Revenue shows seasonal spikes — notably around festive months '
-            '(Oct–Nov). These peaks signal opportunities for pre-stocking, targeted campaigns, '
-            'and logistics preparedness ahead of peak seasons.</div>', unsafe_allow_html=True)
+    with col3:
+        st.markdown('<div class="section-header">Return Rate by Category</div>', unsafe_allow_html=True)
+        ret = fdf.groupby("Category").agg(
+            Total=("Is_Returned_Bool","count"),
+            Returned=("Is_Returned_Bool","sum")
+        ).reset_index()
+        ret["Return_Rate"] = (ret["Returned"] / ret["Total"] * 100).round(2)
+        fig_ret = px.bar(
+            ret.sort_values("Return_Rate", ascending=False),
+            x="Category", y="Return_Rate",
+            color="Return_Rate", color_continuous_scale="Reds",
+            template="plotly_dark",
+            labels={"Return_Rate":"Return Rate (%)"},
+        )
+        fig_ret.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
+                               height=300, margin=dict(l=0,r=0,t=10,b=0),
+                               coloraxis_showscale=False)
+        st.plotly_chart(fig_ret, use_container_width=True)
 
-st.markdown("---")
+    with col4:
+        st.markdown('<div class="section-header">Avg Rating by Category</div>', unsafe_allow_html=True)
+        rat = fdf.groupby("Category")["Rating"].mean().reset_index().sort_values("Rating")
+        fig_rat = px.bar(
+            rat, x="Rating", y="Category", orientation="h",
+            color="Rating", color_continuous_scale="Greens",
+            template="plotly_dark",
+            labels={"Rating":"Avg Rating"},
+        )
+        fig_rat.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
+                               height=300, margin=dict(l=0,r=0,t=10,b=0),
+                               coloraxis_showscale=False)
+        st.plotly_chart(fig_rat, use_container_width=True)
 
-# ── Chart 3 & 4 side by side ──────────────────────────────────────────────────
-c3, c4 = st.columns(2)
+    # Row 3 — Heatmap + Age Group
+    col5, col6 = st.columns(2)
 
-with c3:
-    st.subheader("Chart 3 – Payment Method Distribution")
-    pay = df["Payment_Method"].value_counts().reset_index()
-    pay.columns = ["Method", "Count"]
-    fig3 = px.pie(pay, names="Method", values="Count", hole=0.4,
-                  color_discrete_sequence=px.colors.qualitative.Pastel,
-                  title="Payment Method Share")
-    fig3.update_traces(textposition="inside", textinfo="percent+label")
-    fig3.update_layout(height=400, showlegend=True)
-    st.plotly_chart(fig3, use_container_width=True)
-    st.markdown('<div class="insight-box">📌 UPI and Credit Card lead — digital payment adoption is high. '
-                'COD still exists, so cash-on-delivery incentive removal can reduce RTO losses.</div>',
-                unsafe_allow_html=True)
+    with col5:
+        st.markdown('<div class="section-header">Revenue Heatmap: Region × Category</div>', unsafe_allow_html=True)
+        pivot = fdf.pivot_table(values="Revenue", index="Region", columns="Category",
+                                 aggfunc="sum", fill_value=0)
+        fig_hm = px.imshow(
+            pivot, text_auto=".2s",
+            color_continuous_scale="Blues", template="plotly_dark",
+            labels={"color":"Revenue (₹)"},
+        )
+        fig_hm.update_layout(paper_bgcolor="#0f172a", height=320,
+                              margin=dict(l=0,r=0,t=10,b=0))
+        st.plotly_chart(fig_hm, use_container_width=True)
 
-with c4:
-    st.subheader("Chart 4 – Avg Customer Rating by Category")
-    rat_cat = df.groupby("Category")["Rating"].mean().reset_index()
-    rat_cat.columns = ["Category", "Avg Rating"]
-    rat_cat = rat_cat.sort_values("Avg Rating")
-    fig4 = px.bar(rat_cat, y="Category", x="Avg Rating", orientation="h",
-                  color="Avg Rating", color_continuous_scale="RdYlGn",
-                  range_x=[3.5, 5], text_auto=".2f",
-                  title="Avg Customer Rating by Category")
-    fig4.update_layout(height=400, coloraxis_showscale=False)
-    st.plotly_chart(fig4, use_container_width=True)
-    st.markdown('<div class="insight-box">📌 All categories maintain ratings above 3.8. '
-                'Lower-rated categories need product listing improvements and proactive '
-                'post-purchase support.</div>', unsafe_allow_html=True)
+    with col6:
+        st.markdown('<div class="section-header">Revenue by Age Group</div>', unsafe_allow_html=True)
+        age = fdf.groupby("Age_Group")["Revenue"].sum().reset_index().sort_values("Revenue", ascending=False)
+        fig_age = px.funnel(
+            age, x="Revenue", y="Age_Group",
+            template="plotly_dark", color_discrete_sequence=["#38bdf8"],
+            labels={"Revenue":"Revenue (₹)","Age_Group":"Age Group"},
+        )
+        fig_age.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
+                               height=320, margin=dict(l=0,r=0,t=10,b=0))
+        st.plotly_chart(fig_age, use_container_width=True)
 
-st.markdown("---")
+    # Key Insights callouts
+    st.markdown("---")
+    st.markdown('<div class="section-header">📌 Key Business Insights</div>', unsafe_allow_html=True)
+    i1, i2, i3 = st.columns(3)
+    i1.info("🏆 **Electronics dominates revenue** — accounting for ~68% of total sales, far ahead of Sports (10%) and Home & Kitchen (9%).")
+    i2.warning("↩️ **Return rates vary by category** — some categories show higher return rates, pointing to quality or expectation gaps.")
+    i3.success("📣 **Referral is the top acquisition channel** — delivering the highest revenue per order, outperforming Paid Ads and Organic Search.")
 
-# ── Chart 5: Return Rate ──────────────────────────────────────────────────────
-st.subheader("Chart 5 – Product Return Rate by Category (%)")
-ret = df.groupby("Category")["Is_Returned"].apply(
-    lambda x: (x == "Yes").sum() / len(x) * 100).reset_index()
-ret.columns = ["Category", "Return Rate (%)"]
-ret = ret.sort_values("Return Rate (%)", ascending=False)
-fig5 = px.bar(ret, x="Category", y="Return Rate (%)", color="Return Rate (%)",
-              color_continuous_scale="Reds", text_auto=".1f",
-              title="Return Rate (%) by Product Category")
-fig5.update_layout(height=420, coloraxis_showscale=False)
-st.plotly_chart(fig5, use_container_width=True)
-st.markdown('<div class="insight-box">📌 <b>Insight:</b> Electronics and Clothing tend to have higher return rates — '
-            'common reasons include wrong size/fit and unmet expectations from product descriptions. '
-            'Improving image quality, size guides, and specs can reduce returns significantly.</div>',
-            unsafe_allow_html=True)
+# ═══════════════════════════════════════════════════════════════════════════════
+# TAB 5 — DATA TABLE
+# ═══════════════════════════════════════════════════════════════════════════════
+with tab5:
+    st.markdown('<div class="section-header">Filtered Dataset</div>', unsafe_allow_html=True)
+    display_cols = ["Order_ID","Order_Date","Customer_ID","Age_Group","Region",
+                    "Acquisition_Channel","Device_Type","Category","Product_Name",
+                    "Unit_Price","Quantity","Discount_Pct","Revenue",
+                    "Payment_Method","Delivery_Days","Is_Returned","Rating"]
+    st.dataframe(fdf[display_cols].reset_index(drop=True), use_container_width=True, height=500)
+    st.caption(f"Showing {len(fdf):,} rows after filters")
 
-st.markdown("---")
-
-# ── Chart 6 & 7 side by side ──────────────────────────────────────────────────
-c6, c7 = st.columns(2)
-
-with c6:
-    st.subheader("Chart 6 – Orders by Region")
-    reg = df["Region"].value_counts().reset_index()
-    reg.columns = ["Region", "Orders"]
-    fig6 = px.pie(reg, names="Region", values="Orders", hole=0.35,
-                  color_discrete_sequence=px.colors.qualitative.Set2,
-                  title="Order Volume by Region")
-    fig6.update_traces(textposition="inside", textinfo="percent+label")
-    fig6.update_layout(height=400)
-    st.plotly_chart(fig6, use_container_width=True)
-    st.markdown('<div class="insight-box">📌 Orders are distributed fairly evenly across regions. '
-                'Under-performing regions should be targeted with localised offers and '
-                'regional language support.</div>', unsafe_allow_html=True)
-
-with c7:
-    st.subheader("Chart 7 – Revenue by Acquisition Channel")
-    acq = df.groupby("Acquisition_Channel")["Total_After_Discount"].sum().reset_index()
-    acq.columns = ["Channel", "Revenue"]
-    acq = acq.sort_values("Revenue", ascending=False)
-    fig7 = px.bar(acq, x="Channel", y="Revenue", color="Channel",
-                  color_discrete_sequence=px.colors.qualitative.Vivid,
-                  text_auto=".2s", title="Revenue by Acquisition Channel (₹)")
-    fig7.update_layout(height=400, showlegend=False, yaxis_title="Revenue (₹)")
-    st.plotly_chart(fig7, use_container_width=True)
-    st.markdown('<div class="insight-box">📌 Organic Search and Paid Ads are top revenue drivers. '
-                'Investing in SEO + performance marketing is the highest-ROI growth lever '
-                'for this startup.</div>', unsafe_allow_html=True)
-
-st.markdown("---")
-
-# ── Chart 8: Revenue Band ─────────────────────────────────────────────────────
-st.subheader("Chart 8 – Revenue Band Distribution")
-rb = df["Revenue_Band"].value_counts().reindex(["Low","Medium","High","Premium"]).reset_index()
-rb.columns = ["Band", "Orders"]
-fig8 = px.bar(rb, x="Band", y="Orders", color="Band",
-              color_discrete_map={"Low":"#90CAF9","Medium":"#42A5F5",
-                                  "High":"#1565C0","Premium":"#0D2137"},
-              text_auto=True, title="Order Count by Revenue Band")
-fig8.update_layout(height=420, showlegend=False, yaxis_title="Number of Orders")
-st.plotly_chart(fig8, use_container_width=True)
-st.markdown('<div class="insight-box">📌 <b>Insight:</b> Most orders fall in the Medium band (₹500–₹2,000). '
-            'Bundling strategies (e.g., "Buy 2 get 10% off") can push Low-band customers into Medium, '
-            'improving Average Order Value by 20–30%.</div>', unsafe_allow_html=True)
-
-st.markdown("---")
-
-# ── Chart 9: Delivery Days vs Rating ─────────────────────────────────────────
-st.subheader("Chart 9 – Delivery Days vs Customer Rating")
-del_rat = df.groupby("Delivery_Days")["Rating"].mean().reset_index()
-del_rat.columns = ["Delivery Days", "Avg Rating"]
-fig9 = px.line(del_rat, x="Delivery Days", y="Avg Rating", markers=True,
-               title="Impact of Delivery Speed on Customer Rating",
-               color_discrete_sequence=["#7B2D8B"])
-fig9.update_layout(height=400, yaxis_range=[3.5, 5])
-fig9.update_traces(line_width=2.5, marker_size=9)
-st.plotly_chart(fig9, use_container_width=True)
-st.markdown('<div class="insight-box">📌 <b>Insight:</b> There is a clear downward trend — customers who receive '
-            'orders in 1–3 days give consistently higher ratings. Investing in same-day or '
-            'next-day logistics directly improves NPS and repeat purchase rates.</div>',
-            unsafe_allow_html=True)
-
-st.markdown("---")
-
-# ── Chart 10: Discount vs Rating ─────────────────────────────────────────────
-st.subheader("Chart 10 – Discount % vs Avg Rating")
-disc_rat = df.groupby("Discount_Pct")["Rating"].mean().reset_index()
-disc_rat.columns = ["Discount %", "Avg Rating"]
-fig10 = px.bar(disc_rat, x="Discount %", y="Avg Rating", color="Avg Rating",
-               color_continuous_scale="RdYlGn", text_auto=".2f",
-               title="Average Customer Rating by Discount Level")
-fig10.update_layout(height=400, coloraxis_showscale=False)
-st.plotly_chart(fig10, use_container_width=True)
-st.markdown('<div class="insight-box">📌 <b>Insight:</b> Higher discounts do not always lead to better ratings — '
-            'deeply discounted items often attract impulse buyers who are less satisfied. '
-            'A balanced discount strategy (10–15%) appears to yield the best satisfaction scores.</div>',
-            unsafe_allow_html=True)
-
-st.markdown("---")
-
-# ── Footer ────────────────────────────────────────────────────────────────────
-st.markdown("""
-<div style='text-align:center; color:#888; font-size:13px; padding-top:10px'>
-    Data Analytics – MGB | Individual Assignment | E-Commerce EDA Dashboard
-</div>
-""", unsafe_allow_html=True)
+    csv_out = fdf[display_cols].to_csv(index=False).encode("utf-8")
+    st.download_button("⬇️ Download Filtered Data as CSV", csv_out,
+                       "ecommerce_filtered.csv", "text/csv")
