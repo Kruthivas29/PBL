@@ -1,0 +1,1501 @@
+Order_ID,Order_Date,Customer_ID,Age_Group,Region,Acquisition_Channel,Device_Type,Category,Product_Name,Unit_Price,Quantity,Discount_Pct,Discount_Amount,Total_Before_Discount,Total_After_Discount,Payment_Method,Delivery_Days,Is_Returned,Return_Reason,Rating
+ORD10000,2023-04-25,CUST00090,36-45,Central,Organic Search,Tablet,Beauty,Face Cream,232.51,3,5,34.88,697.53,662.65,Debit Card,3,No,,3.2
+ORD10001,2023-01-04,CUST00349,26-35,West,Organic Search,Desktop,Beauty,Serum,1490.75,4,10,596.3,5963.0,5366.7,UPI,3,No,,2.5
+ORD10002,2023-07-13,CUST00883,26-35,East,Organic Search,Mobile,Sports,Dumbbells,4189.94,4,0,0.0,16759.76,16759.76,Credit Card,2,No,,4.5
+ORD10003,2023-07-09,CUST00274,36-45,Central,Direct,Mobile,Books,Textbook,1125.46,3,0,0.0,3376.38,3376.38,Debit Card,6,No,,3.0
+ORD10004,2023-12-17,CUST00033,46-55,Central,Direct,Desktop,Books,Comic,180.98,5,5,45.24,904.9,859.66,Debit Card,6,No,,4.1
+ORD10005,2023-05-16,CUST00575,26-35,East,Paid Ads,Mobile,Beauty,Lipstick,595.63,4,0,0.0,2382.52,2382.52,COD,3,No,,3.4
+ORD10006,2023-11-18,CUST00391,36-45,North,Direct,Tablet,Books,Fiction Novel,490.1,1,0,0.0,490.1,490.1,Credit Card,3,No,,3.7
+ORD10007,2023-05-31,CUST00004,55+,South,Referral,Mobile,Beauty,Serum,2352.28,3,0,0.0,7056.84,7056.84,Wallet,7,No,,4.1
+ORD10008,2023-03-24,CUST00614,26-35,East,Paid Ads,Mobile,Home & Kitchen,Cookware Set,,2,15,1454.8,9698.68,8243.88,Debit Card,9,No,,5.0
+ORD10009,2023-09-30,CUST00487,55+,South,Referral,Tablet,Sports,Yoga Mat,671.31,4,0,0.0,2685.24,2685.24,Wallet,3,No,,3.2
+ORD10010,2023-09-22,CUST00603,36-45,South,Organic Search,Mobile,Clothing,Saree,3672.74,-3,25,2754.55,11018.22,8263.67,UPI,8,No,,4.1
+ORD10011,2023-10-04,CUST00904,36-45,South,Organic Search,Mobile,Electronics,Tablet,21900.23,4,5,4380.05,87600.92,83220.87,Wallet,3,No,,4.7
+ORD10012,2023-12-11,CUST00197,18-25,South,Organic Search,Desktop,Books,Textbook,1077.73,4,0,0.0,4310.92,4310.92,COD,2,Yes,Not as Described,4.1
+ORD10013,2023-02-17,CUST00498,26-35,North,Email,Desktop,Electronics,Smartphone,35390.09,5,0,0.0,176950.45,176950.45,Net Banking,4,No,,3.6
+ORD10014,2023-03-21,CUST00556,18-25,Central,Paid Ads,Mobile,Home & Kitchen,Curtains,3029.09,5,25,3786.36,15145.45,11359.09,COD,4,No,,5.0
+ORD10015,2023-07-26,CUST00584,26-35,Central,Referral,Tablet,Electronics,Laptop,36166.92,1,5,1808.35,36166.92,34358.57,UPI,2,No,,3.8
+ORD10016,2023-05-16,CUST00952,36-45,North,Organic Search,Tablet,Home & Kitchen,Mixer Grinder,6018.36,3,5,902.75,18055.08,17152.33,Debit Card,7,No,,3.5
+ORD10017,2023-05-06,CUST00449,46-55,Central,Organic Search,Tablet,Sports,Dumbbells,1356.32,3,0,0.0,4068.96,4068.96,COD,6,No,,3.3
+ORD10018,2023-03-01,CUST00216,36-45,West,Social Media,Mobile,Home & Kitchen,Air Fryer,11450.37,2,10,2290.07,22900.74,20610.67,Credit Card,2,No,,4.4
+ORD10019,2023-06-20,CUST00269,18-25,North,Organic Search,Tablet,Beauty,Lipstick,1029.35,1,0,0.0,1029.35,1029.35,Debit Card,3,No,,4.5
+ORD10020,2023-08-09,CUST00882,18-25,East,Referral,Desktop,Sports,Yoga Mat,2169.19,5,0,0.0,10845.95,10845.95,COD,3,Yes,Not as Described,5.0
+ORD10021,2023-04-01,CUST00802,55+,East,Paid Ads,Tablet,Beauty,Shampoo,751.75,2,0,0.0,1503.5,1503.5,Credit Card,7,Yes,Not as Described,3.2
+ORD10022,2023-08-24,CUST00025,36-45,East,Social Media,Tablet,Books,Fiction Novel,536.37,2,5,53.64,1072.74,1019.1,COD,6,No,,4.2
+ORD10023,2023-05-14,CUST00272,18-25,West,Referral,Tablet,Books,Biography,432.13,1,0,0.0,432.13,432.13,Credit Card,3,No,,3.4
+ORD10024,2023-01-01,CUST00760,36-45,East,Referral,Desktop,Books,Biography,354.54,1,20,70.91,354.54,283.63,Wallet,9,No,,2.8
+ORD10025,2023-12-08,CUST00714,26-35,South,Referral,Tablet,Toys,LEGO Set,4598.77,3,10,1379.63,13796.31,12416.68,UPI,7,No,,3.7
+ORD10026,2023-04-18,CUST00453,26-35,South,Direct,Mobile,Books,Biography,708.55,3,10,212.56,2125.65,1913.09,UPI,7,No,,3.4
+ORD10027,2023-04-26,CUST00048,26-35,West,Direct,Tablet,Sports,Badminton Set,1404.45,2,10,280.89,2808.9,2528.01,Debit Card,4,No,,3.6
+ORD10028,2023-12-02,CUST00798,26-35,North,Referral,Mobile,Beauty,Lipstick,694.38,2,0,0.0,1388.76,1388.76,Credit Card,1,No,,5.0
+ORD10029,2023-08-15,CUST00914,26-35,West,Email,Desktop,Books,Self Help,600.71,5,15,450.53,3003.55,2553.02,Debit Card,10,No,,2.7
+ORD10030,2023-11-17,CUST00279,26-35,West,Direct,Mobile,Toys,Remote Car,3250.6,5,25,4063.25,16253.0,12189.75,Wallet,4,No,,4.6
+ORD10031,2023-08-01,CUST00431,26-35,Central,Email,Desktop,Clothing,T-Shirt,739.33,3,25,554.5,2217.99,1663.49,Credit Card,1,No,,9.5
+ORD10032,2023-09-07,CUST00685,36-45,South,Referral,Tablet,Home & Kitchen,Bedsheet,2383.69,4,5,476.74,9534.76,9058.02,Credit Card,4,No,,3.2
+ORD10033,2023-11-26,CUST00473,18-25,East,Email,Desktop,Books,Biography,560.42,1,0,0.0,560.42,560.42,Net Banking,7,No,,4.1
+ORD10034,2023-06-29,CUST00773,18-25,South,Paid Ads,Desktop,Home & Kitchen,Air Fryer,7232.76,5,0,0.0,36163.8,36163.8,Wallet,4,No,,4.2
+ORD10035,2023-07-08,CUST00987,36-45,North,Referral,Mobile,Electronics,Tablet,57387.85,4,10,22955.14,229551.4,206596.26,UPI,3,No,,2.9
+ORD10036,2023-10-31,CUST00124,36-45,East,Organic Search,Tablet,Sports,Cycle,14916.36,2,0,0.0,29832.72,29832.72,Wallet,4,Yes,Not as Described,4.6
+ORD10037,2023-08-10,CUST00849,26-35,East,Referral,Tablet,Home & Kitchen,Air Fryer,10646.18,4,0,0.0,42584.72,42584.72,Net Banking,6,No,,3.1
+ORD10038,2023-06-15,CUST00250,36-45,West,Social Media,Mobile,Books,Comic,347.72,5,10,173.86,1738.6,1564.74,Net Banking,4,No,,5.0
+ORD10039,2023-11-02,CUST00530,55+,South,Direct,Desktop,Clothing,Saree,6544.39,3,10,1963.32,19633.17,17669.85,Wallet,5,No,,4.9
+ORD10040,2023-05-31,CUST00378,26-35,East,Social Media,Tablet,Beauty,Lipstick,648.17,1,0,0.0,648.17,648.17,Net Banking,4,No,,4.0
+ORD10041,2023-06-11,CUST00974,36-45,Central,Referral,Tablet,Home & Kitchen,Bedsheet,1128.51,1,5,56.43,1128.51,1072.08,UPI,2,No,,5.0
+ORD10042,2023-06-04,CUST00056,36-45,West,Organic Search,Mobile,Electronics,Laptop,56662.18,3,0,0.0,169986.54,169986.54,COD,1,No,,4.2
+ORD10043,2023-01-27,CUST00490,18-25,North,Paid Ads,Mobile,Home & Kitchen,Curtains,2331.89,3,0,0.0,6995.67,6995.67,COD,5,No,,4.2
+ORD10044,2023-11-07,CUST00462,46-55,Central,Referral,Mobile,Home & Kitchen,Air Fryer,11945.26,1,20,2389.05,11945.26,9556.21,COD,10,No,,4.1
+ORD10045,2023-05-16,CUST00178,36-45,West,Social Media,Mobile,Beauty,Face Cream,1431.87,2,5,143.19,2863.74,2720.55,Debit Card,2,No,,5.0
+ORD10046,2023-12-18,CUST00678,46-55,South,Social Media,Mobile,Home & Kitchen,Bedsheet,2257.47,4,0,0.0,9029.88,9029.88,Credit Card,4,No,,4.3
+ORD10047,2023-08-13,CUST00312,36-45,North,Referral,Mobile,Electronics,Laptop,101336.57,5,10,50668.29,506682.85,456014.56,Net Banking,2,No,,2.9
+ORD10048,2023-04-28,CUST00842,26-35,West,Social Media,Mobile,Beauty,Perfume,3216.71,1,0,0.0,3216.71,3216.71,COD,10,No,,5.0
+ORD10049,2023-07-29,CUST00108,46-55,West,Referral,Mobile,Books,Comic,390.72,4,15,234.43,1562.88,1328.45,Net Banking,6,No,,4.2
+ORD10050,2023-09-21,CUST00193,26-35,North,Paid Ads,Desktop,Electronics,Earbuds,1635.79,1,20,327.16,1635.79,1308.63,COD,1,No,,3.2
+ORD10051,2023-01-15,CUST00727,18-25,North,Email,Mobile,Clothing,Saree,3954.44,4,0,0.0,15817.76,15817.76,Wallet,10,No,,3.8
+ORD10052,2023-08-01,CUST00393,18-25,North,Social Media,Desktop,Toys,Board Game,1745.94,3,10,523.78,5237.82,4714.04,UPI,8,No,,4.0
+ORD10053,2023-06-02,CUST00676,26-35,Central,Referral,Desktop,Toys,Puzzle,547.32,1,10,54.73,547.32,492.59,Net Banking,10,No,,5.0
+ORD10054,2023-04-30,CUST00396,55+,North,Paid Ads,Tablet,Home & Kitchen,Mixer Grinder,7884.65,2,20,3153.86,15769.3,12615.44,COD,7,Yes,Changed Mind,3.6
+ORD10055,2023-09-27,CUST00420,46-55,East,Social Media,Tablet,Home & Kitchen,Air Fryer,10867.71,4,0,0.0,43470.84,43470.84,Wallet,8,Yes,Wrong Item,2.6
+ORD10056,2023-06-12,CUST00647,36-45,North,Direct,Tablet,Books,Fiction Novel,533.29,5,20,533.29,2666.45,2133.16,Credit Card,8,No,,4.3
+ORD10057,2023-06-16,CUST00384,26-35,South,Paid Ads,Mobile,Books,Self Help,547.0,1,0,0.0,547.0,547.0,Credit Card,1,No,,4.1
+ORD10058,2023-10-26,CUST00683,18-25,South,Organic Search,Desktop,Sports,Cycle,20492.76,2,25,10246.38,40985.52,30739.14,UPI,3,No,,3.4
+ORD10059,2023-08-22,CUST00394,46-55,East,Direct,Desktop,Sports,Dumbbells,3483.54,4,10,1393.42,13934.16,12540.74,Credit Card,5,No,,3.3
+ORD10060,2023-11-07,CUST00236,36-45,South,Direct,Mobile,Toys,Doll,766.62,5,0,0.0,3833.1,3833.1,Wallet,8,No,,5.0
+ORD10061,2023-10-24,CUST00093,46-55,Central,Social Media,Tablet,Beauty,Face Cream,601.61,4,0,0.0,2406.44,2406.44,COD,6,No,,3.2
+ORD10062,2023-06-23,CUST00232,46-55,Central,Social Media,Mobile,Home & Kitchen,Mixer Grinder,3541.82,4,10,1416.73,14167.28,12750.55,Net Banking,2,No,,5.0
+ORD10063,2023-12-11,CUST00843,36-45,Central,Referral,Desktop,Electronics,Earbuds,2914.58,4,15,1748.75,11658.32,9909.57,COD,5,No,,4.6
+ORD10064,2023-11-29,CUST00505,18-25,East,Direct,Tablet,Clothing,T-Shirt,1026.03,4,10,410.41,4104.12,3693.71,Wallet,7,Yes,Defective,4.6
+ORD10065,2023-12-02,CUST00631,26-35,West,Email,Mobile,Sports,Cycle,19683.51,2,20,7873.4,39367.02,31493.62,UPI,2,No,,3.8
+ORD10066,2023-07-23,CUST00466,18-25,North,Social Media,Mobile,Electronics,Earbuds,2950.1,3,0,0.0,8850.3,8850.3,Debit Card,5,No,,5.0
+ORD10067,2023-10-28,CUST00239,26-35,South,Paid Ads,Tablet,Toys,Puzzle,466.77,5,5,116.69,2333.85,2217.16,UPI,4,No,,9.4
+ORD10068,2023-01-08,CUST00179,26-35,North,Email,Desktop,Toys,Board Game,774.82,1,0,0.0,774.82,774.82,UPI,6,No,,4.1
+ORD10069,2023-11-11,CUST00931,46-55,North,Email,Desktop,Sports,Badminton Set,861.73,5,5,215.43,4308.65,4093.22,Net Banking,1,No,,4.7
+ORD10070,2023-02-11,CUST00649,36-45,East,Email,Tablet,Beauty,Face Cream,837.35,4,0,0.0,3349.4,3349.4,COD,6,No,,4.6
+ORD10071,2023-08-09,CUST00424,26-35,West,Social Media,Tablet,Books,Fiction Novel,506.89,1,5,25.34,506.89,481.55,UPI,8,No,,4.3
+ORD10072,2023-02-16,CUST00134,36-45,North,Email,Desktop,Home & Kitchen,Mixer Grinder,6120.93,4,0,0.0,24483.72,24483.72,Wallet,2,Yes,Defective,4.0
+ORD10073,2023-11-04,CUST00592,26-35,East,Referral,Desktop,Toys,Doll,1775.76,1,10,177.58,1775.76,1598.18,Credit Card,5,No,,3.2
+ORD10074,2023-11-08,CUST00348,26-35,North,Paid Ads,Tablet,Toys,Remote Car,2637.12,4,0,0.0,10548.48,10548.48,Wallet,5,Yes,Not as Described,3.8
+ORD10075,2023-08-03,CUST00379,26-35,North,Paid Ads,Mobile,Electronics,Smartphone,39336.69,2,20,15734.68,78673.38,62938.7,COD,8,No,,3.3
+ORD10076,2023-11-07,CUST00354,26-35,East,Organic Search,Mobile,Electronics,Smartphone,19428.32,4,25,19428.32,77713.28,58284.96,Net Banking,8,No,,4.2
+ORD10077,2023-03-12,CUST00123,18-25,South,Referral,Tablet,Sports,Yoga Mat,515.37,3,5,77.31,1546.11,1468.8,Wallet,5,No,,4.9
+ORD10078,2023-01-10,CUST00588,26-35,East,Paid Ads,Tablet,Toys,Remote Car,1030.64,1,20,206.13,1030.64,824.51,Net Banking,8,No,,4.7
+ORD10079,2023-08-12,CUST00081,26-35,South,Organic Search,Tablet,Toys,Remote Car,1082.02,1,5,54.1,1082.02,1027.92,Wallet,10,No,,3.2
+ORD10080,2023-11-27,CUST00617,18-25,West,Email,Tablet,Electronics,Tablet,35497.6,3,15,15973.92,106492.8,90518.88,COD,3,No,,4.3
+ORD10081,2023-11-18,CUST00070,26-35,East,Referral,Mobile,Books,Biography,603.65,5,15,452.74,3018.25,2565.51,UPI,6,No,,4.4
+ORD10082,2023-02-09,CUST00568,55+,Central,Direct,Mobile,Books,Comic,111.28,3,10,33.38,333.84,300.46,UPI,2,No,,3.1
+ORD10083,2023-02-22,CUST00087,26-35,West,Referral,Tablet,Sports,Cycle,17534.18,1,25,4383.55,17534.18,13150.63,COD,6,No,,4.0
+ORD10084,2023-07-29,CUST00343,18-25,Central,Paid Ads,Desktop,Clothing,Saree,3484.53,3,20,2090.72,10453.59,8362.87,Credit Card,6,No,,5.0
+ORD10085,2023-03-08,CUST00087,26-35,Central,Organic Search,Tablet,Sports,Cricket Bat,5583.73,3,20,3350.24,16751.19,13400.95,Wallet,10,No,,4.4
+ORD10086,2023-04-03,CUST00141,18-25,Central,Direct,Tablet,Books,Biography,449.01,3,10,134.7,1347.03,1212.33,Credit Card,4,No,,4.1
+ORD10087,2023-11-02,CUST00186,46-55,West,Organic Search,Desktop,Beauty,Perfume,4443.77,5,0,0.0,22218.85,22218.85,UPI,7,No,,3.5
+ORD10088,2023-08-18,CUST00481,46-55,West,Email,Desktop,Beauty,Shampoo,780.23,5,10,390.12,3901.15,3511.03,Net Banking,4,No,,3.5
+ORD10089,2023-11-06,CUST00054,36-45,Central,Organic Search,Desktop,Sports,Badminton Set,1604.79,2,5,160.48,3209.58,3049.1,Credit Card,3,No,,5.0
+ORD10090,2023-08-12,CUST00358,55+,West,Organic Search,Desktop,Toys,Board Game,1181.98,5,0,0.0,5909.9,5909.9,Debit Card,2,No,,4.2
+ORD10091,2023-03-12,CUST00850,26-35,Central,Organic Search,Mobile,Electronics,Earbuds,4688.72,3,0,0.0,14066.16,14066.16,Credit Card,1,No,,4.9
+ORD10092,2023-02-26,CUST00655,36-45,Central,Referral,Mobile,Home & Kitchen,Mixer Grinder,7009.78,5,20,7009.78,35048.9,28039.12,Wallet,5,No,,4.4
+ORD10093,2023-08-08,CUST00247,36-45,East,Organic Search,Tablet,Sports,Badminton Set,1180.65,2,10,236.13,2361.3,2125.17,COD,1,No,,4.4
+ORD10094,2023-01-23,CUST00808,18-25,Central,Direct,Desktop,Sports,Badminton Set,1929.96,4,25,1929.96,7719.84,5789.88,Debit Card,7,No,,4.0
+ORD10095,2023-12-23,CUST00831,18-25,South,Organic Search,Mobile,Electronics,Earbuds,2957.06,2,25,1478.53,5914.12,4435.59,Credit Card,8,No,,4.1
+ORD10096,2023-05-10,CUST00800,18-25,West,Email,Tablet,Home & Kitchen,Bedsheet,1788.46,5,25,2235.57,8942.3,6706.73,Net Banking,1,No,,4.3
+ORD10097,2023-07-08,CUST00085,36-45,Central,Social Media,Desktop,Books,Textbook,1957.96,4,25,1957.96,7831.84,5873.88,Credit Card,9,No,,4.7
+ORD10098,2023-11-05,CUST00745,46-55,North,Organic Search,Tablet,Electronics,Earbuds,3474.14,3,25,2605.61,10422.42,7816.81,Wallet,7,No,,3.2
+ORD10099,2023-03-15,CUST00449,18-25,West,Referral,Mobile,Books,Textbook,1220.94,2,0,0.0,2441.88,2441.88,COD,10,No,,4.3
+ORD10100,2023-02-09,CUST00286,26-35,West,Referral,Mobile,Clothing,Jacket,5744.12,3,25,4308.09,17232.36,12924.27,UPI,10,No,,3.5
+ORD10101,2023-12-22,CUST00139,46-55,North,Direct,Desktop,Toys,Remote Car,3052.92,2,10,610.58,6105.84,5495.26,Wallet,8,No,,4.5
+ORD10102,2023-03-22,CUST00206,36-45,Central,Social Media,Desktop,Home & Kitchen,Air Fryer,7949.97,3,10,2384.99,23849.91,21464.92,COD,3,No,,3.6
+ORD10103,2023-07-23,CUST00788,26-35,North,Email,Desktop,Clothing,Kurta,2256.92,1,10,225.69,2256.92,2031.23,Wallet,8,No,,4.0
+ORD10104,2023-03-08,CUST00531,18-25,East,Referral,Desktop,Sports,Dumbbells,1339.01,5,0,0.0,6695.05,6695.05,Credit Card,7,No,,5.0
+ORD10105,2023-03-06,CUST00096,26-35,Central,Direct,Tablet,Home & Kitchen,Mixer Grinder,5810.34,5,10,2905.17,29051.7,26146.53,UPI,5,No,,2.9
+ORD10106,2023-01-24,CUST00633,36-45,East,Email,Mobile,Toys,Puzzle,253.55,1,0,0.0,253.55,253.55,Wallet,10,No,,4.3
+ORD10107,2023-08-14,CUST00209,26-35,East,Email,Mobile,Books,Textbook,1125.67,1,0,0.0,1125.67,1125.67,UPI,7,No,,5.0
+ORD10108,2023-03-04,CUST00969,26-35,South,Social Media,Tablet,Sports,Badminton Set,854.84,2,25,427.42,1709.68,1282.26,Wallet,5,No,,4.2
+ORD10109,2023-09-13,CUST00093,55+,East,Organic Search,Mobile,Home & Kitchen,Mixer Grinder,6578.73,4,25,6578.73,26314.92,19736.19,UPI,5,No,,4.2
+ORD10110,2023-10-02,CUST00745,26-35,Central,Paid Ads,Desktop,Books,Biography,735.29,4,10,294.12,2941.16,2647.04,COD,1,No,,2.5
+ORD10111,2023-11-16,CUST00404,26-35,South,Paid Ads,Tablet,Home & Kitchen,Air Fryer,6477.14,4,10,2590.86,25908.56,23317.7,COD,10,Yes,Defective,4.7
+ORD10112,2023-06-20,CUST00144,26-35,East,Referral,Desktop,Books,Biography,272.14,1,0,0.0,272.14,272.14,COD,8,No,,5.0
+ORD10113,2023-09-01,CUST00690,18-25,North,Referral,Desktop,Toys,Puzzle,892.04,5,10,446.02,4460.2,4014.18,UPI,1,No,,5.0
+ORD10114,2023-03-29,CUST00152,46-55,South,Organic Search,Desktop,Beauty,Serum,1901.85,1,25,475.46,1901.85,1426.39,UPI,9,No,,2.9
+ORD10115,2023-09-14,CUST00894,46-55,Central,Social Media,Tablet,Books,Self Help,406.48,2,20,162.59,812.96,650.37,Net Banking,10,No,,3.0
+ORD10116,2023-09-30,CUST00698,36-45,South,Social Media,Tablet,Sports,Cycle,12843.81,2,25,6421.9,25687.62,19265.72,UPI,6,No,,3.3
+ORD10117,2023-06-12,CUST00957,55+,Central,Email,Desktop,Clothing,Saree,6352.45,2,25,3176.22,12704.9,9528.68,UPI,8,No,,2.6
+ORD10118,2023-06-27,CUST00848,26-35,Central,Direct,Tablet,Toys,Board Game,1226.13,3,0,0.0,3678.39,3678.39,Debit Card,8,No,,4.0
+ORD10119,2023-11-23,CUST00339,36-45,South,Email,Tablet,Clothing,T-Shirt,1070.78,5,5,267.69,5353.9,5086.21,Net Banking,4,Yes,Changed Mind,8.2
+ORD10120,2023-05-27,CUST00548,36-45,West,Paid Ads,Mobile,Books,Self Help,577.96,3,15,260.08,1733.88,1473.8,Net Banking,1,No,,4.9
+ORD10121,2023-01-05,CUST00110,55+,Central,Email,Mobile,Toys,Doll,616.73,3,0,0.0,1850.19,1850.19,COD,5,No,,4.6
+ORD10122,2023-03-25,CUST00346,36-45,West,Email,Tablet,Books,Textbook,708.5,1,15,106.28,708.5,602.22,UPI,8,No,,4.0
+ORD10123,2023-09-02,CUST00007,26-35,East,Referral,Tablet,Electronics,Smart Watch,14046.61,2,0,0.0,28093.22,28093.22,COD,6,No,,3.9
+ORD10124,2023-12-08,CUST00946,46-55,East,Social Media,Tablet,Electronics,Earbuds,3441.58,2,0,0.0,6883.16,6883.16,Debit Card,2,No,,4.7
+ORD10125,2023-08-01,CUST00776,26-35,Central,Organic Search,Tablet,Clothing,Jeans,1695.45,4,15,1017.27,6781.8,5764.53,Net Banking,9,No,,5.0
+ORD10126,2023-02-01,CUST00169,26-35,Central,Email,Mobile,Sports,Dumbbells,1128.03,5,0,0.0,5640.15,5640.15,COD,9,No,,4.3
+ORD10127,2023-08-22,CUST00689,46-55,South,Referral,Mobile,Books,Fiction Novel,354.04,5,20,354.04,1770.2,1416.16,Credit Card,10,Yes,Changed Mind,4.9
+ORD10128,2023-02-05,CUST00657,55+,West,Email,Desktop,Books,Textbook,1520.62,5,0,0.0,7603.1,7603.1,Net Banking,8,Yes,Changed Mind,4.2
+ORD10129,2023-04-02,CUST00131,36-45,West,Direct,Tablet,Electronics,Tablet,16649.49,-1,0,0.0,49948.47,49948.47,COD,9,No,,4.4
+ORD10130,2023-08-24,CUST00784,18-25,North,Paid Ads,Mobile,Books,Biography,458.6,2,5,45.86,917.2,871.34,Credit Card,6,No,,4.6
+ORD10131,2023-05-06,CUST00240,26-35,East,Paid Ads,Tablet,Electronics,Tablet,11678.81,5,0,0.0,58394.05,58394.05,COD,1,No,,5.0
+ORD10132,2023-06-04,CUST00282,18-25,West,Referral,Desktop,Home & Kitchen,Cookware Set,4788.55,3,5,718.28,14365.65,13647.37,Credit Card,3,No,,3.2
+ORD10133,2023-07-29,CUST00189,36-45,South,Email,Mobile,Home & Kitchen,Curtains,3314.57,3,20,1988.74,9943.71,7954.97,COD,3,No,,3.9
+ORD10134,2023-05-05,CUST00868,26-35,West,Direct,Tablet,Books,Comic,267.19,2,20,106.88,534.38,427.5,COD,5,No,,2.9
+ORD10135,2023-09-03,CUST00341,26-35,North,Direct,Desktop,Electronics,Smartphone,15902.86,5,5,3975.72,79514.3,75538.58,Debit Card,4,No,,2.6
+ORD10136,2023-10-10,CUST00368,26-35,West,Social Media,Mobile,Beauty,Serum,2229.8,4,5,445.96,8919.2,8473.24,UPI,6,No,,3.3
+ORD10137,2023-01-09,CUST00599,36-45,West,Referral,Mobile,Home & Kitchen,Curtains,946.29,2,0,0.0,1892.58,1892.58,Net Banking,5,No,,4.7
+ORD10138,2023-08-24,CUST00560,26-35,North,Referral,Mobile,Sports,Dumbbells,1880.77,4,25,1880.77,7523.08,5642.31,Credit Card,3,No,,3.7
+ORD10139,2023-11-19,CUST00010,26-35,Central,Email,Tablet,Toys,LEGO Set,4821.69,4,0,0.0,19286.76,19286.76,Net Banking,4,Yes,Wrong Item,4.4
+ORD10140,2023-01-09,CUST00515,46-55,North,Organic Search,Tablet,Electronics,Smartphone,30352.92,4,0,0.0,121411.68,121411.68,Debit Card,9,No,,3.4
+ORD10141,2023-05-17,CUST00471,36-45,North,Direct,Tablet,Clothing,Jeans,2049.45,3,15,922.25,6148.35,5226.1,Credit Card,7,Yes,Changed Mind,3.9
+ORD10142,2023-01-29,CUST00661,36-45,Central,Organic Search,Mobile,Electronics,Smart Watch,8826.75,5,25,11033.44,44133.75,33100.31,Debit Card,1,No,,5.0
+ORD10143,2023-12-17,CUST00578,36-45,South,Direct,Desktop,Toys,Puzzle,818.15,1,0,0.0,818.15,818.15,Credit Card,5,No,,6.8
+ORD10144,2023-12-13,CUST00706,36-45,West,Paid Ads,Mobile,Home & Kitchen,Mixer Grinder,5383.75,5,20,5383.75,26918.75,21535.0,UPI,9,No,,4.0
+ORD10145,2023-01-16,CUST00462,26-35,Central,Direct,Desktop,Sports,Badminton Set,2891.66,4,15,1735.0,11566.64,9831.64,Credit Card,5,No,,3.6
+ORD10146,2023-02-12,CUST00758,26-35,West,Social Media,Desktop,Toys,Puzzle,583.99,2,0,0.0,1167.98,1167.98,Credit Card,5,No,,3.7
+ORD10147,2023-02-22,CUST00612,36-45,West,Organic Search,Tablet,Clothing,T-Shirt,443.61,4,20,354.89,1774.44,1419.55,COD,1,Yes,Defective,2.9
+ORD10148,2023-03-13,CUST00446,26-35,South,Direct,Tablet,Clothing,Kurta,1494.32,4,0,0.0,5977.28,5977.28,Net Banking,5,No,,3.7
+ORD10149,2023-06-05,CUST00341,46-55,West,Direct,Tablet,Sports,Badminton Set,1069.32,1,0,0.0,1069.32,1069.32,Debit Card,1,No,,4.0
+ORD10150,2023-06-10,CUST00712,36-45,East,Email,Desktop,Home & Kitchen,Bedsheet,2008.03,2,25,1004.01,4016.06,3012.05,Credit Card,3,No,,4.7
+ORD10151,2023-12-16,CUST00966,36-45,West,Direct,Desktop,Sports,Cricket Bat,3961.14,5,0,0.0,19805.7,19805.7,Debit Card,9,Yes,Changed Mind,3.9
+ORD10152,2023-07-13,CUST00548,26-35,East,Direct,Tablet,Beauty,Perfume,1589.1,2,20,635.64,3178.2,2542.56,COD,2,No,,3.1
+ORD10153,2023-03-27,CUST00991,36-45,Central,Direct,Tablet,Beauty,Face Cream,342.18,2,15,102.65,684.36,581.71,COD,10,Yes,Changed Mind,7.0
+ORD10154,2023-08-26,CUST00495,18-25,South,Social Media,Desktop,Sports,Badminton Set,1130.48,3,20,678.29,3391.44,2713.15,UPI,10,No,,5.0
+ORD10155,2023-02-19,CUST00464,26-35,East,Direct,Mobile,Books,Self Help,460.56,3,25,345.42,1381.68,1036.26,Wallet,8,No,,5.0
+ORD10156,2023-10-10,CUST00817,26-35,North,Direct,Tablet,Toys,Board Game,2824.81,2,0,0.0,5649.62,5649.62,Debit Card,3,No,,3.2
+ORD10157,2023-04-16,CUST00829,36-45,East,Social Media,Mobile,Books,Biography,486.25,1,5,24.31,486.25,461.94,Net Banking,5,No,,4.4
+ORD10158,2023-11-02,CUST00866,26-35,Central,Referral,Mobile,Electronics,Earbuds,3518.16,4,15,2110.9,14072.64,11961.74,Wallet,7,No,,3.4
+ORD10159,2023-04-04,CUST00524,26-35,West,Direct,Tablet,Clothing,Saree,1648.6,3,0,0.0,4945.8,4945.8,Wallet,6,No,,3.6
+ORD10160,2023-03-13,CUST00368,55+,Central,Referral,Tablet,Beauty,Shampoo,510.69,4,10,204.28,2042.76,1838.48,Net Banking,3,No,,3.7
+ORD10161,2023-03-27,CUST00815,36-45,South,Email,Tablet,Books,Comic,224.69,4,25,224.69,898.76,674.07,Wallet,2,No,,4.1
+ORD10162,2023-05-18,CUST00043,36-45,South,Social Media,Mobile,Toys,Doll,1234.53,1,0,0.0,1234.53,1234.53,Net Banking,9,No,,3.0
+ORD10163,2023-03-02,CUST00756,36-45,South,Referral,Mobile,Home & Kitchen,Bedsheet,2655.5,1,25,663.88,2655.5,1991.62,Debit Card,4,No,,5.0
+ORD10164,2023-09-30,CUST00300,26-35,North,Paid Ads,Desktop,Toys,Board Game,2513.6,5,15,1885.2,12568.0,10682.8,Credit Card,5,No,,5.0
+ORD10165,2023-03-16,CUST00780,46-55,West,Email,Desktop,Home & Kitchen,Mixer Grinder,6208.56,2,5,620.86,12417.12,11796.26,Credit Card,6,No,,5.0
+ORD10166,2023-08-21,CUST00751,18-25,North,Referral,Desktop,Beauty,Face Cream,723.71,3,15,325.67,2171.13,1845.46,Debit Card,8,No,,5.0
+ORD10167,2023-06-22,CUST00580,46-55,North,Organic Search,Tablet,Books,Self Help,447.36,3,10,134.21,1342.08,1207.87,Net Banking,9,No,,4.0
+ORD10168,2023-08-22,CUST00932,18-25,East,Organic Search,Tablet,Electronics,Smartphone,47036.18,2,25,23518.09,94072.36,70554.27,UPI,1,No,,1.6
+ORD10169,2023-07-22,CUST00774,26-35,South,Referral,Mobile,Home & Kitchen,Air Fryer,6346.59,2,0,0.0,12693.18,12693.18,COD,5,No,,7.9
+ORD10170,2023-08-05,CUST00826,18-25,South,Direct,Tablet,Beauty,Lipstick,209.29,3,0,0.0,627.87,627.87,Debit Card,3,No,,4.0
+ORD10171,2023-08-14,CUST00644,36-45,South,Organic Search,Mobile,Electronics,Tablet,38164.56,5,0,0.0,190822.8,190822.8,Debit Card,6,No,,4.3
+ORD10172,2023-08-08,CUST00255,36-45,North,Direct,Desktop,Toys,LEGO Set,3947.87,4,15,2368.72,15791.48,13422.76,Debit Card,6,No,,4.0
+ORD10173,2023-11-27,CUST00813,55+,Central,Organic Search,Tablet,Sports,Badminton Set,1822.85,4,10,729.14,7291.4,6562.26,Credit Card,1,No,,5.0
+ORD10174,2023-07-07,CUST00789,18-25,North,Email,Tablet,Home & Kitchen,Bedsheet,829.96,-1,20,829.96,4149.8,3319.84,UPI,9,No,,4.2
+ORD10175,2023-02-12,CUST00157,26-35,South,Referral,Desktop,Beauty,Serum,2394.49,4,20,1915.59,9577.96,7662.37,Net Banking,9,No,,2.0
+ORD10176,2023-01-30,CUST00057,26-35,South,Direct,Mobile,Sports,Yoga Mat,1120.34,4,5,224.07,4481.36,4257.29,Debit Card,4,Yes,Changed Mind,4.8
+ORD10177,2023-07-10,CUST00895,26-35,West,Social Media,Tablet,Books,Textbook,1236.81,3,0,0.0,3710.43,3710.43,Credit Card,3,No,,4.7
+ORD10178,2023-09-19,CUST00106,46-55,North,Organic Search,Mobile,Home & Kitchen,Cookware Set,4951.43,4,25,4951.43,19805.72,14854.29,Debit Card,6,Yes,Wrong Item,3.6
+ORD10179,2023-01-19,CUST00732,36-45,East,Social Media,Mobile,Electronics,Smart Watch,8551.58,2,0,0.0,17103.16,17103.16,COD,9,No,,4.5
+ORD10180,2023-04-25,CUST00477,46-55,West,Organic Search,Desktop,Home & Kitchen,Air Fryer,7518.37,1,0,0.0,7518.37,7518.37,Debit Card,9,No,,4.3
+ORD10181,2023-08-26,CUST00506,55+,South,Paid Ads,Mobile,Home & Kitchen,Cookware Set,5814.79,5,5,1453.7,29073.95,27620.25,Net Banking,6,No,,3.9
+ORD10182,2023-01-01,CUST00543,55+,South,Direct,Desktop,Electronics,Laptop,78739.07,1,15,11810.86,78739.07,66928.21,Credit Card,7,No,,3.9
+ORD10183,2023-12-25,CUST00766,18-25,North,Referral,Tablet,Electronics,Laptop,110755.87,5,20,110755.87,553779.35,443023.48,Credit Card,6,No,,3.6
+ORD10184,2023-07-21,CUST00208,18-25,West,Email,Desktop,Books,Self Help,318.39,3,15,143.28,955.17,811.89,Net Banking,6,No,,4.0
+ORD10185,2023-06-07,CUST00123,18-25,Central,Organic Search,Mobile,Electronics,Tablet,27914.37,2,25,13957.18,55828.74,41871.56,UPI,8,No,,4.3
+ORD10186,2023-09-20,CUST00032,55+,North,Email,Mobile,Clothing,T-Shirt,1124.5,3,20,674.7,3373.5,2698.8,Debit Card,1,No,,3.8
+ORD10187,2023-04-12,CUST00646,55+,North,Organic Search,Mobile,Electronics,Smartphone,10590.11,2,0,0.0,21180.22,21180.22,Debit Card,7,No,,5.0
+ORD10188,2023-03-04,CUST00444,46-55,South,Social Media,Mobile,Beauty,Lipstick,1009.3,1,15,151.4,1009.3,857.9,Debit Card,1,No,,5.0
+ORD10189,2023-11-11,CUST00663,26-35,East,Email,Mobile,Home & Kitchen,Bedsheet,1615.03,2,0,0.0,3230.06,3230.06,Net Banking,10,No,,4.6
+ORD10190,2023-07-15,CUST00580,26-35,South,Organic Search,Desktop,Clothing,Kurta,923.21,5,0,0.0,4616.05,4616.05,Credit Card,6,No,,4.1
+ORD10191,2023-03-23,CUST00247,26-35,South,Referral,Desktop,Toys,Doll,1200.03,5,5,300.01,6000.15,5700.14,UPI,2,No,,3.3
+ORD10192,2023-12-24,CUST00971,36-45,West,Referral,Desktop,Toys,Board Game,940.25,5,15,705.19,4701.25,3996.06,Debit Card,6,No,,5.0
+ORD10193,2023-01-11,CUST00340,46-55,East,Organic Search,Mobile,Books,Fiction Novel,190.62,2,5,19.06,381.24,362.18,Debit Card,9,No,,4.2
+ORD10194,2023-02-07,CUST00345,26-35,West,Direct,Desktop,Sports,Cricket Bat,4871.83,5,15,3653.87,24359.15,20705.28,Debit Card,6,No,,3.4
+ORD10195,2023-04-25,CUST00388,26-35,Central,Email,Tablet,Beauty,Serum,2203.26,5,15,1652.45,11016.3,9363.85,Credit Card,10,No,,3.1
+ORD10196,2023-11-24,CUST00244,26-35,East,Email,Mobile,Clothing,Kurta,1068.26,5,5,267.06,5341.3,5074.24,UPI,10,Yes,Changed Mind,4.8
+ORD10197,2023-02-25,CUST00751,26-35,East,Referral,Desktop,Clothing,Jeans,2232.94,3,10,669.88,6698.82,6028.94,Credit Card,1,Yes,Changed Mind,5.0
+ORD10198,2023-03-25,CUST00975,18-25,North,Referral,Mobile,Toys,Doll,1640.84,5,5,410.21,8204.2,7793.99,UPI,8,Yes,Defective,3.8
+ORD10199,2023-12-01,CUST00445,18-25,Central,Direct,Tablet,Sports,Badminton Set,2743.74,1,20,548.75,2743.74,2194.99,COD,3,No,,4.7
+ORD10200,2023-07-21,CUST00004,26-35,South,Organic Search,Mobile,Home & Kitchen,Bedsheet,1243.5,1,0,0.0,1243.5,1243.5,Debit Card,10,No,,3.7
+ORD10201,2023-06-07,CUST00917,36-45,West,Social Media,Mobile,Clothing,Saree,7834.82,4,0,0.0,31339.28,31339.28,Net Banking,7,No,,4.0
+ORD10202,2023-05-18,CUST00555,26-35,West,Referral,Desktop,Electronics,Earbuds,2478.83,3,5,371.82,7436.49,7064.67,COD,10,Yes,Defective,4.6
+ORD10203,2023-06-03,CUST00875,36-45,Central,Paid Ads,Mobile,Beauty,Lipstick,772.71,2,25,386.36,1545.42,1159.06,Net Banking,2,No,,4.4
+ORD10204,2023-01-22,CUST00152,46-55,North,Organic Search,Desktop,Clothing,Jeans,2930.41,2,0,0.0,5860.82,5860.82,COD,7,Yes,Changed Mind,4.4
+ORD10205,2023-01-07,CUST00801,26-35,North,Organic Search,Tablet,Books,Biography,429.37,3,25,322.03,1288.11,966.08,Credit Card,10,No,,5.0
+ORD10206,2023-05-16,CUST00177,26-35,North,Email,Desktop,Toys,Remote Car,3575.92,3,20,2145.55,10727.76,8582.21,Wallet,7,No,,3.2
+ORD10207,2023-01-11,CUST00311,26-35,South,Paid Ads,Desktop,Clothing,T-Shirt,1169.47,3,15,526.26,3508.41,2982.15,Wallet,6,No,,3.6
+ORD10208,2023-04-07,CUST00778,26-35,North,Social Media,Tablet,Books,Textbook,831.07,4,0,0.0,3324.28,3324.28,COD,8,No,,4.6
+ORD10209,2023-03-30,CUST00206,46-55,South,Social Media,Desktop,Books,Self Help,590.26,5,0,0.0,2951.3,2951.3,Net Banking,4,No,,2.8
+ORD10210,2023-05-04,CUST00486,36-45,North,Social Media,Mobile,Sports,Cycle,20885.25,1,0,0.0,20885.25,20885.25,Net Banking,6,No,,2.1
+ORD10211,2023-11-28,CUST00276,36-45,North,Email,Mobile,Electronics,Laptop,106843.92,2,5,10684.39,213687.84,203003.45,Wallet,4,No,,4.7
+ORD10212,2023-11-08,CUST00917,26-35,Central,Referral,Desktop,Clothing,Kurta,2081.82,2,10,416.36,4163.64,3747.28,COD,5,No,,3.8
+ORD10213,2023-06-02,CUST00345,55+,East,Paid Ads,Mobile,Electronics,Smartphone,29483.58,3,10,8845.07,88450.74,79605.67,COD,2,No,,3.4
+ORD10214,2023-12-05,CUST00303,26-35,Central,Paid Ads,Desktop,Toys,Board Game,2749.22,5,20,2749.22,13746.1,10996.88,Wallet,6,No,,3.8
+ORD10215,2023-09-17,CUST00861,36-45,East,Direct,Tablet,Beauty,Shampoo,596.11,4,15,357.67,2384.44,2026.77,Debit Card,5,No,,2.9
+ORD10216,2023-04-25,CUST00600,26-35,Central,Referral,Tablet,Beauty,Perfume,3444.96,2,15,1033.49,6889.92,5856.43,Credit Card,5,No,,4.6
+ORD10217,2023-07-31,CUST00155,18-25,West,Paid Ads,Desktop,Books,Self Help,450.24,4,10,180.1,1800.96,1620.86,Wallet,1,No,,3.5
+ORD10218,2023-11-21,CUST00591,36-45,Central,Email,Tablet,Clothing,T-Shirt,833.86,2,15,250.16,1667.72,1417.56,Net Banking,1,Yes,Not as Described,4.3
+ORD10219,2023-01-20,CUST00383,55+,North,Direct,Mobile,Books,Comic,389.6,4,0,0.0,1558.4,1558.4,Wallet,9,No,,5.0
+ORD10220,2023-03-08,CUST00844,18-25,Central,Social Media,Desktop,Beauty,Shampoo,297.07,3,10,89.12,891.21,802.09,Wallet,2,No,,3.6
+ORD10221,2023-04-07,CUST00941,46-55,South,Direct,Mobile,Clothing,Saree,,4,15,4783.32,31888.8,27105.48,COD,3,No,,3.7
+ORD10222,2023-11-24,CUST00050,36-45,West,Email,Mobile,Sports,Cricket Bat,1615.81,-3,20,323.16,1615.81,1292.65,COD,5,No,,3.2
+ORD10223,2023-06-04,CUST00679,26-35,North,Referral,Tablet,Home & Kitchen,Curtains,3045.98,2,0,0.0,6091.96,6091.96,COD,7,No,,3.2
+ORD10224,2023-04-12,CUST00207,26-35,South,Direct,Desktop,Electronics,Earbuds,1013.06,1,25,253.26,1013.06,759.8,UPI,10,No,,3.9
+ORD10225,2023-10-21,CUST00093,36-45,South,Email,Desktop,Clothing,T-Shirt,216.57,1,0,0.0,216.57,216.57,UPI,8,No,,5.0
+ORD10226,2023-05-29,CUST00098,46-55,South,Social Media,Desktop,Books,Fiction Novel,194.91,-1,0,0.0,389.82,389.82,Net Banking,6,No,,3.5
+ORD10227,2023-06-25,CUST00986,26-35,West,Direct,Mobile,Sports,Dumbbells,4489.6,1,15,673.44,4489.6,3816.16,Credit Card,3,Yes,Changed Mind,5.0
+ORD10228,2023-08-02,CUST00626,26-35,South,Email,Desktop,Clothing,T-Shirt,1476.04,2,0,0.0,2952.08,2952.08,Credit Card,10,No,,3.2
+ORD10229,2023-01-07,CUST00591,36-45,Central,Referral,Tablet,Books,Comic,113.79,3,15,51.21,341.37,290.16,Wallet,9,No,,3.6
+ORD10230,2023-06-27,CUST00628,18-25,West,Paid Ads,Mobile,Sports,Yoga Mat,1365.7,2,25,682.85,2731.4,2048.55,Net Banking,7,No,,4.8
+ORD10231,2023-09-17,CUST00388,26-35,West,Organic Search,Desktop,Home & Kitchen,Mixer Grinder,3985.37,3,0,0.0,11956.11,11956.11,Net Banking,4,No,,2.5
+ORD10232,2023-07-26,CUST00987,36-45,West,Social Media,Desktop,Home & Kitchen,Air Fryer,11826.04,1,0,0.0,11826.04,11826.04,Credit Card,7,Yes,Defective,4.7
+ORD10233,2023-12-03,CUST00117,18-25,East,Referral,Tablet,Toys,Board Game,2610.79,-2,25,1958.09,7832.37,5874.28,UPI,6,No,,2.7
+ORD10234,2023-03-13,CUST00403,26-35,West,Organic Search,Tablet,Beauty,Face Cream,259.51,2,25,129.75,519.02,389.27,Wallet,7,Yes,Wrong Item,4.7
+ORD10235,2023-12-04,CUST00138,55+,West,Referral,Desktop,Sports,Yoga Mat,,4,25,2044.29,8177.16,6132.87,COD,10,No,,5.0
+ORD10236,2023-02-23,CUST00903,26-35,East,Email,Desktop,Toys,Board Game,2229.54,2,0,0.0,4459.08,4459.08,UPI,7,No,,3.4
+ORD10237,2023-12-26,CUST00729,36-45,East,Direct,Desktop,Books,Self Help,269.09,5,10,134.54,1345.45,1210.91,Wallet,9,No,,3.6
+ORD10238,2023-06-30,CUST00428,36-45,West,Organic Search,Tablet,Clothing,Jeans,1759.73,3,0,0.0,5279.19,5279.19,Credit Card,9,No,,2.9
+ORD10239,2023-05-17,CUST00700,26-35,Central,Organic Search,Desktop,Electronics,Smart Watch,4615.88,1,5,230.79,4615.88,4385.09,Net Banking,3,No,,3.5
+ORD10240,2023-11-28,CUST00713,26-35,East,Referral,Mobile,Electronics,Tablet,53401.77,5,5,13350.44,267008.85,253658.41,Credit Card,9,No,,2.6
+ORD10241,2023-11-21,CUST00560,36-45,West,Paid Ads,Tablet,Beauty,Perfume,1413.89,4,5,282.78,5655.56,5372.78,Credit Card,6,No,,3.9
+ORD10242,2023-01-21,CUST00867,26-35,South,Social Media,Tablet,Clothing,Jeans,2337.7,1,20,467.54,2337.7,1870.16,Credit Card,7,No,,4.0
+ORD10243,2023-10-21,CUST00803,36-45,Central,Paid Ads,Desktop,Toys,Puzzle,1296.08,3,25,972.06,3888.24,2916.18,COD,9,No,,4.5
+ORD10244,2023-12-06,CUST00634,26-35,North,Organic Search,Tablet,Sports,Cycle,7298.64,2,5,729.86,14597.28,13867.42,UPI,6,No,,3.5
+ORD10245,2023-01-21,CUST00816,55+,Central,Social Media,Tablet,Books,Self Help,652.25,5,5,163.06,3261.25,3098.19,COD,6,No,,5.0
+ORD10246,2023-09-21,CUST00551,26-35,South,Direct,Desktop,Books,Comic,113.16,2,15,33.95,226.32,192.37,Credit Card,2,No,,5.0
+ORD10247,2023-12-18,CUST00039,18-25,Central,Paid Ads,Desktop,Clothing,Kurta,2140.37,4,0,0.0,8561.48,8561.48,Net Banking,3,Yes,Not as Described,5.0
+ORD10248,2023-01-09,CUST00634,18-25,East,Referral,Mobile,Books,Comic,289.07,4,15,173.44,1156.28,982.84,UPI,7,No,,2.9
+ORD10249,2023-07-15,CUST00032,26-35,Central,Social Media,Tablet,Toys,Remote Car,2741.01,3,25,2055.76,8223.03,6167.27,Debit Card,7,No,,3.8
+ORD10250,2023-03-05,CUST00313,26-35,Central,Paid Ads,Mobile,Home & Kitchen,Bedsheet,2893.48,1,0,0.0,2893.48,2893.48,Debit Card,1,Yes,Changed Mind,2.1
+ORD10251,2023-04-03,CUST00872,36-45,North,Social Media,Tablet,Clothing,Kurta,2152.97,2,0,0.0,4305.94,4305.94,Credit Card,10,No,,3.6
+ORD10252,2023-06-19,CUST00635,18-25,East,Direct,Tablet,Home & Kitchen,Air Fryer,4776.76,5,25,5970.95,23883.8,17912.85,Debit Card,6,No,,3.8
+ORD10253,2023-03-28,CUST00805,26-35,South,Direct,Tablet,Sports,Badminton Set,1474.78,3,20,884.87,4424.34,3539.47,UPI,1,No,,3.7
+ORD10254,2023-10-10,CUST00880,46-55,North,Direct,Mobile,Books,Comic,233.61,3,25,175.21,700.83,525.62,Credit Card,2,No,,2.8
+ORD10255,2023-10-30,CUST00565,26-35,South,Social Media,Desktop,Toys,Puzzle,1021.11,5,20,1021.11,5105.55,4084.44,Debit Card,4,No,,3.0
+ORD10256,2023-08-26,CUST00679,26-35,Central,Paid Ads,Desktop,Toys,Puzzle,1153.19,3,0,0.0,3459.57,3459.57,Debit Card,9,No,,3.2
+ORD10257,2023-07-03,CUST00500,26-35,Central,Social Media,Desktop,Clothing,Kurta,2392.29,2,25,1196.14,4784.58,3588.44,Net Banking,1,No,,4.6
+ORD10258,2023-12-27,CUST00593,26-35,North,Referral,Desktop,Books,Fiction Novel,167.96,3,0,0.0,503.88,503.88,Net Banking,9,No,,3.8
+ORD10259,2023-09-04,CUST00451,18-25,South,Paid Ads,Desktop,Clothing,Kurta,1252.27,3,25,939.2,3756.81,2817.61,COD,10,Yes,Wrong Item,5.0
+ORD10260,2023-02-28,CUST00663,46-55,South,Paid Ads,Tablet,Beauty,Face Cream,,4,15,635.66,4237.76,3602.1,COD,8,No,,2.9
+ORD10261,2023-04-03,CUST00614,55+,East,Organic Search,Mobile,Electronics,Tablet,17343.26,2,10,3468.65,34686.52,31217.87,Net Banking,9,No,,4.1
+ORD10262,2023-07-30,CUST00639,36-45,West,Referral,Tablet,Sports,Cycle,26682.56,2,5,2668.26,53365.12,50696.86,Credit Card,10,No,,2.8
+ORD10263,2023-04-14,CUST00517,36-45,Central,Referral,Mobile,Clothing,Jacket,2927.31,1,0,0.0,2927.31,2927.31,COD,9,No,,3.3
+ORD10264,2023-12-14,CUST00543,26-35,East,Referral,Tablet,Sports,Yoga Mat,686.38,2,0,0.0,1372.76,1372.76,Wallet,7,No,,3.8
+ORD10265,2023-04-30,CUST00898,26-35,Central,Referral,Mobile,Sports,Yoga Mat,1350.98,-3,25,1013.24,4052.94,3039.7,COD,2,No,,4.2
+ORD10266,2023-07-05,CUST00876,26-35,West,Paid Ads,Desktop,Electronics,Smart Watch,13781.83,3,20,8269.1,41345.49,33076.39,COD,2,No,,3.6
+ORD10267,2023-05-10,CUST00793,36-45,South,Email,Tablet,Toys,Puzzle,827.21,3,25,620.41,2481.63,1861.22,Debit Card,5,No,,3.5
+ORD10268,2023-03-24,CUST00149,26-35,East,Organic Search,Tablet,Electronics,Laptop,75750.92,3,0,0.0,227252.76,227252.76,Credit Card,7,No,,4.3
+ORD10269,2023-12-31,CUST00656,26-35,Central,Social Media,Mobile,Beauty,Lipstick,,4,10,452.27,4522.72,4070.45,Credit Card,10,Yes,Wrong Item,4.0
+ORD10270,2023-12-12,CUST00089,55+,Central,Paid Ads,Tablet,Toys,Puzzle,863.71,2,0,0.0,1727.42,1727.42,Credit Card,1,No,,2.8
+ORD10271,2023-10-14,CUST00987,46-55,West,Referral,Mobile,Beauty,Face Cream,1394.93,5,10,697.47,6974.65,6277.18,UPI,10,No,,2.2
+ORD10272,2023-09-15,CUST00264,46-55,West,Referral,Desktop,Clothing,Jacket,3531.19,5,0,0.0,17655.95,17655.95,Debit Card,5,No,,4.7
+ORD10273,2023-10-28,CUST00265,18-25,South,Social Media,Desktop,Toys,Remote Car,3875.96,4,25,3875.96,15503.84,11627.88,UPI,1,No,,4.6
+ORD10274,2023-05-28,CUST00568,55+,East,Paid Ads,Tablet,Sports,Badminton Set,623.34,3,5,93.5,1870.02,1776.52,Wallet,2,No,,4.0
+ORD10275,2023-05-16,CUST00855,26-35,North,Direct,Tablet,Clothing,Jacket,4685.56,2,5,468.56,9371.12,8902.56,Net Banking,4,No,,3.3
+ORD10276,2023-09-04,CUST00919,36-45,Central,Social Media,Desktop,Sports,Yoga Mat,2028.49,5,0,0.0,10142.45,10142.45,Debit Card,6,No,,1.7
+ORD10277,2023-09-02,CUST00404,46-55,Central,Email,Desktop,Toys,Puzzle,366.72,5,20,366.72,1833.6,1466.88,Wallet,9,Yes,Not as Described,4.1
+ORD10278,2023-06-16,CUST00243,26-35,West,Paid Ads,Desktop,Electronics,Smartphone,36312.33,4,0,0.0,145249.32,145249.32,Wallet,6,No,,3.9
+ORD10279,2023-08-19,CUST00590,36-45,Central,Email,Desktop,Toys,Remote Car,1968.25,4,10,787.3,7873.0,7085.7,Debit Card,3,No,,5.0
+ORD10280,2023-08-04,CUST00547,36-45,Central,Organic Search,Desktop,Clothing,Jeans,1682.47,1,0,0.0,1682.47,1682.47,Credit Card,8,No,,4.9
+ORD10281,2023-11-19,CUST00343,26-35,East,Organic Search,Desktop,Beauty,Shampoo,189.02,3,25,141.77,567.06,425.29,Credit Card,2,No,,3.3
+ORD10282,2023-05-26,CUST00458,46-55,South,Paid Ads,Tablet,Home & Kitchen,Cookware Set,2594.27,5,0,0.0,12971.35,12971.35,UPI,6,No,,2.6
+ORD10283,2023-03-24,CUST00325,36-45,West,Social Media,Tablet,Books,Biography,564.4,1,0,0.0,564.4,564.4,COD,6,No,,3.9
+ORD10284,2023-03-06,CUST00082,26-35,West,Referral,Mobile,Sports,Cycle,15349.73,2,0,0.0,30699.46,30699.46,Credit Card,4,No,,5.0
+ORD10285,2023-05-15,CUST00671,55+,West,Direct,Mobile,Toys,Doll,1190.77,1,0,0.0,1190.77,1190.77,Debit Card,10,No,,3.5
+ORD10286,2023-09-01,CUST00456,18-25,West,Direct,Tablet,Sports,Cricket Bat,1142.86,3,15,514.29,3428.58,2914.29,Wallet,8,No,,3.4
+ORD10287,2023-06-27,CUST00825,18-25,North,Organic Search,Tablet,Sports,Cycle,18086.5,5,10,9043.25,90432.5,81389.25,Debit Card,8,No,,3.8
+ORD10288,2023-09-02,CUST00816,18-25,West,Paid Ads,Mobile,Home & Kitchen,Bedsheet,1672.99,1,25,418.25,1672.99,1254.74,Wallet,5,Yes,Changed Mind,4.3
+ORD10289,2023-02-10,CUST00530,36-45,East,Direct,Tablet,Beauty,Lipstick,1028.43,2,10,205.69,2056.86,1851.17,COD,7,No,,3.0
+ORD10290,2023-03-11,CUST00638,26-35,North,Paid Ads,Mobile,Toys,Remote Car,2121.29,1,0,0.0,2121.29,2121.29,UPI,5,Yes,Changed Mind,3.5
+ORD10291,2023-02-16,CUST00351,26-35,North,Social Media,Mobile,Home & Kitchen,Mixer Grinder,6291.18,1,5,314.56,6291.18,5976.62,Debit Card,3,Yes,Wrong Item,3.6
+ORD10292,2023-04-03,CUST00013,18-25,West,Paid Ads,Tablet,Electronics,Earbuds,3990.44,1,25,997.61,3990.44,2992.83,Credit Card,4,No,,4.0
+ORD10293,2023-08-31,CUST00320,55+,Central,Referral,Mobile,Clothing,Jacket,4676.61,1,5,233.83,4676.61,4442.78,UPI,7,No,,4.8
+ORD10294,2023-02-27,CUST00283,36-45,Central,Direct,Desktop,Books,Textbook,717.96,1,5,35.9,717.96,682.06,Wallet,4,No,,3.8
+ORD10295,2023-03-22,CUST00954,55+,South,Direct,Tablet,Sports,Cricket Bat,2856.99,1,5,142.85,2856.99,2714.14,Credit Card,8,Yes,Not as Described,4.4
+ORD10296,2023-08-13,CUST00921,18-25,West,Paid Ads,Tablet,Clothing,Jacket,2163.37,5,15,1622.53,10816.85,9194.32,Debit Card,4,Yes,Changed Mind,3.7
+ORD10297,2023-11-03,CUST00544,18-25,North,Direct,Tablet,Sports,Dumbbells,2159.46,4,10,863.78,8637.84,7774.06,Net Banking,9,No,,4.3
+ORD10298,2023-11-14,CUST00839,26-35,Central,Social Media,Desktop,Beauty,Shampoo,723.91,5,15,542.93,3619.55,3076.62,Net Banking,4,No,,5.0
+ORD10299,2023-01-23,CUST00033,26-35,West,Direct,Desktop,Beauty,Perfume,997.09,5,0,0.0,4985.45,4985.45,COD,3,No,,4.8
+ORD10300,2023-11-07,CUST00853,18-25,West,Social Media,Tablet,Sports,Badminton Set,1214.25,3,5,182.14,3642.75,3460.61,Credit Card,2,Yes,Wrong Item,3.0
+ORD10301,2023-06-05,CUST00984,26-35,South,Referral,Tablet,Toys,Puzzle,545.56,1,0,0.0,545.56,545.56,Debit Card,2,No,,2.5
+ORD10302,2023-02-24,CUST00905,18-25,South,Referral,Tablet,Sports,Cricket Bat,3792.12,5,20,3792.12,18960.6,15168.48,Net Banking,10,No,,2.9
+ORD10303,2023-07-31,CUST00332,36-45,East,Social Media,Desktop,Home & Kitchen,Bedsheet,1875.2,3,15,843.84,5625.6,4781.76,Net Banking,7,No,,4.3
+ORD10304,2023-09-23,CUST00228,26-35,East,Referral,Tablet,Books,Fiction Novel,476.84,3,0,0.0,1430.52,1430.52,COD,3,No,,3.8
+ORD10305,2023-07-02,CUST00376,46-55,Central,Email,Tablet,Sports,Badminton Set,971.32,1,25,242.83,971.32,728.49,Debit Card,3,No,,4.6
+ORD10306,2023-09-07,CUST00039,36-45,East,Social Media,Desktop,Beauty,Face Cream,1140.65,4,0,0.0,4562.6,4562.6,Net Banking,10,No,,4.9
+ORD10307,2023-11-21,CUST00327,26-35,North,Direct,Tablet,Toys,LEGO Set,5348.93,2,0,0.0,10697.86,10697.86,Net Banking,7,Yes,Defective,4.6
+ORD10308,2023-08-10,CUST00488,36-45,Central,Email,Tablet,Books,Biography,566.39,1,5,28.32,566.39,538.07,Debit Card,5,No,,4.4
+ORD10309,2023-07-22,CUST00631,55+,West,Social Media,Tablet,Toys,Board Game,1702.31,2,25,851.15,3404.62,2553.47,COD,10,No,,4.6
+ORD10310,2023-06-28,CUST00313,18-25,Central,Paid Ads,Desktop,Electronics,Smartphone,36213.4,4,15,21728.04,144853.6,123125.56,Credit Card,4,No,,3.9
+ORD10311,2023-02-13,CUST00249,55+,North,Social Media,Tablet,Toys,Board Game,999.21,3,0,0.0,2997.63,2997.63,Credit Card,2,No,,3.9
+ORD10312,2023-10-03,CUST00495,36-45,West,Referral,Tablet,Home & Kitchen,Curtains,2307.81,3,5,346.17,6923.43,6577.26,COD,4,No,,3.4
+ORD10313,2023-12-23,CUST00477,36-45,East,Organic Search,Mobile,Electronics,Earbuds,,3,5,189.97,3799.32,3609.35,UPI,10,No,,3.9
+ORD10314,2023-06-11,CUST00513,55+,Central,Social Media,Desktop,Toys,Doll,692.99,4,0,0.0,2771.96,2771.96,Net Banking,8,No,,3.5
+ORD10315,2023-11-17,CUST00514,26-35,North,Referral,Desktop,Books,Self Help,209.19,3,15,94.14,627.57,533.43,Debit Card,5,No,,3.9
+ORD10316,2023-07-15,CUST00233,26-35,Central,Social Media,Desktop,Clothing,Saree,7259.66,2,0,0.0,14519.32,14519.32,COD,9,No,,3.1
+ORD10317,2023-03-12,CUST00921,26-35,South,Direct,Tablet,Clothing,Jeans,2131.18,5,5,532.79,10655.9,10123.11,Debit Card,5,No,,3.3
+ORD10318,2023-06-12,CUST00424,55+,East,Paid Ads,Mobile,Home & Kitchen,Air Fryer,8016.06,1,0,0.0,8016.06,8016.06,Credit Card,3,No,,4.2
+ORD10319,2023-11-07,CUST00611,26-35,West,Paid Ads,Tablet,Clothing,Jeans,565.5,5,10,282.75,2827.5,2544.75,COD,10,No,,2.4
+ORD10320,2023-08-31,CUST00993,18-25,South,Paid Ads,Mobile,Books,Textbook,694.36,4,25,694.36,2777.44,2083.08,Debit Card,3,No,,4.1
+ORD10321,2023-05-07,CUST00043,36-45,Central,Referral,Tablet,Books,Biography,519.47,3,25,389.6,1558.41,1168.81,COD,7,No,,4.8
+ORD10322,2023-01-22,CUST00572,26-35,West,Email,Desktop,Beauty,Face Cream,876.84,4,25,876.84,3507.36,2630.52,UPI,4,No,,3.0
+ORD10323,2023-12-20,CUST00475,46-55,Central,Direct,Tablet,Books,Self Help,411.23,5,0,0.0,2056.15,2056.15,Debit Card,9,No,,4.8
+ORD10324,2023-08-21,CUST00093,26-35,North,Organic Search,Mobile,Books,Comic,197.04,1,0,0.0,197.04,197.04,Wallet,10,No,,5.0
+ORD10325,2023-07-13,CUST00787,18-25,South,Paid Ads,Mobile,Books,Textbook,536.49,4,0,0.0,2145.96,2145.96,Wallet,9,No,,3.0
+ORD10326,2023-11-17,CUST00784,26-35,North,Referral,Desktop,Electronics,Smart Watch,7545.12,4,10,3018.05,30180.48,27162.43,Debit Card,3,Yes,Wrong Item,4.1
+ORD10327,2023-08-15,CUST00007,26-35,South,Organic Search,Mobile,Clothing,Kurta,1784.89,4,20,1427.91,7139.56,5711.65,Debit Card,2,No,,4.0
+ORD10328,2023-06-19,CUST00292,36-45,South,Email,Tablet,Electronics,Earbuds,665.24,1,10,66.52,665.24,598.72,COD,2,Yes,Changed Mind,4.5
+ORD10329,2023-07-08,CUST00777,26-35,East,Social Media,Tablet,Home & Kitchen,Air Fryer,3838.14,3,15,1727.16,11514.42,9787.26,Net Banking,7,No,,4.0
+ORD10330,2023-02-25,CUST00496,36-45,West,Referral,Desktop,Sports,Cricket Bat,4479.15,5,0,0.0,22395.75,22395.75,UPI,10,No,,2.4
+ORD10331,2023-11-11,CUST00747,36-45,East,Paid Ads,Mobile,Sports,Badminton Set,2988.06,3,0,0.0,8964.18,8964.18,Credit Card,10,No,,2.3
+ORD10332,2023-11-12,CUST00653,26-35,North,Social Media,Desktop,Electronics,Smart Watch,13258.29,1,5,662.91,13258.29,12595.38,COD,7,No,,3.5
+ORD10333,2023-06-24,CUST00631,55+,West,Email,Mobile,Sports,Dumbbells,4021.54,1,15,603.23,4021.54,3418.31,Wallet,7,No,,4.9
+ORD10334,2023-08-25,CUST00579,36-45,East,Social Media,Mobile,Clothing,Jacket,1776.93,4,15,1066.16,7107.72,6041.56,Debit Card,7,No,,4.9
+ORD10335,2023-10-20,CUST00610,18-25,North,Social Media,Desktop,Home & Kitchen,Air Fryer,6052.37,4,0,0.0,24209.48,24209.48,Credit Card,10,No,,4.3
+ORD10336,2023-09-26,CUST00207,46-55,Central,Paid Ads,Mobile,Books,Self Help,385.79,3,5,57.87,1157.37,1099.5,UPI,5,No,,3.8
+ORD10337,2023-02-20,CUST00136,26-35,North,Organic Search,Desktop,Books,Biography,420.7,3,0,0.0,1262.1,1262.1,Credit Card,9,No,,4.2
+ORD10338,2023-01-24,CUST00592,36-45,East,Social Media,Tablet,Beauty,Serum,2666.88,3,25,2000.16,8000.64,6000.48,UPI,2,No,,3.6
+ORD10339,2023-03-22,CUST00212,26-35,East,Referral,Mobile,Toys,Doll,1440.91,3,0,0.0,4322.73,4322.73,Debit Card,5,Yes,Defective,3.4
+ORD10340,2023-01-26,CUST00437,26-35,West,Referral,Desktop,Electronics,Earbuds,3259.68,3,25,2444.76,9779.04,7334.28,UPI,3,Yes,Defective,4.2
+ORD10341,2023-08-27,CUST00833,46-55,West,Email,Mobile,Home & Kitchen,Mixer Grinder,6277.39,5,0,0.0,31386.95,31386.95,Debit Card,10,No,,4.2
+ORD10342,2023-04-04,CUST00031,18-25,East,Social Media,Tablet,Clothing,Kurta,941.91,3,20,565.15,2825.73,2260.58,COD,6,No,,4.6
+ORD10343,2023-10-12,CUST00546,26-35,South,Email,Desktop,Clothing,Kurta,616.16,1,15,92.42,616.16,523.74,Credit Card,2,No,,3.4
+ORD10344,2023-08-11,CUST00679,36-45,North,Referral,Tablet,Home & Kitchen,Mixer Grinder,6883.49,5,20,6883.49,34417.45,27533.96,Net Banking,10,No,,3.4
+ORD10345,2023-06-07,CUST00702,46-55,North,Organic Search,Mobile,Home & Kitchen,Cookware Set,2037.1,4,0,0.0,8148.4,8148.4,Debit Card,7,Yes,Defective,3.8
+ORD10346,2023-09-30,CUST00698,46-55,West,Direct,Desktop,Sports,Yoga Mat,2014.16,2,25,1007.08,4028.32,3021.24,Credit Card,5,No,,3.5
+ORD10347,2023-03-07,CUST00001,36-45,North,Paid Ads,Desktop,Sports,Yoga Mat,1722.98,5,20,1722.98,8614.9,6891.92,Wallet,5,Yes,Defective,3.8
+ORD10348,2023-07-15,CUST00193,36-45,East,Direct,Mobile,Sports,Cycle,20630.36,4,20,16504.29,82521.44,66017.15,Debit Card,7,No,,3.5
+ORD10349,2023-12-03,CUST00140,18-25,Central,Email,Tablet,Electronics,Smartphone,35232.35,2,25,17616.17,70464.7,52848.53,Debit Card,7,No,,3.2
+ORD10350,2023-07-01,CUST00868,36-45,Central,Social Media,Mobile,Books,Biography,483.27,4,20,386.62,1933.08,1546.46,Credit Card,4,No,,3.2
+ORD10351,2023-12-20,CUST00749,26-35,Central,Organic Search,Tablet,Sports,Cycle,22622.06,1,25,5655.52,22622.06,16966.54,COD,2,No,,3.4
+ORD10352,2023-11-10,CUST00465,26-35,East,Social Media,Mobile,Electronics,Laptop,72520.64,1,10,7252.06,72520.64,65268.58,Credit Card,1,No,,3.9
+ORD10353,2023-02-01,CUST00587,18-25,East,Email,Mobile,Beauty,Serum,2348.51,5,10,1174.26,11742.55,10568.29,Debit Card,8,No,,4.0
+ORD10354,2023-03-09,CUST00115,36-45,East,Paid Ads,Desktop,Sports,Yoga Mat,2202.89,3,10,660.87,6608.67,5947.8,Wallet,10,No,,4.1
+ORD10355,2023-06-25,CUST00610,55+,West,Paid Ads,Tablet,Clothing,Jacket,1904.05,5,0,0.0,9520.25,9520.25,Net Banking,2,No,,3.9
+ORD10356,2023-11-25,CUST00409,26-35,South,Email,Tablet,Beauty,Shampoo,287.06,3,0,0.0,861.18,861.18,Wallet,5,No,,4.4
+ORD10357,2023-01-07,CUST00460,26-35,North,Referral,Tablet,Books,Comic,178.79,5,20,178.79,893.95,715.16,UPI,5,No,,4.3
+ORD10358,2023-05-19,CUST00473,36-45,South,Referral,Desktop,Toys,Doll,1337.83,3,15,602.02,4013.49,3411.47,Wallet,5,No,,4.0
+ORD10359,2023-02-04,CUST00538,18-25,South,Organic Search,Mobile,Beauty,Shampoo,353.63,1,0,0.0,353.63,353.63,COD,1,No,,5.0
+ORD10360,2023-12-29,CUST00664,36-45,East,Social Media,Desktop,Electronics,Smartphone,47417.23,2,0,0.0,94834.46,94834.46,Wallet,2,Yes,Wrong Item,3.0
+ORD10361,2023-12-21,CUST00800,18-25,North,Social Media,Desktop,Electronics,Smart Watch,18608.52,3,20,11165.11,55825.56,44660.45,Debit Card,6,No,,5.0
+ORD10362,2023-04-02,CUST00935,26-35,East,Email,Mobile,Books,Fiction Novel,371.27,2,20,148.51,742.54,594.03,Net Banking,8,Yes,Changed Mind,4.2
+ORD10363,2023-03-19,CUST00589,18-25,West,Direct,Mobile,Clothing,T-Shirt,1412.76,4,10,565.1,5651.04,5085.94,COD,6,No,,5.0
+ORD10364,2023-10-18,CUST00411,18-25,East,Organic Search,Desktop,Clothing,T-Shirt,699.75,4,0,0.0,2799.0,2799.0,UPI,9,No,,3.2
+ORD10365,2023-12-05,CUST00400,46-55,West,Direct,Mobile,Beauty,Shampoo,264.8,1,20,52.96,264.8,211.84,Debit Card,4,No,,4.9
+ORD10366,2023-09-08,CUST00832,26-35,North,Email,Mobile,Electronics,Laptop,32282.81,5,5,8070.7,161414.05,153343.35,Debit Card,7,Yes,Not as Described,1.9
+ORD10367,2023-10-24,CUST00038,36-45,South,Organic Search,Mobile,Toys,Puzzle,795.88,-3,0,0.0,3979.4,3979.4,Wallet,4,No,,4.0
+ORD10368,2023-11-09,CUST00117,26-35,West,Social Media,Tablet,Electronics,Earbuds,4193.33,1,25,1048.33,4193.33,3145.0,Wallet,3,No,,5.0
+ORD10369,2023-06-14,CUST00608,18-25,South,Direct,Desktop,Books,Textbook,593.28,5,0,0.0,2966.4,2966.4,COD,4,No,,4.6
+ORD10370,2023-03-10,CUST00162,18-25,Central,Social Media,Desktop,Clothing,Jacket,2218.22,-1,0,0.0,11091.1,11091.1,Wallet,2,No,,3.5
+ORD10371,2023-11-24,CUST00422,26-35,West,Referral,Mobile,Toys,Doll,1477.01,2,0,0.0,2954.02,2954.02,Wallet,5,No,,3.4
+ORD10372,2023-04-09,CUST00884,36-45,South,Social Media,Mobile,Toys,Remote Car,1913.13,1,5,95.66,1913.13,1817.47,Debit Card,2,No,,5.0
+ORD10373,2023-04-01,CUST00045,18-25,Central,Email,Mobile,Electronics,Laptop,91671.94,4,25,91671.94,366687.76,275015.82,Credit Card,3,No,,3.8
+ORD10374,2023-01-15,CUST00456,36-45,East,Paid Ads,Mobile,Beauty,Face Cream,1402.32,2,0,0.0,2804.64,2804.64,UPI,8,No,,4.5
+ORD10375,2023-07-12,CUST00056,46-55,West,Social Media,Mobile,Clothing,T-Shirt,508.25,4,5,101.65,2033.0,1931.35,Net Banking,4,Yes,Changed Mind,4.3
+ORD10376,2023-06-21,CUST00477,26-35,Central,Paid Ads,Tablet,Beauty,Shampoo,560.81,3,5,84.12,1682.43,1598.31,COD,3,Yes,Defective,3.9
+ORD10377,2023-07-30,CUST00222,36-45,South,Paid Ads,Desktop,Clothing,Kurta,2437.29,2,0,0.0,4874.58,4874.58,Net Banking,9,No,,4.4
+ORD10378,2023-10-21,CUST00752,36-45,North,Email,Desktop,Sports,Cricket Bat,5459.11,5,0,0.0,27295.55,27295.55,Debit Card,1,No,,5.0
+ORD10379,2023-03-09,CUST00664,55+,West,Referral,Tablet,Electronics,Tablet,,4,5,9530.79,190615.72,181084.93,COD,6,No,,4.7
+ORD10380,2023-04-05,CUST00643,18-25,West,Social Media,Tablet,Electronics,Smart Watch,10347.69,2,20,4139.08,20695.38,16556.3,COD,6,No,,4.0
+ORD10381,2023-01-29,CUST00691,26-35,North,Social Media,Desktop,Sports,Badminton Set,2506.75,1,15,376.01,2506.75,2130.74,Debit Card,9,No,,4.0
+ORD10382,2023-03-12,CUST00962,36-45,South,Social Media,Desktop,Beauty,Serum,2232.67,5,5,558.17,11163.35,10605.18,UPI,6,No,,4.7
+ORD10383,2023-06-26,CUST00540,46-55,East,Email,Tablet,Sports,Cycle,11928.63,1,15,1789.29,11928.63,10139.34,UPI,8,No,,4.6
+ORD10384,2023-02-11,CUST00112,18-25,South,Referral,Tablet,Toys,LEGO Set,1941.77,4,0,0.0,7767.08,7767.08,Credit Card,7,No,,3.5
+ORD10385,2023-08-31,CUST00756,36-45,South,Referral,Tablet,Home & Kitchen,Curtains,3902.64,5,0,0.0,19513.2,19513.2,UPI,6,No,,5.0
+ORD10386,2023-10-31,CUST00136,46-55,East,Social Media,Mobile,Books,Biography,438.54,3,25,328.9,1315.62,986.72,Debit Card,9,No,,3.4
+ORD10387,2023-12-31,CUST00997,18-25,South,Paid Ads,Mobile,Home & Kitchen,Bedsheet,1639.82,2,0,0.0,3279.64,3279.64,Credit Card,9,No,,4.2
+ORD10388,2023-04-05,CUST00353,18-25,North,Organic Search,Desktop,Home & Kitchen,Cookware Set,2195.6,3,15,988.02,6586.8,5598.78,Net Banking,4,No,,4.7
+ORD10389,2023-01-03,CUST00340,36-45,Central,Direct,Mobile,Toys,Board Game,2869.47,3,0,0.0,8608.41,8608.41,COD,9,No,,4.2
+ORD10390,2023-01-21,CUST00633,46-55,South,Referral,Tablet,Beauty,Lipstick,538.68,1,25,134.67,538.68,404.01,Debit Card,3,No,,4.1
+ORD10391,2023-12-13,CUST00404,18-25,East,Email,Mobile,Toys,Remote Car,1426.29,1,25,356.57,1426.29,1069.72,Wallet,2,No,,4.1
+ORD10392,2023-05-26,CUST00090,26-35,West,Social Media,Mobile,Toys,Doll,928.37,3,0,0.0,2785.11,2785.11,Wallet,6,No,,5.0
+ORD10393,2023-03-15,CUST00889,26-35,West,Organic Search,Mobile,Books,Comic,141.87,5,0,0.0,709.35,709.35,Net Banking,4,No,,3.8
+ORD10394,2023-12-30,CUST00391,26-35,Central,Social Media,Desktop,Beauty,Perfume,2365.31,5,25,2956.64,11826.55,8869.91,COD,10,No,,4.3
+ORD10395,2023-05-15,CUST00855,36-45,South,Email,Tablet,Beauty,Lipstick,424.52,1,0,0.0,424.52,424.52,Wallet,5,No,,4.4
+ORD10396,2023-02-04,CUST00890,26-35,East,Referral,Tablet,Clothing,T-Shirt,355.16,3,25,266.37,1065.48,799.11,COD,10,No,,3.1
+ORD10397,2023-06-13,CUST00139,26-35,East,Organic Search,Desktop,Electronics,Earbuds,1232.81,1,0,0.0,1232.81,1232.81,UPI,8,No,,3.5
+ORD10398,2023-11-03,CUST00702,36-45,Central,Referral,Desktop,Sports,Yoga Mat,1527.73,2,0,0.0,3055.46,3055.46,Debit Card,3,No,,5.0
+ORD10399,2023-07-30,CUST00167,18-25,Central,Referral,Tablet,Electronics,Laptop,76635.37,3,25,57476.53,229906.11,172429.58,COD,6,No,,2.9
+ORD10400,2023-08-24,CUST00320,36-45,Central,Social Media,Mobile,Toys,Puzzle,1126.31,1,20,225.26,1126.31,901.05,Wallet,2,Yes,Wrong Item,4.8
+ORD10401,2023-03-07,CUST00315,18-25,North,Organic Search,Mobile,Home & Kitchen,Air Fryer,9700.14,1,5,485.01,9700.14,9215.13,Net Banking,3,No,,3.6
+ORD10402,2023-12-04,CUST00045,18-25,Central,Paid Ads,Tablet,Toys,Doll,372.28,1,0,0.0,372.28,372.28,Debit Card,9,No,,2.3
+ORD10403,2023-10-24,CUST00876,26-35,North,Referral,Mobile,Clothing,Saree,1010.67,2,10,202.13,2021.34,1819.21,COD,6,No,,4.3
+ORD10404,2023-02-20,CUST00715,36-45,East,Email,Desktop,Clothing,Jeans,2910.66,2,0,0.0,5821.32,5821.32,Debit Card,4,No,,4.5
+ORD10405,2023-08-27,CUST00508,36-45,East,Email,Mobile,Sports,Cricket Bat,3037.89,3,0,0.0,9113.67,9113.67,Net Banking,2,No,,3.3
+ORD10406,2023-04-26,CUST00878,18-25,South,Organic Search,Tablet,Home & Kitchen,Curtains,2721.25,3,25,2040.94,8163.75,6122.81,Net Banking,9,No,,4.8
+ORD10407,2023-03-03,CUST00712,36-45,North,Social Media,Mobile,Beauty,Face Cream,715.28,5,0,0.0,3576.4,3576.4,UPI,3,No,,3.9
+ORD10408,2023-04-30,CUST00596,36-45,East,Email,Tablet,Clothing,Kurta,2172.46,4,0,0.0,8689.84,8689.84,COD,7,No,,3.8
+ORD10409,2023-02-25,CUST00510,26-35,North,Email,Tablet,Books,Comic,253.42,2,25,126.71,506.84,380.13,Credit Card,2,No,,5.0
+ORD10410,2023-06-05,CUST00533,36-45,West,Referral,Desktop,Clothing,Jacket,4022.92,3,0,0.0,12068.76,12068.76,COD,10,No,,4.1
+ORD10411,2023-03-02,CUST00874,26-35,East,Direct,Mobile,Home & Kitchen,Cookware Set,4506.41,1,20,901.28,4506.41,3605.13,Net Banking,7,No,,2.8
+ORD10412,2023-02-26,CUST00586,26-35,East,Email,Tablet,Books,Self Help,356.23,4,25,356.23,1424.92,1068.69,Net Banking,10,No,,3.3
+ORD10413,2023-02-01,CUST00132,46-55,East,Email,Mobile,Sports,Dumbbells,4019.18,3,15,1808.63,12057.54,10248.91,Net Banking,1,No,,3.0
+ORD10414,2023-05-07,CUST00068,46-55,North,Email,Tablet,Home & Kitchen,Bedsheet,1529.82,1,5,76.49,1529.82,1453.33,Net Banking,4,No,,2.5
+ORD10415,2023-12-23,CUST00325,26-35,North,Direct,Tablet,Sports,Badminton Set,2763.38,3,0,0.0,8290.14,8290.14,Debit Card,8,No,,3.0
+ORD10416,2023-11-11,CUST00868,55+,East,Organic Search,Desktop,Home & Kitchen,Curtains,2408.86,3,0,0.0,7226.58,7226.58,COD,5,No,,3.1
+ORD10417,2023-10-31,CUST00581,46-55,East,Referral,Desktop,Books,Self Help,512.29,1,0,0.0,512.29,512.29,Net Banking,6,No,,4.4
+ORD10418,2023-05-09,CUST00903,18-25,South,Direct,Tablet,Beauty,Serum,1214.72,4,20,971.78,4858.88,3887.1,Net Banking,10,No,,3.5
+ORD10419,2023-09-25,CUST00152,26-35,West,Social Media,Mobile,Home & Kitchen,Cookware Set,5949.13,4,0,0.0,23796.52,23796.52,Wallet,4,No,,3.1
+ORD10420,2023-05-12,CUST00029,26-35,West,Email,Tablet,Clothing,Jacket,2334.67,3,0,0.0,7004.01,7004.01,Credit Card,10,No,,4.0
+ORD10421,2023-05-23,CUST00873,18-25,North,Social Media,Tablet,Clothing,Jeans,1181.78,1,10,118.18,1181.78,1063.6,UPI,9,No,,4.5
+ORD10422,2023-12-10,CUST00242,18-25,Central,Referral,Desktop,Toys,LEGO Set,5502.87,4,15,3301.72,22011.48,18709.76,Net Banking,2,No,,4.8
+ORD10423,2023-10-27,CUST00762,26-35,East,Email,Desktop,Electronics,Laptop,83983.92,3,15,37792.76,251951.76,214159.0,UPI,7,No,,2.7
+ORD10424,2023-12-25,CUST00987,26-35,East,Social Media,Mobile,Toys,Puzzle,272.7,5,15,204.53,1363.5,1158.97,Wallet,2,No,,2.9
+ORD10425,2023-05-10,CUST00655,55+,South,Email,Desktop,Sports,Yoga Mat,2182.95,1,5,109.15,2182.95,2073.8,Credit Card,9,No,,4.6
+ORD10426,2023-04-18,CUST00786,36-45,West,Email,Tablet,Books,Textbook,881.42,2,10,176.28,1762.84,1586.56,Net Banking,3,No,,2.9
+ORD10427,2023-12-24,CUST00361,26-35,North,Organic Search,Tablet,Toys,Remote Car,3095.64,1,0,0.0,3095.64,3095.64,Wallet,5,No,,2.8
+ORD10428,2023-07-25,CUST00162,26-35,South,Referral,Tablet,Clothing,Jacket,4955.1,2,0,0.0,9910.2,9910.2,Net Banking,4,No,,3.9
+ORD10429,2023-03-30,CUST00819,26-35,West,Referral,Mobile,Toys,Remote Car,2244.77,2,10,448.95,4489.54,4040.59,Credit Card,10,No,,4.3
+ORD10430,2023-08-25,CUST00633,26-35,Central,Organic Search,Mobile,Electronics,Tablet,42355.33,2,0,0.0,84710.66,84710.66,Wallet,4,No,,4.2
+ORD10431,2023-03-02,CUST00196,55+,West,Paid Ads,Desktop,Sports,Cycle,24333.98,4,25,24333.98,97335.92,73001.94,Debit Card,4,No,,3.8
+ORD10432,2023-08-03,CUST00269,26-35,West,Organic Search,Mobile,Sports,Cricket Bat,5976.04,3,5,896.41,17928.12,17031.71,Net Banking,3,No,,4.4
+ORD10433,2023-07-16,CUST00263,18-25,West,Social Media,Tablet,Clothing,Saree,7815.67,4,5,1563.13,31262.68,29699.55,Wallet,7,No,,4.5
+ORD10434,2023-05-10,CUST00380,18-25,South,Referral,Desktop,Toys,Puzzle,1122.44,1,0,0.0,1122.44,1122.44,UPI,9,No,,3.7
+ORD10435,2023-03-14,CUST00131,26-35,West,Social Media,Desktop,Books,Self Help,244.82,5,20,244.82,1224.1,979.28,COD,5,Yes,Defective,4.8
+ORD10436,2023-06-11,CUST00674,36-45,South,Organic Search,Desktop,Toys,Remote Car,2454.31,4,0,0.0,9817.24,9817.24,UPI,8,No,,4.9
+ORD10437,2023-08-15,CUST00575,26-35,North,Social Media,Mobile,Clothing,Jacket,3182.15,4,0,0.0,12728.6,12728.6,Debit Card,6,No,,5.0
+ORD10438,2023-10-16,CUST00786,36-45,North,Social Media,Mobile,Toys,Remote Car,1378.1,2,10,275.62,2756.2,2480.58,UPI,10,No,,4.1
+ORD10439,2023-06-15,CUST00851,36-45,North,Social Media,Mobile,Beauty,Face Cream,712.42,5,0,0.0,3562.1,3562.1,Wallet,3,Yes,Changed Mind,4.0
+ORD10440,2023-04-19,CUST00762,18-25,South,Paid Ads,Desktop,Sports,Cycle,13122.89,5,0,0.0,65614.45,65614.45,Credit Card,1,No,,3.7
+ORD10441,2023-11-28,CUST00503,46-55,Central,Paid Ads,Desktop,Electronics,Laptop,44664.66,4,10,17865.86,178658.64,160792.78,Wallet,3,No,,5.0
+ORD10442,2023-07-18,CUST00433,46-55,North,Referral,Desktop,Electronics,Earbuds,2806.94,4,25,2806.94,11227.76,8420.82,Net Banking,8,No,,3.7
+ORD10443,2023-09-27,CUST00448,18-25,East,Paid Ads,Tablet,Beauty,Shampoo,570.95,2,25,285.48,1141.9,856.42,Net Banking,9,Yes,Changed Mind,3.8
+ORD10444,2023-09-20,CUST00738,36-45,Central,Organic Search,Mobile,Home & Kitchen,Cookware Set,1762.51,1,0,0.0,1762.51,1762.51,Wallet,2,No,,3.2
+ORD10445,2023-01-24,CUST00722,26-35,Central,Social Media,Desktop,Beauty,Lipstick,379.55,2,20,151.82,759.1,607.28,Debit Card,2,No,,4.5
+ORD10446,2023-12-11,CUST00014,18-25,Central,Direct,Desktop,Clothing,Jeans,695.55,5,10,347.77,3477.75,3129.98,UPI,2,No,,4.8
+ORD10447,2023-02-14,CUST00196,18-25,South,Email,Tablet,Sports,Badminton Set,,4,10,586.3,5863.0,5276.7,Debit Card,3,No,,4.1
+ORD10448,2023-02-14,CUST00120,18-25,West,Organic Search,Desktop,Beauty,Shampoo,433.26,5,5,108.31,2166.3,2057.99,COD,5,No,,4.5
+ORD10449,2023-06-20,CUST00426,46-55,East,Organic Search,Desktop,Clothing,Jeans,1237.08,4,0,0.0,4948.32,4948.32,Net Banking,1,Yes,Changed Mind,4.7
+ORD10450,2023-04-29,CUST00066,26-35,Central,Direct,Desktop,Books,Biography,575.07,5,25,718.84,2875.35,2156.51,Net Banking,1,No,,3.4
+ORD10451,2023-08-29,CUST00520,26-35,West,Paid Ads,Desktop,Beauty,Lipstick,220.81,3,5,33.12,662.43,629.31,Wallet,6,No,,4.3
+ORD10452,2023-03-24,CUST00495,18-25,West,Email,Desktop,Beauty,Lipstick,1159.8,3,25,869.85,3479.4,2609.55,Debit Card,10,No,,3.9
+ORD10453,2023-05-14,CUST00179,46-55,West,Organic Search,Tablet,Clothing,Kurta,498.8,1,15,74.82,498.8,423.98,Debit Card,6,No,,3.7
+ORD10454,2023-07-01,CUST00874,36-45,West,Email,Mobile,Electronics,Tablet,21204.78,3,15,9542.15,63614.34,54072.19,Credit Card,1,No,,2.4
+ORD10455,2023-09-17,CUST00121,46-55,West,Referral,Desktop,Toys,Puzzle,992.55,1,0,0.0,992.55,992.55,Wallet,2,No,,3.4
+ORD10456,2023-03-12,CUST00788,18-25,South,Organic Search,Desktop,Toys,LEGO Set,1771.48,3,15,797.17,5314.44,4517.27,UPI,2,No,,3.2
+ORD10457,2023-09-29,CUST00142,46-55,Central,Direct,Desktop,Beauty,Lipstick,560.64,2,0,0.0,1121.28,1121.28,Credit Card,7,No,,4.3
+ORD10458,2023-02-13,CUST00063,26-35,Central,Organic Search,Tablet,Books,Self Help,585.08,5,0,0.0,2925.4,2925.4,Wallet,6,No,,4.5
+ORD10459,2023-12-15,CUST00739,36-45,Central,Paid Ads,Tablet,Toys,Puzzle,1464.46,-2,20,1171.57,5857.84,4686.27,Net Banking,9,No,,3.9
+ORD10460,2023-12-24,CUST00203,46-55,South,Referral,Tablet,Books,Self Help,643.79,5,25,804.74,3218.95,2414.21,UPI,6,No,,4.2
+ORD10461,2023-11-22,CUST00248,46-55,North,Social Media,Desktop,Clothing,T-Shirt,865.17,3,15,389.33,2595.51,2206.18,Wallet,3,Yes,Not as Described,3.2
+ORD10462,2023-06-02,CUST00825,36-45,Central,Referral,Mobile,Sports,Dumbbells,1320.01,1,25,330.0,1320.01,990.01,UPI,10,No,,1.8
+ORD10463,2023-07-13,CUST00108,26-35,North,Paid Ads,Tablet,Home & Kitchen,Bedsheet,2167.31,5,0,0.0,10836.55,10836.55,Net Banking,9,No,,4.7
+ORD10464,2023-03-08,CUST00413,36-45,West,Direct,Desktop,Toys,Doll,439.31,1,20,87.86,439.31,351.45,Net Banking,8,No,,5.0
+ORD10465,2023-03-15,CUST00729,26-35,South,Email,Desktop,Beauty,Lipstick,931.72,4,0,0.0,3726.88,3726.88,Credit Card,9,No,,4.6
+ORD10466,2023-11-05,CUST00157,18-25,North,Paid Ads,Mobile,Beauty,Shampoo,763.65,3,0,0.0,2290.95,2290.95,COD,7,Yes,Not as Described,3.8
+ORD10467,2023-04-21,CUST00501,18-25,West,Referral,Desktop,Books,Fiction Novel,571.57,3,10,171.47,1714.71,1543.24,COD,3,No,,3.9
+ORD10468,2023-03-12,CUST00153,46-55,West,Email,Mobile,Books,Textbook,1650.16,4,0,0.0,6600.64,6600.64,Net Banking,9,No,,4.1
+ORD10469,2023-11-27,CUST00725,18-25,North,Direct,Tablet,Home & Kitchen,Cookware Set,1752.01,4,10,700.8,7008.04,6307.24,Credit Card,2,No,,2.8
+ORD10470,2023-09-01,CUST00185,55+,Central,Email,Mobile,Clothing,Kurta,1537.85,1,5,76.89,1537.85,1460.96,COD,9,No,,5.0
+ORD10471,2023-01-12,CUST00425,18-25,North,Referral,Mobile,Sports,Dumbbells,2487.55,1,25,621.89,2487.55,1865.66,UPI,6,No,,5.0
+ORD10472,2023-06-07,CUST00186,18-25,West,Social Media,Desktop,Clothing,Jeans,1138.89,1,0,0.0,1138.89,1138.89,Net Banking,7,No,,5.0
+ORD10473,2023-09-10,CUST00395,55+,North,Email,Mobile,Toys,LEGO Set,1259.39,2,5,125.94,2518.78,2392.84,Net Banking,9,No,,4.7
+ORD10474,2023-10-11,CUST00805,18-25,Central,Paid Ads,Mobile,Beauty,Shampoo,743.93,1,10,74.39,743.93,669.54,UPI,10,No,,4.0
+ORD10475,2023-10-12,CUST00985,46-55,West,Social Media,Tablet,Sports,Cricket Bat,4910.12,5,20,4910.12,24550.6,19640.48,UPI,8,Yes,Changed Mind,9.7
+ORD10476,2023-01-24,CUST00405,36-45,West,Paid Ads,Tablet,Toys,Doll,1998.71,2,10,399.74,3997.42,3597.68,COD,3,No,,3.4
+ORD10477,2023-12-29,CUST00679,55+,North,Direct,Mobile,Toys,Remote Car,3628.58,3,10,1088.57,10885.74,9797.17,Wallet,8,No,,3.7
+ORD10478,2023-07-31,CUST00552,18-25,West,Direct,Mobile,Electronics,Tablet,33826.45,1,0,0.0,33826.45,33826.45,UPI,9,No,,3.6
+ORD10479,2023-04-01,CUST00380,55+,East,Paid Ads,Mobile,Toys,Doll,1706.69,3,20,1024.01,5120.07,4096.06,COD,1,No,,7.1
+ORD10480,2023-09-10,CUST00215,18-25,East,Referral,Tablet,Beauty,Perfume,4137.87,2,5,413.79,8275.74,7861.95,Net Banking,6,Yes,Changed Mind,5.0
+ORD10481,2023-02-03,CUST00067,18-25,East,Paid Ads,Tablet,Clothing,Kurta,806.92,5,0,0.0,4034.6,4034.6,Credit Card,10,No,,3.3
+ORD10482,2023-01-02,CUST00962,26-35,Central,Email,Desktop,Beauty,Serum,1997.59,5,25,2496.99,9987.95,7490.96,UPI,7,No,,4.2
+ORD10483,2023-05-23,CUST00324,18-25,North,Direct,Mobile,Sports,Yoga Mat,2267.6,2,0,0.0,4535.2,4535.2,Wallet,7,No,,3.9
+ORD10484,2023-06-18,CUST00025,36-45,North,Email,Mobile,Books,Fiction Novel,562.65,2,0,0.0,1125.3,1125.3,UPI,5,Yes,Defective,4.8
+ORD10485,2023-02-07,CUST00783,18-25,North,Email,Desktop,Toys,LEGO Set,5108.17,5,5,1277.04,25540.85,24263.81,Wallet,10,No,,4.1
+ORD10486,2023-06-04,CUST00573,18-25,West,Paid Ads,Tablet,Electronics,Laptop,35580.2,4,0,0.0,142320.8,142320.8,Wallet,10,No,,5.0
+ORD10487,2023-11-14,CUST00465,26-35,Central,Paid Ads,Tablet,Sports,Yoga Mat,1406.82,4,20,1125.46,5627.28,4501.82,Debit Card,10,Yes,Defective,8.9
+ORD10488,2023-11-14,CUST00131,26-35,East,Referral,Tablet,Beauty,Serum,1066.34,4,25,1066.34,4265.36,3199.02,Debit Card,8,No,,4.2
+ORD10489,2023-07-08,CUST00674,36-45,North,Email,Desktop,Clothing,Jacket,2543.37,3,10,763.01,7630.11,6867.1,Debit Card,1,No,,4.2
+ORD10490,2023-12-08,CUST00340,46-55,East,Paid Ads,Mobile,Clothing,Jeans,2463.16,3,5,369.47,7389.48,7020.01,Net Banking,8,No,,5.0
+ORD10491,2023-12-21,CUST00219,26-35,West,Paid Ads,Desktop,Toys,LEGO Set,3479.65,1,5,173.98,3479.65,3305.67,Debit Card,4,No,,3.9
+ORD10492,2023-01-16,CUST00935,36-45,South,Paid Ads,Desktop,Toys,LEGO Set,2814.09,1,15,422.11,2814.09,2391.98,Wallet,9,Yes,Not as Described,2.9
+ORD10493,2023-04-11,CUST00269,46-55,North,Social Media,Mobile,Clothing,Saree,,2,0,0.0,13804.5,13804.5,UPI,1,No,,4.4
+ORD10494,2023-09-27,CUST00148,46-55,East,Social Media,Tablet,Books,Self Help,384.82,3,0,0.0,1154.46,1154.46,Net Banking,10,No,,4.2
+ORD10495,2023-10-02,CUST00336,26-35,Central,Referral,Desktop,Beauty,Shampoo,748.66,5,5,187.16,3743.3,3556.14,Debit Card,5,No,,3.8
+ORD10496,2023-03-27,CUST00384,26-35,West,Direct,Desktop,Beauty,Face Cream,1220.06,5,0,0.0,6100.3,6100.3,Net Banking,9,No,,5.0
+ORD10497,2023-04-17,CUST00463,46-55,Central,Paid Ads,Desktop,Home & Kitchen,Cookware Set,3705.2,5,0,0.0,18526.0,18526.0,UPI,4,No,,3.1
+ORD10498,2023-08-16,CUST00637,26-35,West,Social Media,Desktop,Sports,Yoga Mat,768.66,1,10,76.87,768.66,691.79,Net Banking,9,No,,3.2
+ORD10499,2023-07-03,CUST00514,26-35,North,Organic Search,Mobile,Electronics,Laptop,69751.96,3,0,0.0,209255.88,209255.88,UPI,2,No,,3.5
+ORD10500,2023-05-09,CUST00196,36-45,Central,Social Media,Mobile,Electronics,Tablet,20015.33,2,15,6004.6,40030.66,34026.06,UPI,5,No,,4.2
+ORD10501,2023-10-24,CUST00525,55+,South,Email,Mobile,Home & Kitchen,Bedsheet,2457.82,4,20,1966.26,9831.28,7865.02,COD,1,No,,2.5
+ORD10502,2023-02-13,CUST00428,26-35,Central,Paid Ads,Desktop,Sports,Badminton Set,2418.29,4,15,1450.97,9673.16,8222.19,Wallet,6,No,,2.3
+ORD10503,2023-04-26,CUST00771,26-35,North,Referral,Mobile,Electronics,Smart Watch,16587.22,3,15,7464.25,49761.66,42297.41,Debit Card,7,No,,4.8
+ORD10504,2023-07-15,CUST00487,18-25,North,Paid Ads,Mobile,Clothing,Saree,4890.97,5,20,4890.97,24454.85,19563.88,Wallet,4,No,,4.7
+ORD10505,2023-01-14,CUST00934,55+,North,Email,Mobile,Sports,Cricket Bat,1160.3,5,25,1450.38,5801.5,4351.12,UPI,3,No,,4.3
+ORD10506,2023-03-22,CUST00399,55+,West,Direct,Tablet,Sports,Yoga Mat,843.65,4,20,674.92,3374.6,2699.68,Net Banking,2,No,,2.9
+ORD10507,2023-09-15,CUST00008,55+,South,Referral,Desktop,Clothing,Kurta,1607.69,3,5,241.15,4823.07,4581.92,COD,8,No,,4.6
+ORD10508,2023-05-28,CUST00401,36-45,Central,Direct,Desktop,Books,Comic,238.81,1,0,0.0,238.81,238.81,Net Banking,8,No,,4.8
+ORD10509,2023-12-24,CUST00892,18-25,North,Direct,Tablet,Books,Self Help,549.26,1,20,109.85,549.26,439.41,Wallet,1,No,,2.8
+ORD10510,2023-07-08,CUST00420,26-35,North,Direct,Tablet,Clothing,Jacket,3056.39,5,0,0.0,15281.95,15281.95,Wallet,2,No,,2.6
+ORD10511,2023-07-23,CUST00727,46-55,North,Organic Search,Tablet,Beauty,Lipstick,581.16,4,5,116.23,2324.64,2208.41,Wallet,1,Yes,Defective,4.0
+ORD10512,2023-03-29,CUST00760,26-35,South,Email,Desktop,Clothing,Jacket,1701.28,3,0,0.0,5103.84,5103.84,Debit Card,1,No,,4.2
+ORD10513,2023-08-15,CUST00831,26-35,East,Email,Mobile,Clothing,T-Shirt,1360.49,5,5,340.12,6802.45,6462.33,COD,1,No,,4.4
+ORD10514,2023-07-11,CUST00015,26-35,North,Direct,Mobile,Electronics,Smartphone,40441.21,2,5,4044.12,80882.42,76838.3,Wallet,4,No,,4.2
+ORD10515,2023-06-15,CUST00640,26-35,South,Organic Search,Desktop,Clothing,T-Shirt,740.38,1,15,111.06,740.38,629.32,UPI,9,No,,4.0
+ORD10516,2023-07-19,CUST00666,36-45,Central,Email,Mobile,Clothing,T-Shirt,722.78,3,0,0.0,2168.34,2168.34,Wallet,4,No,,5.0
+ORD10517,2023-11-20,CUST00996,36-45,East,Direct,Desktop,Sports,Badminton Set,1011.5,1,15,151.72,1011.5,859.78,Credit Card,7,No,,4.6
+ORD10518,2023-07-15,CUST00014,26-35,West,Paid Ads,Tablet,Home & Kitchen,Air Fryer,8476.8,5,25,10596.0,42384.0,31788.0,Credit Card,9,No,,4.1
+ORD10519,2023-03-19,CUST00039,26-35,East,Paid Ads,Desktop,Electronics,Laptop,63707.13,3,5,9556.07,191121.39,181565.32,UPI,7,No,,5.0
+ORD10520,2023-01-13,CUST00553,18-25,South,Referral,Desktop,Beauty,Face Cream,877.13,4,10,350.85,3508.52,3157.67,COD,4,No,,3.7
+ORD10521,2023-09-09,CUST00054,36-45,Central,Referral,Mobile,Home & Kitchen,Mixer Grinder,4654.17,1,0,0.0,4654.17,4654.17,Debit Card,2,No,,4.5
+ORD10522,2023-03-26,CUST00293,36-45,West,Organic Search,Desktop,Sports,Yoga Mat,1352.48,4,10,540.99,5409.92,4868.93,Net Banking,4,No,,4.3
+ORD10523,2023-03-21,CUST00438,46-55,South,Referral,Tablet,Books,Self Help,435.36,4,20,348.29,1741.44,1393.15,Debit Card,8,Yes,Changed Mind,4.5
+ORD10524,2023-07-12,CUST00481,18-25,East,Email,Desktop,Home & Kitchen,Curtains,2283.68,-3,10,913.47,9134.72,8221.25,Net Banking,9,No,,4.4
+ORD10525,2023-07-29,CUST00128,26-35,East,Direct,Desktop,Books,Textbook,1014.46,3,0,0.0,3043.38,3043.38,COD,1,No,,4.2
+ORD10526,2023-11-30,CUST00036,55+,South,Social Media,Tablet,Beauty,Lipstick,834.98,3,0,0.0,2504.94,2504.94,Net Banking,7,No,,3.9
+ORD10527,2023-01-07,CUST00660,36-45,North,Referral,Mobile,Beauty,Shampoo,315.29,5,0,0.0,1576.45,1576.45,Net Banking,2,No,,3.4
+ORD10528,2023-10-28,CUST00891,18-25,South,Social Media,Tablet,Clothing,Jacket,2264.36,3,20,1358.62,6793.08,5434.46,Debit Card,5,No,,4.0
+ORD10529,2023-09-09,CUST00538,26-35,South,Direct,Mobile,Beauty,Lipstick,899.01,1,0,0.0,899.01,899.01,Debit Card,1,Yes,Changed Mind,2.2
+ORD10530,2023-10-18,CUST00778,18-25,Central,Organic Search,Tablet,Books,Self Help,451.31,1,25,112.83,451.31,338.48,Debit Card,4,No,,4.5
+ORD10531,2023-02-02,CUST00490,26-35,North,Direct,Tablet,Electronics,Earbuds,885.68,-2,10,88.57,885.68,797.11,Credit Card,6,Yes,Wrong Item,4.2
+ORD10532,2023-11-05,CUST00485,36-45,East,Social Media,Mobile,Electronics,Laptop,77010.11,1,20,15402.02,77010.11,61608.09,UPI,9,No,,4.1
+ORD10533,2023-06-19,CUST00743,46-55,Central,Social Media,Tablet,Beauty,Lipstick,578.44,1,15,86.77,578.44,491.67,Debit Card,2,Yes,Changed Mind,2.1
+ORD10534,2023-12-05,CUST00047,55+,West,Email,Tablet,Home & Kitchen,Curtains,2778.73,4,20,2222.98,11114.92,8891.94,COD,4,Yes,Not as Described,4.8
+ORD10535,2023-07-17,CUST00730,18-25,Central,Organic Search,Mobile,Toys,LEGO Set,2741.67,4,0,0.0,10966.68,10966.68,Net Banking,5,No,,4.1
+ORD10536,2023-03-28,CUST00250,26-35,West,Direct,Mobile,Toys,LEGO Set,2506.74,5,25,3133.43,12533.7,9400.27,Debit Card,8,No,,3.0
+ORD10537,2023-12-07,CUST00687,18-25,North,Direct,Desktop,Home & Kitchen,Curtains,3252.19,2,10,650.44,6504.38,5853.94,Debit Card,8,No,,4.1
+ORD10538,2023-07-15,CUST00266,18-25,South,Direct,Mobile,Sports,Badminton Set,755.2,3,20,453.12,2265.6,1812.48,COD,9,No,,3.5
+ORD10539,2023-06-09,CUST00195,46-55,South,Referral,Tablet,Home & Kitchen,Mixer Grinder,7119.98,4,0,0.0,28479.92,28479.92,COD,1,No,,4.2
+ORD10540,2023-06-11,CUST00697,26-35,North,Referral,Desktop,Sports,Cricket Bat,1532.93,1,25,383.23,1532.93,1149.7,UPI,3,No,,3.8
+ORD10541,2023-11-20,CUST00722,55+,South,Direct,Mobile,Sports,Yoga Mat,1046.91,5,25,1308.64,5234.55,3925.91,Wallet,4,No,,4.5
+ORD10542,2023-07-20,CUST00023,26-35,West,Email,Mobile,Beauty,Face Cream,1400.11,2,25,700.05,2800.22,2100.17,COD,5,No,,3.2
+ORD10543,2023-02-19,CUST00811,36-45,West,Direct,Mobile,Beauty,Perfume,1770.64,2,20,708.26,3541.28,2833.02,COD,3,No,,2.7
+ORD10544,2023-04-18,CUST00371,36-45,South,Email,Desktop,Clothing,Jacket,4479.78,3,0,0.0,13439.34,13439.34,Wallet,4,No,,4.4
+ORD10545,2023-08-31,CUST00121,55+,West,Paid Ads,Mobile,Toys,Board Game,2814.96,1,15,422.24,2814.96,2392.72,Credit Card,3,No,,5.0
+ORD10546,2023-12-01,CUST00092,36-45,West,Social Media,Mobile,Clothing,Jacket,3443.13,5,0,0.0,17215.65,17215.65,Credit Card,7,No,,5.0
+ORD10547,2023-01-12,CUST00587,26-35,West,Email,Tablet,Electronics,Smartphone,13126.17,5,5,3281.54,65630.85,62349.31,Wallet,10,No,,3.9
+ORD10548,2023-02-02,CUST00570,46-55,Central,Referral,Tablet,Books,Textbook,1314.28,1,15,197.14,1314.28,1117.14,Wallet,9,No,,4.1
+ORD10549,2023-11-03,CUST00820,26-35,North,Referral,Desktop,Electronics,Laptop,116911.29,1,0,0.0,116911.29,116911.29,Credit Card,3,Yes,Changed Mind,3.9
+ORD10550,2023-08-05,CUST00927,36-45,East,Referral,Desktop,Electronics,Smartphone,29258.23,3,0,0.0,87774.69,87774.69,COD,1,No,,5.0
+ORD10551,2023-05-02,CUST00307,46-55,Central,Social Media,Desktop,Sports,Badminton Set,1103.61,1,0,0.0,1103.61,1103.61,Debit Card,1,No,,4.6
+ORD10552,2023-05-14,CUST00968,26-35,North,Direct,Tablet,Beauty,Serum,1497.24,5,10,748.62,7486.2,6737.58,UPI,7,No,,4.5
+ORD10553,2023-08-03,CUST00807,26-35,North,Referral,Mobile,Beauty,Shampoo,,5,0,0.0,3071.95,3071.95,Wallet,3,No,,4.8
+ORD10554,2023-06-20,CUST00101,26-35,North,Paid Ads,Tablet,Sports,Cycle,6648.98,1,15,997.35,6648.98,5651.63,Wallet,5,No,,4.2
+ORD10555,2023-09-28,CUST00887,26-35,East,Email,Mobile,Home & Kitchen,Cookware Set,6017.39,4,0,0.0,24069.56,24069.56,UPI,6,No,,3.4
+ORD10556,2023-10-31,CUST00674,18-25,East,Direct,Mobile,Toys,Puzzle,917.17,4,25,917.17,3668.68,2751.51,Wallet,3,No,,3.5
+ORD10557,2023-07-01,CUST00283,55+,South,Social Media,Tablet,Sports,Cycle,22669.67,2,25,11334.83,45339.34,34004.51,Credit Card,8,No,,2.8
+ORD10558,2023-02-09,CUST00762,26-35,Central,Direct,Mobile,Home & Kitchen,Curtains,3265.85,1,0,0.0,3265.85,3265.85,Net Banking,4,No,,9.8
+ORD10559,2023-07-27,CUST00933,46-55,East,Paid Ads,Tablet,Books,Biography,,5,0,0.0,3134.1,3134.1,Wallet,1,No,,4.2
+ORD10560,2023-03-28,CUST00137,26-35,East,Organic Search,Desktop,Toys,Puzzle,1089.3,1,25,272.32,1089.3,816.98,Wallet,9,No,,4.3
+ORD10561,2023-06-03,CUST00219,18-25,Central,Organic Search,Desktop,Clothing,Kurta,2186.63,1,10,218.66,2186.63,1967.97,COD,8,No,,4.7
+ORD10562,2023-06-18,CUST00191,26-35,Central,Referral,Mobile,Toys,Doll,,1,25,99.44,397.74,298.3,Net Banking,5,No,,5.0
+ORD10563,2023-08-29,CUST00374,26-35,West,Direct,Desktop,Electronics,Smart Watch,2124.39,3,5,318.66,6373.17,6054.51,Debit Card,7,No,,4.1
+ORD10564,2023-12-30,CUST00762,26-35,East,Organic Search,Desktop,Clothing,Saree,6179.06,1,15,926.86,6179.06,5252.2,Net Banking,4,Yes,Not as Described,4.8
+ORD10565,2023-07-24,CUST00760,46-55,North,Paid Ads,Mobile,Sports,Cycle,24995.5,2,15,7498.65,49991.0,42492.35,UPI,9,No,,4.2
+ORD10566,2023-12-14,CUST00492,26-35,South,Direct,Tablet,Sports,Yoga Mat,2034.77,2,0,0.0,4069.54,4069.54,Debit Card,6,No,,3.9
+ORD10567,2023-12-08,CUST00724,36-45,South,Referral,Tablet,Clothing,Saree,6320.44,3,5,948.07,18961.32,18013.25,Wallet,7,No,,3.9
+ORD10568,2023-05-21,CUST00094,46-55,South,Paid Ads,Desktop,Clothing,Jeans,801.15,4,0,0.0,3204.6,3204.6,Net Banking,4,No,,3.0
+ORD10569,2023-02-26,CUST00966,26-35,North,Organic Search,Mobile,Books,Fiction Novel,379.44,1,10,37.94,379.44,341.5,Wallet,5,No,,4.5
+ORD10570,2023-11-07,CUST00343,26-35,South,Social Media,Desktop,Beauty,Perfume,1453.9,-3,10,581.56,5815.6,5234.04,Wallet,2,No,,4.0
+ORD10571,2023-05-02,CUST00394,18-25,North,Referral,Tablet,Toys,Remote Car,3177.38,5,15,2383.04,15886.9,13503.86,Debit Card,5,No,,4.9
+ORD10572,2023-06-04,CUST00045,18-25,Central,Social Media,Desktop,Clothing,Jacket,5627.5,1,15,844.12,5627.5,4783.38,Net Banking,8,No,,4.4
+ORD10573,2023-08-03,CUST00516,36-45,East,Organic Search,Tablet,Beauty,Face Cream,1384.1,1,25,346.02,1384.1,1038.08,Credit Card,9,No,,5.0
+ORD10574,2023-12-17,CUST00769,26-35,South,Paid Ads,Mobile,Toys,Board Game,2351.79,4,25,2351.79,9407.16,7055.37,Debit Card,9,No,,4.5
+ORD10575,2023-09-15,CUST00873,26-35,North,Referral,Mobile,Sports,Cricket Bat,3960.56,1,25,990.14,3960.56,2970.42,UPI,9,No,,3.9
+ORD10576,2023-05-19,CUST00548,18-25,East,Organic Search,Tablet,Electronics,Laptop,114784.14,3,0,0.0,344352.42,344352.42,COD,1,No,,4.0
+ORD10577,2023-06-16,CUST00011,46-55,North,Referral,Tablet,Home & Kitchen,Mixer Grinder,4450.06,5,10,2225.03,22250.3,20025.27,COD,1,No,,5.0
+ORD10578,2023-08-15,CUST00879,36-45,East,Paid Ads,Desktop,Electronics,Smart Watch,19021.81,3,5,2853.27,57065.43,54212.16,Credit Card,4,No,,4.3
+ORD10579,2023-10-19,CUST00185,36-45,West,Direct,Tablet,Books,Self Help,,2,5,42.97,859.4,816.43,Debit Card,8,No,,5.0
+ORD10580,2023-11-27,CUST00618,18-25,North,Paid Ads,Mobile,Electronics,Laptop,36484.38,2,25,18242.19,72968.76,54726.57,Credit Card,7,Yes,Wrong Item,9.3
+ORD10581,2023-01-05,CUST00838,26-35,Central,Email,Mobile,Home & Kitchen,Mixer Grinder,7631.59,5,0,0.0,38157.95,38157.95,UPI,2,No,,2.6
+ORD10582,2023-11-18,CUST00304,18-25,South,Email,Desktop,Home & Kitchen,Curtains,1294.44,1,10,129.44,1294.44,1165.0,Debit Card,9,No,,6.9
+ORD10583,2023-09-09,CUST00230,18-25,North,Social Media,Mobile,Home & Kitchen,Bedsheet,1064.71,4,0,0.0,4258.84,4258.84,Credit Card,3,No,,3.7
+ORD10584,2023-11-04,CUST00309,36-45,West,Direct,Desktop,Sports,Cricket Bat,1890.34,5,15,1417.75,9451.7,8033.95,UPI,3,No,,4.7
+ORD10585,2023-06-13,CUST00739,36-45,West,Direct,Desktop,Toys,LEGO Set,4944.28,2,0,0.0,9888.56,9888.56,Debit Card,3,No,,5.0
+ORD10586,2023-06-30,CUST00617,36-45,South,Email,Desktop,Electronics,Earbuds,4976.47,2,20,1990.59,9952.94,7962.35,COD,6,No,,1.9
+ORD10587,2023-07-16,CUST00432,26-35,North,Paid Ads,Desktop,Books,Biography,543.57,5,5,135.89,2717.85,2581.96,Credit Card,2,No,,4.3
+ORD10588,2023-02-26,CUST00798,46-55,West,Paid Ads,Mobile,Clothing,T-Shirt,671.12,4,0,0.0,2684.48,2684.48,Debit Card,1,No,,3.0
+ORD10589,2023-01-14,CUST00719,18-25,South,Organic Search,Mobile,Electronics,Laptop,40551.22,2,20,16220.49,81102.44,64881.95,UPI,7,No,,5.0
+ORD10590,2023-03-18,CUST00972,26-35,North,Social Media,Mobile,Clothing,T-Shirt,518.56,1,20,103.71,518.56,414.85,Debit Card,3,No,,4.6
+ORD10591,2023-01-06,CUST00697,55+,Central,Referral,Desktop,Electronics,Smartphone,33375.29,2,0,0.0,66750.58,66750.58,Wallet,7,No,,4.8
+ORD10592,2023-09-25,CUST00634,18-25,Central,Organic Search,Tablet,Clothing,Jacket,5657.25,3,0,0.0,16971.75,16971.75,Net Banking,7,No,,4.4
+ORD10593,2023-03-26,CUST00663,26-35,East,Organic Search,Mobile,Books,Textbook,1444.32,4,20,1155.46,5777.28,4621.82,UPI,1,No,,4.4
+ORD10594,2023-06-08,CUST00276,18-25,West,Organic Search,Mobile,Clothing,Kurta,623.58,2,0,0.0,1247.16,1247.16,UPI,4,No,,3.9
+ORD10595,2023-07-23,CUST00770,26-35,East,Email,Tablet,Electronics,Earbuds,538.15,3,10,161.44,1614.45,1453.01,COD,9,No,,3.8
+ORD10596,2023-10-28,CUST00166,18-25,South,Paid Ads,Tablet,Electronics,Tablet,50374.72,2,0,0.0,100749.44,100749.44,Wallet,7,No,,4.2
+ORD10597,2023-08-18,CUST00369,36-45,West,Paid Ads,Mobile,Clothing,Jeans,2983.54,5,15,2237.66,14917.7,12680.04,COD,3,No,,3.8
+ORD10598,2023-02-19,CUST00993,36-45,South,Social Media,Mobile,Sports,Yoga Mat,2416.03,5,25,3020.04,12080.15,9060.11,Credit Card,1,No,,4.7
+ORD10599,2023-04-02,CUST00485,55+,North,Referral,Desktop,Home & Kitchen,Cookware Set,3498.31,1,0,0.0,3498.31,3498.31,Credit Card,8,No,,3.3
+ORD10600,2023-08-14,CUST00086,36-45,North,Referral,Tablet,Home & Kitchen,Bedsheet,1502.35,5,0,0.0,7511.75,7511.75,Credit Card,6,No,,3.5
+ORD10601,2023-03-21,CUST00163,36-45,North,Social Media,Desktop,Beauty,Shampoo,604.83,5,0,0.0,3024.15,3024.15,Net Banking,2,No,,3.5
+ORD10602,2023-02-13,CUST00787,26-35,Central,Email,Mobile,Beauty,Serum,2740.33,4,0,0.0,10961.32,10961.32,Wallet,3,No,,5.0
+ORD10603,2023-10-07,CUST00150,36-45,West,Organic Search,Desktop,Beauty,Lipstick,314.33,4,0,0.0,1257.32,1257.32,Net Banking,3,No,,3.1
+ORD10604,2023-05-19,CUST00415,18-25,South,Direct,Desktop,Books,Self Help,227.04,1,20,45.41,227.04,181.63,Debit Card,5,No,,4.3
+ORD10605,2023-06-02,CUST00965,26-35,West,Social Media,Tablet,Toys,LEGO Set,1462.21,4,15,877.33,5848.84,4971.51,COD,3,No,,4.2
+ORD10606,2023-02-09,CUST00962,36-45,South,Email,Desktop,Books,Fiction Novel,402.41,5,5,100.6,2012.05,1911.45,Credit Card,10,No,,9.6
+ORD10607,2023-03-06,CUST00593,18-25,Central,Paid Ads,Tablet,Toys,Doll,746.76,1,25,186.69,746.76,560.07,Net Banking,8,No,,5.0
+ORD10608,2023-07-09,CUST00717,26-35,Central,Email,Tablet,Clothing,Saree,2310.29,2,0,0.0,4620.58,4620.58,UPI,6,Yes,Not as Described,2.4
+ORD10609,2023-10-11,CUST00447,26-35,East,Direct,Tablet,Electronics,Laptop,71294.12,3,0,0.0,213882.36,213882.36,Credit Card,10,No,,4.0
+ORD10610,2023-02-23,CUST00649,26-35,West,Paid Ads,Mobile,Electronics,Smartphone,11764.79,1,20,2352.96,11764.79,9411.83,Net Banking,8,No,,3.3
+ORD10611,2023-06-29,CUST00841,36-45,South,Referral,Desktop,Sports,Cycle,7862.53,4,0,0.0,31450.12,31450.12,UPI,8,No,,3.3
+ORD10612,2023-01-03,CUST00837,26-35,Central,Email,Mobile,Beauty,Perfume,1883.29,4,5,376.66,7533.16,7156.5,COD,7,Yes,Defective,4.4
+ORD10613,2023-10-23,CUST00652,26-35,South,Email,Mobile,Books,Self Help,508.13,4,0,0.0,2032.52,2032.52,Credit Card,7,No,,4.6
+ORD10614,2023-11-18,CUST00096,18-25,North,Referral,Tablet,Beauty,Shampoo,477.77,5,20,477.77,2388.85,1911.08,COD,5,No,,4.4
+ORD10615,2023-11-21,CUST00669,46-55,West,Social Media,Tablet,Electronics,Tablet,29120.24,2,25,14560.12,58240.48,43680.36,Credit Card,6,No,,4.6
+ORD10616,2023-02-26,CUST00269,46-55,South,Email,Mobile,Home & Kitchen,Air Fryer,11414.78,1,0,0.0,11414.78,11414.78,Net Banking,8,No,,4.3
+ORD10617,2023-04-18,CUST00322,36-45,South,Direct,Tablet,Toys,LEGO Set,3068.73,4,0,0.0,12274.92,12274.92,Wallet,7,No,,4.3
+ORD10618,2023-09-05,CUST00261,55+,Central,Paid Ads,Mobile,Sports,Yoga Mat,734.41,3,15,330.48,2203.23,1872.75,UPI,10,No,,5.0
+ORD10619,2023-02-12,CUST00494,18-25,West,Direct,Desktop,Electronics,Laptop,32654.79,2,5,3265.48,65309.58,62044.1,Net Banking,3,No,,4.0
+ORD10620,2023-04-12,CUST00602,26-35,West,Email,Tablet,Sports,Cycle,28058.7,3,0,0.0,84176.1,84176.1,Wallet,5,No,,5.0
+ORD10621,2023-08-08,CUST00383,46-55,Central,Social Media,Tablet,Home & Kitchen,Bedsheet,2057.28,5,20,2057.28,10286.4,8229.12,Net Banking,4,No,,4.9
+ORD10622,2023-07-23,CUST00252,18-25,North,Organic Search,Desktop,Home & Kitchen,Cookware Set,6046.78,5,15,4535.08,30233.9,25698.82,Wallet,1,Yes,Not as Described,3.5
+ORD10623,2023-04-30,CUST00617,26-35,North,Referral,Tablet,Electronics,Earbuds,1461.98,5,15,1096.48,7309.9,6213.42,Net Banking,9,Yes,Not as Described,4.2
+ORD10624,2023-04-11,CUST00432,18-25,South,Referral,Mobile,Beauty,Lipstick,517.78,3,5,77.67,1553.34,1475.67,UPI,1,No,,1.6
+ORD10625,2023-03-09,CUST00346,36-45,East,Social Media,Desktop,Electronics,Tablet,59397.74,4,10,23759.1,237590.96,213831.86,UPI,7,Yes,Defective,4.0
+ORD10626,2023-11-10,CUST00870,36-45,North,Organic Search,Mobile,Books,Fiction Novel,400.4,3,25,300.3,1201.2,900.9,Credit Card,1,No,,3.7
+ORD10627,2023-04-26,CUST00836,46-55,East,Organic Search,Mobile,Toys,LEGO Set,1693.67,3,20,1016.2,5081.01,4064.81,Credit Card,3,Yes,Not as Described,3.2
+ORD10628,2023-05-19,CUST00327,46-55,West,Direct,Desktop,Home & Kitchen,Air Fryer,5373.54,5,20,5373.54,26867.7,21494.16,Wallet,3,No,,3.6
+ORD10629,2023-12-05,CUST00330,36-45,North,Social Media,Tablet,Electronics,Tablet,36379.45,5,25,45474.31,181897.25,136422.94,Debit Card,8,No,,3.8
+ORD10630,2023-01-31,CUST00500,18-25,East,Social Media,Tablet,Beauty,Shampoo,601.73,1,25,150.43,601.73,451.3,Net Banking,4,Yes,Wrong Item,3.2
+ORD10631,2023-04-23,CUST00464,46-55,East,Email,Mobile,Beauty,Shampoo,701.07,1,0,0.0,701.07,701.07,Wallet,6,No,,4.2
+ORD10632,2023-02-24,CUST00030,26-35,Central,Organic Search,Desktop,Home & Kitchen,Cookware Set,5066.11,2,25,2533.05,10132.22,7599.17,Net Banking,2,No,,4.4
+ORD10633,2023-01-28,CUST00101,18-25,South,Email,Mobile,Clothing,Jeans,1492.32,4,15,895.39,5969.28,5073.89,COD,8,No,,3.7
+ORD10634,2023-02-25,CUST00055,46-55,East,Paid Ads,Tablet,Home & Kitchen,Cookware Set,4840.96,5,20,4840.96,24204.8,19363.84,Wallet,1,No,,4.5
+ORD10635,2023-12-21,CUST00176,36-45,North,Organic Search,Mobile,Beauty,Lipstick,591.91,1,5,29.6,591.91,562.31,COD,5,No,,3.9
+ORD10636,2023-03-29,CUST00467,18-25,South,Social Media,Mobile,Beauty,Serum,,3,5,245.94,4918.71,4672.77,Debit Card,6,No,,4.4
+ORD10637,2023-09-08,CUST00047,46-55,Central,Referral,Mobile,Beauty,Face Cream,972.21,4,0,0.0,3888.84,3888.84,Debit Card,4,No,,4.6
+ORD10638,2023-09-09,CUST00374,26-35,Central,Direct,Tablet,Toys,LEGO Set,1499.96,3,25,1124.97,4499.88,3374.91,Net Banking,6,No,,4.0
+ORD10639,2023-07-30,CUST00146,26-35,West,Social Media,Mobile,Electronics,Earbuds,3586.03,1,0,0.0,3586.03,3586.03,Wallet,4,No,,4.9
+ORD10640,2023-05-21,CUST00540,18-25,Central,Email,Desktop,Electronics,Laptop,112858.25,4,0,0.0,451433.0,451433.0,UPI,9,No,,2.1
+ORD10641,2023-08-10,CUST00812,36-45,South,Email,Tablet,Clothing,T-Shirt,953.37,3,0,0.0,2860.11,2860.11,Debit Card,8,No,,4.6
+ORD10642,2023-09-07,CUST00290,46-55,North,Organic Search,Desktop,Sports,Dumbbells,3419.94,2,10,683.99,6839.88,6155.89,Debit Card,5,Yes,Not as Described,7.4
+ORD10643,2023-02-14,CUST00751,18-25,West,Social Media,Mobile,Home & Kitchen,Bedsheet,2463.16,5,0,0.0,12315.8,12315.8,Wallet,5,No,,4.0
+ORD10644,2023-06-04,CUST00331,46-55,West,Referral,Mobile,Beauty,Lipstick,622.56,1,10,62.26,622.56,560.3,UPI,10,No,,2.9
+ORD10645,2023-07-12,CUST00711,26-35,West,Email,Desktop,Home & Kitchen,Air Fryer,5676.01,4,0,0.0,22704.04,22704.04,Net Banking,7,Yes,Changed Mind,3.5
+ORD10646,2023-02-15,CUST00525,26-35,North,Email,Mobile,Books,Fiction Novel,560.65,1,20,112.13,560.65,448.52,Net Banking,3,No,,3.8
+ORD10647,2023-01-28,CUST00342,36-45,North,Organic Search,Tablet,Beauty,Face Cream,801.65,5,25,1002.06,4008.25,3006.19,COD,2,Yes,Defective,4.6
+ORD10648,2023-09-22,CUST00917,36-45,North,Email,Tablet,Beauty,Serum,2322.34,1,5,116.12,2322.34,2206.22,Wallet,3,No,,4.4
+ORD10649,2023-09-24,CUST00107,26-35,North,Social Media,Desktop,Clothing,T-Shirt,287.28,2,0,0.0,574.56,574.56,Net Banking,2,No,,3.9
+ORD10650,2023-11-10,CUST00652,18-25,Central,Direct,Tablet,Clothing,Jeans,2604.3,5,10,1302.15,13021.5,11719.35,COD,8,No,,3.4
+ORD10651,2023-10-29,CUST00282,26-35,West,Paid Ads,Mobile,Clothing,Jacket,3402.33,3,0,0.0,10206.99,10206.99,UPI,8,No,,3.4
+ORD10652,2023-01-18,CUST00143,26-35,East,Referral,Tablet,Books,Fiction Novel,403.89,1,10,40.39,403.89,363.5,Debit Card,10,No,,4.6
+ORD10653,2023-12-02,CUST00737,36-45,East,Email,Mobile,Home & Kitchen,Cookware Set,3648.43,1,0,0.0,3648.43,3648.43,Wallet,3,No,,3.6
+ORD10654,2023-10-22,CUST00332,36-45,North,Organic Search,Mobile,Books,Comic,388.77,5,0,0.0,1943.85,1943.85,Wallet,9,No,,3.6
+ORD10655,2023-12-14,CUST00238,55+,South,Direct,Desktop,Clothing,Jeans,741.35,1,25,185.34,741.35,556.01,Net Banking,8,No,,3.9
+ORD10656,2023-02-07,CUST00946,18-25,Central,Referral,Mobile,Electronics,Smartphone,33699.95,1,0,0.0,33699.95,33699.95,Debit Card,8,No,,2.8
+ORD10657,2023-04-14,CUST00542,46-55,North,Paid Ads,Mobile,Home & Kitchen,Curtains,2200.05,3,5,330.01,6600.15,6270.14,Debit Card,3,No,,3.0
+ORD10658,2023-06-24,CUST00541,26-35,East,Social Media,Tablet,Electronics,Earbuds,3984.74,5,0,0.0,19923.7,19923.7,COD,3,No,,5.0
+ORD10659,2023-11-17,CUST00583,18-25,South,Organic Search,Tablet,Toys,Board Game,2503.99,4,20,2003.19,10015.96,8012.77,COD,7,No,,3.7
+ORD10660,2023-07-19,CUST00590,26-35,Central,Organic Search,Tablet,Home & Kitchen,Air Fryer,5016.19,3,10,1504.86,15048.57,13543.71,Wallet,6,Yes,Wrong Item,4.3
+ORD10661,2023-01-17,CUST00206,26-35,East,Direct,Mobile,Electronics,Tablet,33548.94,3,0,0.0,100646.82,100646.82,Debit Card,6,No,,3.9
+ORD10662,2023-06-27,CUST00083,46-55,North,Organic Search,Desktop,Books,Fiction Novel,512.55,5,0,0.0,2562.75,2562.75,COD,2,No,,3.1
+ORD10663,2023-01-11,CUST00548,36-45,West,Email,Tablet,Clothing,Saree,3906.91,3,5,586.04,11720.73,11134.69,Debit Card,1,Yes,Wrong Item,7.9
+ORD10664,2023-03-02,CUST00448,46-55,Central,Referral,Mobile,Books,Comic,264.86,1,25,66.22,264.86,198.64,Credit Card,10,No,,7.7
+ORD10665,2023-03-06,CUST00045,26-35,South,Referral,Desktop,Toys,Board Game,2531.55,1,0,0.0,2531.55,2531.55,Net Banking,8,No,,4.4
+ORD10666,2023-10-06,CUST00938,46-55,Central,Social Media,Tablet,Beauty,Face Cream,1053.57,1,10,105.36,1053.57,948.21,Debit Card,4,No,,3.9
+ORD10667,2023-01-28,CUST00723,55+,Central,Paid Ads,Desktop,Sports,Dumbbells,2139.21,5,0,0.0,10696.05,10696.05,Wallet,6,No,,3.3
+ORD10668,2023-05-01,CUST00511,46-55,North,Organic Search,Desktop,Sports,Cricket Bat,1613.74,2,0,0.0,3227.48,3227.48,COD,8,No,,3.6
+ORD10669,2023-08-16,CUST00389,18-25,Central,Social Media,Mobile,Books,Comic,105.65,4,20,84.52,422.6,338.08,COD,1,No,,4.1
+ORD10670,2023-01-15,CUST00802,36-45,West,Direct,Tablet,Toys,Remote Car,3752.64,3,5,562.9,11257.92,10695.02,UPI,6,No,,2.8
+ORD10671,2023-03-25,CUST00947,26-35,East,Organic Search,Mobile,Toys,Puzzle,802.55,5,10,401.27,4012.75,3611.48,COD,7,No,,2.9
+ORD10672,2023-07-05,CUST00623,18-25,South,Email,Desktop,Home & Kitchen,Bedsheet,1927.71,1,10,192.77,1927.71,1734.94,Credit Card,5,No,,4.3
+ORD10673,2023-11-23,CUST00060,36-45,North,Email,Mobile,Books,Fiction Novel,359.9,3,25,269.92,1079.7,809.78,UPI,9,No,,2.6
+ORD10674,2023-04-27,CUST00118,36-45,East,Organic Search,Tablet,Toys,Remote Car,1630.53,4,0,0.0,6522.12,6522.12,Wallet,3,No,,3.8
+ORD10675,2023-01-09,CUST00046,36-45,Central,Organic Search,Mobile,Clothing,T-Shirt,1437.21,3,10,431.16,4311.63,3880.47,Debit Card,6,No,,3.8
+ORD10676,2023-11-25,CUST00808,26-35,East,Referral,Mobile,Home & Kitchen,Cookware Set,3542.48,4,0,0.0,14169.92,14169.92,Debit Card,7,No,,4.4
+ORD10677,2023-02-24,CUST00321,26-35,East,Paid Ads,Desktop,Home & Kitchen,Air Fryer,5617.85,2,0,0.0,11235.7,11235.7,COD,10,No,,4.6
+ORD10678,2023-04-25,CUST00429,26-35,Central,Email,Tablet,Electronics,Laptop,64298.07,1,0,0.0,64298.07,64298.07,COD,10,No,,3.1
+ORD10679,2023-05-05,CUST00787,55+,South,Email,Tablet,Sports,Cycle,12923.48,2,10,2584.7,25846.96,23262.26,Net Banking,6,No,,3.5
+ORD10680,2023-07-05,CUST00584,46-55,West,Direct,Tablet,Home & Kitchen,Air Fryer,6167.86,5,0,0.0,30839.3,30839.3,Wallet,8,No,,3.2
+ORD10681,2023-06-10,CUST00518,55+,South,Email,Mobile,Clothing,Kurta,946.59,3,15,425.97,2839.77,2413.8,Debit Card,2,Yes,Changed Mind,4.3
+ORD10682,2023-02-21,CUST00171,55+,West,Social Media,Mobile,Electronics,Smart Watch,6740.77,5,25,8425.96,33703.85,25277.89,Net Banking,3,No,,4.1
+ORD10683,2023-06-22,CUST00632,18-25,West,Email,Tablet,Beauty,Serum,1027.73,3,0,0.0,3083.19,3083.19,Net Banking,6,No,,3.8
+ORD10684,2023-04-04,CUST00918,18-25,East,Email,Mobile,Beauty,Lipstick,489.29,4,0,0.0,1957.16,1957.16,COD,10,No,,4.3
+ORD10685,2023-06-02,CUST00578,26-35,East,Social Media,Desktop,Beauty,Serum,1126.18,1,5,56.31,1126.18,1069.87,UPI,8,No,,3.9
+ORD10686,2023-08-09,CUST00356,26-35,South,Social Media,Desktop,Toys,Board Game,2883.78,1,5,144.19,2883.78,2739.59,COD,9,No,,4.5
+ORD10687,2023-02-19,CUST00521,36-45,Central,Referral,Mobile,Toys,LEGO Set,,3,0,0.0,16867.74,16867.74,Credit Card,4,No,,3.5
+ORD10688,2023-08-16,CUST00734,36-45,East,Organic Search,Mobile,Books,Fiction Novel,316.29,3,20,189.77,948.87,759.1,UPI,9,No,,2.3
+ORD10689,2023-02-08,CUST00344,26-35,East,Organic Search,Desktop,Beauty,Face Cream,1458.97,1,5,72.95,1458.97,1386.02,Credit Card,6,No,,4.5
+ORD10690,2023-11-21,CUST00226,36-45,West,Social Media,Mobile,Beauty,Serum,1225.57,5,0,0.0,6127.85,6127.85,Debit Card,1,No,,2.6
+ORD10691,2023-08-11,CUST00626,26-35,West,Direct,Tablet,Beauty,Face Cream,1436.08,2,0,0.0,2872.16,2872.16,Debit Card,2,No,,3.2
+ORD10692,2023-04-29,CUST00613,26-35,East,Email,Desktop,Beauty,Perfume,2679.05,2,10,535.81,5358.1,4822.29,UPI,5,No,,2.9
+ORD10693,2023-12-05,CUST00408,36-45,West,Referral,Desktop,Clothing,Jacket,1579.1,4,15,947.46,6316.4,5368.94,Wallet,2,No,,4.1
+ORD10694,2023-07-29,CUST00422,26-35,East,Email,Tablet,Clothing,T-Shirt,578.21,5,5,144.55,2891.05,2746.5,Debit Card,1,No,,3.5
+ORD10695,2023-10-21,CUST00799,36-45,Central,Referral,Mobile,Home & Kitchen,Air Fryer,5776.6,4,5,1155.32,23106.4,21951.08,Wallet,3,No,,5.0
+ORD10696,2023-10-11,CUST00204,55+,East,Paid Ads,Desktop,Electronics,Smart Watch,3624.55,3,15,1631.05,10873.65,9242.6,UPI,2,No,,3.2
+ORD10697,2023-01-19,CUST00540,18-25,East,Organic Search,Mobile,Books,Self Help,476.48,2,0,0.0,952.96,952.96,Wallet,1,No,,3.9
+ORD10698,2023-12-02,CUST00087,18-25,North,Organic Search,Tablet,Toys,Board Game,584.45,1,20,116.89,584.45,467.56,COD,7,No,,4.0
+ORD10699,2023-04-10,CUST00804,26-35,South,Organic Search,Desktop,Sports,Cricket Bat,1477.78,5,20,1477.78,7388.9,5911.12,Wallet,10,No,,3.4
+ORD10700,2023-04-24,CUST00547,26-35,East,Referral,Tablet,Sports,Cycle,14414.52,4,0,0.0,57658.08,57658.08,Credit Card,7,No,,2.3
+ORD10701,2023-04-29,CUST00577,18-25,North,Organic Search,Tablet,Books,Self Help,488.94,1,20,97.79,488.94,391.15,Debit Card,8,No,,4.2
+ORD10702,2023-07-26,CUST00779,26-35,East,Paid Ads,Mobile,Clothing,Jacket,3967.05,1,0,0.0,3967.05,3967.05,UPI,10,No,,2.5
+ORD10703,2023-12-20,CUST00814,26-35,West,Direct,Desktop,Beauty,Serum,1956.7,1,10,195.67,1956.7,1761.03,COD,4,No,,3.8
+ORD10704,2023-07-12,CUST00171,18-25,West,Paid Ads,Tablet,Sports,Yoga Mat,2342.46,4,0,0.0,9369.84,9369.84,COD,3,No,,4.7
+ORD10705,2023-07-24,CUST00446,55+,East,Referral,Desktop,Books,Self Help,574.5,5,20,574.5,2872.5,2298.0,COD,1,No,,5.0
+ORD10706,2023-11-11,CUST00959,26-35,South,Referral,Tablet,Beauty,Shampoo,241.99,5,5,60.5,1209.95,1149.45,Net Banking,6,No,,4.0
+ORD10707,2023-02-04,CUST00193,18-25,Central,Email,Tablet,Electronics,Earbuds,2373.36,2,25,1186.68,4746.72,3560.04,Debit Card,1,No,,4.9
+ORD10708,2023-11-18,CUST00889,26-35,East,Referral,Tablet,Electronics,Earbuds,3363.55,2,15,1009.07,6727.1,5718.03,Wallet,1,No,,3.8
+ORD10709,2023-04-21,CUST00578,18-25,East,Referral,Tablet,Beauty,Shampoo,200.36,2,0,0.0,400.72,400.72,COD,5,No,,5.0
+ORD10710,2023-03-28,CUST00823,36-45,North,Paid Ads,Tablet,Home & Kitchen,Cookware Set,5176.73,4,5,1035.35,20706.92,19671.57,Net Banking,1,No,,6.3
+ORD10711,2023-05-04,CUST00793,26-35,Central,Organic Search,Tablet,Books,Comic,198.13,5,0,0.0,990.65,990.65,Debit Card,9,No,,4.0
+ORD10712,2023-09-08,CUST00357,18-25,East,Direct,Desktop,Clothing,Saree,5921.7,4,25,5921.7,23686.8,17765.1,Debit Card,5,No,,3.2
+ORD10713,2023-07-11,CUST00011,18-25,East,Organic Search,Desktop,Sports,Badminton Set,2703.11,2,20,1081.24,5406.22,4324.98,UPI,3,No,,3.7
+ORD10714,2023-11-25,CUST00281,36-45,West,Referral,Tablet,Sports,Yoga Mat,1713.55,1,10,171.35,1713.55,1542.2,Net Banking,8,No,,5.0
+ORD10715,2023-01-20,CUST00723,36-45,North,Organic Search,Desktop,Books,Self Help,436.72,5,0,0.0,2183.6,2183.6,Wallet,6,Yes,Wrong Item,4.0
+ORD10716,2023-04-10,CUST00922,26-35,East,Referral,Mobile,Beauty,Face Cream,608.51,5,10,304.25,3042.55,2738.3,Wallet,10,No,,3.4
+ORD10717,2023-04-09,CUST00274,18-25,Central,Email,Mobile,Books,Comic,351.32,1,0,0.0,351.32,351.32,Wallet,9,No,,5.0
+ORD10718,2023-03-02,CUST00953,26-35,South,Social Media,Tablet,Beauty,Face Cream,604.51,5,15,453.38,3022.55,2569.17,Wallet,6,No,,4.2
+ORD10719,2023-08-24,CUST00966,26-35,South,Direct,Tablet,Electronics,Laptop,100986.3,2,15,30295.89,201972.6,171676.71,Debit Card,2,No,,3.7
+ORD10720,2023-05-23,CUST00280,46-55,East,Organic Search,Desktop,Home & Kitchen,Air Fryer,6413.79,3,0,0.0,19241.37,19241.37,UPI,3,No,,2.7
+ORD10721,2023-11-20,CUST00160,26-35,East,Paid Ads,Desktop,Sports,Dumbbells,2265.21,5,25,2831.51,11326.05,8494.54,Wallet,3,Yes,Changed Mind,4.8
+ORD10722,2023-09-20,CUST00119,26-35,East,Social Media,Tablet,Sports,Badminton Set,2591.66,3,0,0.0,7774.98,7774.98,Net Banking,4,No,,3.8
+ORD10723,2023-11-19,CUST00009,18-25,South,Social Media,Desktop,Beauty,Serum,2743.31,3,0,0.0,8229.93,8229.93,Debit Card,6,No,,4.0
+ORD10724,2023-11-12,CUST00485,46-55,West,Social Media,Mobile,Books,Biography,352.39,1,25,88.1,352.39,264.29,Debit Card,8,No,,3.6
+ORD10725,2023-10-23,CUST00168,26-35,Central,Paid Ads,Tablet,Toys,Puzzle,340.21,4,10,136.08,1360.84,1224.76,Debit Card,7,No,,2.8
+ORD10726,2023-06-08,CUST00001,36-45,South,Paid Ads,Mobile,Clothing,Saree,6477.7,1,0,0.0,6477.7,6477.7,Net Banking,3,No,,3.5
+ORD10727,2023-01-03,CUST00103,26-35,West,Email,Tablet,Electronics,Laptop,43872.41,5,15,32904.31,219362.05,186457.74,Debit Card,8,No,,4.1
+ORD10728,2023-07-24,CUST00435,36-45,Central,Organic Search,Mobile,Toys,LEGO Set,2937.87,3,0,0.0,8813.61,8813.61,COD,6,No,,4.5
+ORD10729,2023-11-09,CUST00937,18-25,East,Email,Mobile,Clothing,Jeans,1422.83,3,0,0.0,4268.49,4268.49,UPI,10,No,,2.8
+ORD10730,2023-07-18,CUST00530,46-55,North,Direct,Desktop,Books,Self Help,412.86,3,10,123.86,1238.58,1114.72,Credit Card,8,Yes,Changed Mind,4.3
+ORD10731,2023-12-18,CUST00433,36-45,Central,Email,Tablet,Clothing,Saree,1726.92,5,20,1726.92,8634.6,6907.68,UPI,8,Yes,Changed Mind,4.7
+ORD10732,2023-02-27,CUST00691,18-25,East,Paid Ads,Tablet,Toys,Doll,,5,15,1132.83,7552.2,6419.37,COD,3,No,,3.2
+ORD10733,2023-01-21,CUST00472,26-35,East,Direct,Desktop,Beauty,Lipstick,634.89,4,10,253.96,2539.56,2285.6,Credit Card,2,No,,3.8
+ORD10734,2023-01-09,CUST00366,36-45,Central,Organic Search,Mobile,Sports,Dumbbells,1550.66,3,20,930.4,4651.98,3721.58,Wallet,8,No,,3.3
+ORD10735,2023-08-23,CUST00846,46-55,North,Organic Search,Desktop,Clothing,Jacket,3155.5,3,15,1419.97,9466.5,8046.53,UPI,10,No,,3.2
+ORD10736,2023-09-20,CUST00411,18-25,North,Email,Mobile,Electronics,Laptop,84841.81,1,20,16968.36,84841.81,67873.45,Debit Card,2,No,,3.6
+ORD10737,2023-12-22,CUST00485,26-35,South,Social Media,Tablet,Sports,Dumbbells,4978.66,5,5,1244.66,24893.3,23648.64,Wallet,1,No,,3.5
+ORD10738,2023-05-20,CUST00133,26-35,North,Paid Ads,Mobile,Electronics,Tablet,29933.53,2,10,5986.71,59867.06,53880.35,Credit Card,1,No,,4.8
+ORD10739,2023-12-31,CUST00603,26-35,Central,Organic Search,Desktop,Beauty,Perfume,1494.76,5,10,747.38,7473.8,6726.42,UPI,10,No,,4.1
+ORD10740,2023-09-13,CUST00413,18-25,Central,Social Media,Mobile,Home & Kitchen,Bedsheet,2556.57,2,25,1278.29,5113.14,3834.85,Debit Card,4,No,,4.4
+ORD10741,2023-08-20,CUST00640,26-35,East,Referral,Tablet,Beauty,Serum,1359.9,3,15,611.96,4079.7,3467.74,Net Banking,8,Yes,Wrong Item,4.7
+ORD10742,2023-11-07,CUST00297,18-25,West,Referral,Desktop,Clothing,Jacket,5605.88,2,20,2242.35,11211.76,8969.41,UPI,2,Yes,Wrong Item,4.1
+ORD10743,2023-06-13,CUST00681,46-55,Central,Referral,Desktop,Toys,Board Game,1545.45,5,10,772.73,7727.25,6954.52,Debit Card,6,No,,4.4
+ORD10744,2023-08-19,CUST00546,46-55,North,Email,Tablet,Toys,Doll,1141.22,4,10,456.49,4564.88,4108.39,Wallet,3,No,,4.3
+ORD10745,2023-03-12,CUST00083,36-45,South,Paid Ads,Tablet,Books,Comic,223.09,1,5,11.15,223.09,211.94,Wallet,10,No,,4.6
+ORD10746,2023-10-10,CUST00378,36-45,South,Social Media,Mobile,Books,Fiction Novel,578.33,1,20,115.67,578.33,462.66,UPI,9,No,,4.3
+ORD10747,2023-05-06,CUST00248,36-45,Central,Social Media,Mobile,Electronics,Smartphone,16694.31,4,25,16694.31,66777.24,50082.93,Debit Card,10,No,,3.6
+ORD10748,2023-09-24,CUST00267,46-55,Central,Direct,Mobile,Books,Fiction Novel,153.1,1,20,30.62,153.1,122.48,Net Banking,8,No,,4.8
+ORD10749,2023-07-06,CUST00524,36-45,East,Referral,Mobile,Books,Fiction Novel,281.83,4,0,0.0,1127.32,1127.32,Wallet,7,No,,4.4
+ORD10750,2023-05-05,CUST00076,26-35,East,Social Media,Tablet,Clothing,Saree,3772.83,3,0,0.0,11318.49,11318.49,Net Banking,8,No,,4.9
+ORD10751,2023-11-01,CUST00152,26-35,East,Social Media,Tablet,Home & Kitchen,Curtains,,5,10,1519.3,15193.0,13673.7,Debit Card,1,No,,4.7
+ORD10752,2023-03-21,CUST00653,26-35,North,Social Media,Desktop,Sports,Dumbbells,2796.2,4,10,1118.48,11184.8,10066.32,Wallet,3,No,,3.8
+ORD10753,2023-06-26,CUST00514,26-35,South,Referral,Desktop,Sports,Badminton Set,1574.03,5,0,0.0,7870.15,7870.15,Debit Card,3,No,,4.8
+ORD10754,2023-04-26,CUST00747,36-45,North,Direct,Tablet,Books,Comic,104.27,1,15,15.64,104.27,88.63,Debit Card,5,No,,4.6
+ORD10755,2023-11-17,CUST00520,18-25,North,Organic Search,Desktop,Beauty,Shampoo,386.31,1,20,77.26,386.31,309.05,COD,2,No,,4.9
+ORD10756,2023-04-27,CUST00285,18-25,South,Referral,Desktop,Sports,Cricket Bat,2223.46,2,5,222.35,4446.92,4224.57,Credit Card,8,No,,4.6
+ORD10757,2023-08-26,CUST00801,18-25,West,Organic Search,Desktop,Clothing,Jeans,1109.85,5,25,1387.31,5549.25,4161.94,Debit Card,2,No,,3.9
+ORD10758,2023-06-03,CUST00908,26-35,West,Organic Search,Desktop,Electronics,Tablet,39468.79,5,25,49335.99,197343.95,148007.96,Net Banking,10,Yes,Changed Mind,4.3
+ORD10759,2023-09-17,CUST00975,36-45,Central,Referral,Desktop,Sports,Dumbbells,2868.94,2,15,860.68,5737.88,4877.2,Wallet,8,No,,3.7
+ORD10760,2023-01-04,CUST00184,18-25,West,Social Media,Tablet,Books,Fiction Novel,589.75,2,25,294.88,1179.5,884.62,Wallet,6,No,,3.1
+ORD10761,2023-04-20,CUST00328,36-45,South,Referral,Tablet,Sports,Cricket Bat,1967.98,1,5,98.4,1967.98,1869.58,Debit Card,5,No,,3.9
+ORD10762,2023-03-22,CUST00486,36-45,East,Email,Desktop,Home & Kitchen,Mixer Grinder,3151.42,4,0,0.0,12605.68,12605.68,UPI,10,No,,3.6
+ORD10763,2023-08-19,CUST00403,36-45,West,Social Media,Tablet,Clothing,Saree,,3,15,1441.26,9608.4,8167.14,Debit Card,5,No,,4.9
+ORD10764,2023-12-05,CUST00810,26-35,Central,Referral,Desktop,Books,Textbook,431.17,2,5,43.12,862.34,819.22,UPI,5,No,,3.5
+ORD10765,2023-10-31,CUST00970,18-25,West,Paid Ads,Desktop,Electronics,Smartphone,18211.79,3,25,13658.84,54635.37,40976.53,COD,8,No,,4.5
+ORD10766,2023-05-22,CUST00138,46-55,South,Paid Ads,Tablet,Sports,Cycle,6482.92,1,15,972.44,6482.92,5510.48,UPI,9,No,,4.3
+ORD10767,2023-06-17,CUST00677,26-35,North,Direct,Tablet,Sports,Cricket Bat,3809.18,4,5,761.84,15236.72,14474.88,Wallet,10,No,,3.8
+ORD10768,2023-04-05,CUST00694,55+,South,Organic Search,Tablet,Home & Kitchen,Bedsheet,2762.76,4,5,552.55,11051.04,10498.49,Net Banking,6,No,,3.3
+ORD10769,2023-09-20,CUST00033,55+,East,Referral,Desktop,Books,Comic,341.82,1,0,0.0,341.82,341.82,Wallet,6,Yes,Changed Mind,4.2
+ORD10770,2023-09-30,CUST00945,26-35,West,Social Media,Desktop,Electronics,Smartphone,31742.89,5,0,0.0,158714.45,158714.45,Net Banking,3,No,,4.2
+ORD10771,2023-11-28,CUST00541,36-45,West,Referral,Desktop,Beauty,Shampoo,572.79,1,0,0.0,572.79,572.79,Credit Card,10,No,,3.7
+ORD10772,2023-08-07,CUST00335,26-35,East,Direct,Tablet,Sports,Cycle,5471.79,2,15,1641.54,10943.58,9302.04,Debit Card,3,No,,4.2
+ORD10773,2023-01-14,CUST00865,18-25,East,Paid Ads,Tablet,Clothing,Jeans,1015.36,2,0,0.0,2030.72,2030.72,Debit Card,9,No,,5.0
+ORD10774,2023-04-22,CUST00027,26-35,West,Email,Desktop,Clothing,Saree,1975.68,3,5,296.35,5927.04,5630.69,Debit Card,6,Yes,Changed Mind,5.0
+ORD10775,2023-03-31,CUST00742,26-35,Central,Social Media,Tablet,Clothing,Jacket,3951.09,1,0,0.0,3951.09,3951.09,UPI,9,No,,5.0
+ORD10776,2023-09-02,CUST00390,46-55,East,Organic Search,Desktop,Books,Self Help,305.16,1,15,45.77,305.16,259.39,Wallet,5,No,,4.1
+ORD10777,2023-08-30,CUST00282,36-45,South,Referral,Mobile,Home & Kitchen,Mixer Grinder,7998.24,1,20,1599.65,7998.24,6398.59,Debit Card,1,No,,4.0
+ORD10778,2023-02-01,CUST00381,36-45,Central,Paid Ads,Tablet,Sports,Cricket Bat,1701.1,4,0,0.0,6804.4,6804.4,Wallet,10,No,,4.8
+ORD10779,2023-01-16,CUST00414,36-45,North,Social Media,Mobile,Clothing,Saree,7129.36,1,0,0.0,7129.36,7129.36,Net Banking,8,No,,3.1
+ORD10780,2023-11-03,CUST00229,18-25,West,Referral,Desktop,Electronics,Laptop,112221.92,1,20,22444.38,112221.92,89777.54,Debit Card,9,No,,4.6
+ORD10781,2023-09-01,CUST00264,18-25,North,Email,Desktop,Toys,Puzzle,1252.25,1,10,125.22,1252.25,1127.03,Wallet,8,No,,4.4
+ORD10782,2023-03-15,CUST00290,46-55,East,Social Media,Tablet,Toys,Puzzle,455.17,2,0,0.0,910.34,910.34,Net Banking,4,No,,3.9
+ORD10783,2023-03-09,CUST00678,18-25,West,Direct,Mobile,Beauty,Serum,1751.78,5,10,875.89,8758.9,7883.01,Debit Card,6,No,,2.7
+ORD10784,2023-03-24,CUST00353,18-25,South,Email,Tablet,Clothing,T-Shirt,385.84,1,5,19.29,385.84,366.55,UPI,7,No,,3.2
+ORD10785,2023-06-22,CUST00827,46-55,East,Referral,Desktop,Sports,Cycle,7945.48,3,15,3575.47,23836.44,20260.97,Credit Card,3,No,,3.6
+ORD10786,2023-02-18,CUST00730,26-35,North,Referral,Mobile,Toys,Remote Car,2164.85,1,0,0.0,2164.85,2164.85,Net Banking,4,No,,4.2
+ORD10787,2023-04-12,CUST00799,18-25,East,Referral,Mobile,Toys,Puzzle,453.34,2,0,0.0,906.68,906.68,Wallet,6,No,,3.6
+ORD10788,2023-11-22,CUST00554,55+,West,Social Media,Desktop,Sports,Cricket Bat,2872.36,1,0,0.0,2872.36,2872.36,COD,10,No,,5.0
+ORD10789,2023-01-01,CUST00570,36-45,North,Organic Search,Desktop,Books,Comic,240.4,2,10,48.08,480.8,432.72,Debit Card,2,No,,3.5
+ORD10790,2023-03-23,CUST00073,26-35,Central,Direct,Mobile,Clothing,Jacket,5112.21,2,20,2044.88,10224.42,8179.54,Debit Card,7,No,,4.5
+ORD10791,2023-11-23,CUST00537,18-25,East,Organic Search,Tablet,Books,Self Help,536.12,3,0,0.0,1608.36,1608.36,Wallet,2,No,,5.0
+ORD10792,2023-01-21,CUST00437,36-45,East,Paid Ads,Tablet,Sports,Cycle,8841.92,3,10,2652.58,26525.76,23873.18,Credit Card,7,No,,4.0
+ORD10793,2023-12-07,CUST00987,26-35,East,Social Media,Tablet,Electronics,Tablet,57986.72,3,5,8698.01,173960.16,165262.15,COD,8,No,,5.0
+ORD10794,2023-02-12,CUST00606,26-35,West,Referral,Tablet,Home & Kitchen,Curtains,2934.33,3,15,1320.45,8802.99,7482.54,COD,1,Yes,Changed Mind,4.0
+ORD10795,2023-11-05,CUST00813,36-45,South,Social Media,Tablet,Books,Biography,535.43,4,0,0.0,2141.72,2141.72,Wallet,2,No,,4.9
+ORD10796,2023-06-27,CUST00963,26-35,North,Paid Ads,Tablet,Beauty,Serum,1496.76,4,0,0.0,5987.04,5987.04,Debit Card,8,No,,3.1
+ORD10797,2023-08-22,CUST00700,26-35,North,Social Media,Desktop,Electronics,Earbuds,944.62,4,0,0.0,3778.48,3778.48,Wallet,5,No,,3.6
+ORD10798,2023-10-13,CUST00800,46-55,Central,Referral,Tablet,Beauty,Perfume,3958.75,2,5,395.88,7917.5,7521.62,Debit Card,9,No,,3.9
+ORD10799,2023-06-10,CUST00191,36-45,East,Email,Desktop,Home & Kitchen,Bedsheet,753.25,1,20,150.65,753.25,602.6,Debit Card,10,No,,2.7
+ORD10800,2023-09-17,CUST00634,36-45,West,Social Media,Mobile,Clothing,Saree,914.68,2,10,182.94,1829.36,1646.42,Wallet,9,No,,3.5
+ORD10801,2023-02-23,CUST00995,18-25,Central,Paid Ads,Tablet,Home & Kitchen,Cookware Set,3445.9,2,20,1378.36,6891.8,5513.44,UPI,5,No,,3.8
+ORD10802,2023-04-26,CUST00250,55+,Central,Referral,Tablet,Electronics,Smart Watch,6040.43,2,5,604.04,12080.86,11476.82,Debit Card,8,No,,4.0
+ORD10803,2023-11-18,CUST00397,36-45,East,Email,Desktop,Books,Self Help,623.95,5,20,623.95,3119.75,2495.8,UPI,10,No,,4.1
+ORD10804,2023-06-14,CUST00940,36-45,Central,Paid Ads,Tablet,Clothing,Saree,4690.66,1,0,0.0,4690.66,4690.66,UPI,4,No,,3.7
+ORD10805,2023-05-18,CUST00472,36-45,South,Organic Search,Tablet,Beauty,Serum,2534.8,2,25,1267.4,5069.6,3802.2,Net Banking,10,No,,3.8
+ORD10806,2023-02-02,CUST00746,18-25,South,Email,Mobile,Sports,Yoga Mat,2291.68,4,0,0.0,9166.72,9166.72,Wallet,6,Yes,Not as Described,2.2
+ORD10807,2023-04-30,CUST00521,55+,East,Organic Search,Tablet,Books,Textbook,1261.43,3,15,567.64,3784.29,3216.65,Credit Card,10,No,,3.2
+ORD10808,2023-09-29,CUST00616,36-45,West,Direct,Mobile,Beauty,Perfume,3143.51,1,0,0.0,3143.51,3143.51,UPI,7,No,,3.9
+ORD10809,2023-07-28,CUST00142,46-55,West,Social Media,Desktop,Electronics,Smartphone,47738.18,5,20,47738.18,238690.9,190952.72,Credit Card,7,No,,3.4
+ORD10810,2023-11-28,CUST00021,46-55,North,Paid Ads,Mobile,Clothing,Saree,3690.28,2,15,1107.08,7380.56,6273.48,COD,2,No,,4.0
+ORD10811,2023-10-18,CUST00072,55+,South,Social Media,Mobile,Electronics,Smartphone,21728.11,3,0,0.0,65184.33,65184.33,Wallet,10,No,,3.0
+ORD10812,2023-12-28,CUST00638,18-25,East,Social Media,Mobile,Clothing,Kurta,1185.75,2,25,592.88,2371.5,1778.62,UPI,3,No,,4.3
+ORD10813,2023-09-12,CUST00628,46-55,West,Email,Mobile,Beauty,Shampoo,533.57,2,0,0.0,1067.14,1067.14,Wallet,4,No,,3.2
+ORD10814,2023-05-03,CUST00939,55+,Central,Organic Search,Tablet,Sports,Yoga Mat,1176.69,3,0,0.0,3530.07,3530.07,Credit Card,8,No,,3.4
+ORD10815,2023-10-07,CUST00139,26-35,West,Email,Mobile,Beauty,Perfume,4603.4,5,20,4603.4,23017.0,18413.6,Net Banking,4,No,,4.4
+ORD10816,2023-11-09,CUST00790,36-45,North,Social Media,Tablet,Electronics,Smart Watch,3877.73,5,25,4847.16,19388.65,14541.49,Wallet,7,No,,5.0
+ORD10817,2023-10-01,CUST00395,18-25,West,Direct,Tablet,Sports,Badminton Set,1016.06,3,0,0.0,3048.18,3048.18,COD,1,Yes,Not as Described,3.9
+ORD10818,2023-02-20,CUST00075,36-45,North,Email,Mobile,Toys,Board Game,1771.86,1,5,88.59,1771.86,1683.27,Wallet,8,No,,5.0
+ORD10819,2023-04-01,CUST00381,46-55,Central,Direct,Desktop,Electronics,Earbuds,521.32,2,15,156.4,1042.64,886.24,Net Banking,7,No,,3.2
+ORD10820,2023-12-01,CUST00387,26-35,Central,Organic Search,Tablet,Beauty,Serum,2246.45,3,5,336.97,6739.35,6402.38,Wallet,5,No,,5.0
+ORD10821,2023-12-06,CUST00119,18-25,South,Direct,Desktop,Books,Fiction Novel,463.2,4,0,0.0,1852.8,1852.8,Wallet,4,Yes,Defective,4.1
+ORD10822,2023-10-19,CUST00207,55+,North,Email,Desktop,Beauty,Lipstick,484.81,3,10,145.44,1454.43,1308.99,Credit Card,5,Yes,Defective,2.7
+ORD10823,2023-02-12,CUST00631,26-35,Central,Paid Ads,Mobile,Electronics,Laptop,33422.81,4,0,0.0,133691.24,133691.24,Wallet,2,No,,5.0
+ORD10824,2023-05-09,CUST00401,26-35,South,Social Media,Tablet,Home & Kitchen,Air Fryer,8119.21,2,15,2435.76,16238.42,13802.66,Wallet,3,No,,4.4
+ORD10825,2023-11-05,CUST00165,18-25,West,Referral,Tablet,Books,Fiction Novel,542.1,1,5,27.11,542.1,514.99,Credit Card,9,No,,5.0
+ORD10826,2023-01-20,CUST00004,36-45,South,Direct,Mobile,Sports,Cricket Bat,4620.4,3,15,2079.18,13861.2,11782.02,COD,3,No,,4.0
+ORD10827,2023-05-25,CUST00933,36-45,West,Email,Mobile,Sports,Yoga Mat,539.59,4,20,431.67,2158.36,1726.69,Net Banking,10,No,,3.9
+ORD10828,2023-07-18,CUST00825,26-35,South,Email,Mobile,Sports,Dumbbells,1740.13,3,0,0.0,5220.39,5220.39,Wallet,5,No,,3.9
+ORD10829,2023-08-24,CUST00398,26-35,Central,Paid Ads,Mobile,Home & Kitchen,Mixer Grinder,7651.29,4,20,6121.03,30605.16,24484.13,Debit Card,8,No,,4.1
+ORD10830,2023-08-26,CUST00315,26-35,East,Referral,Desktop,Beauty,Shampoo,519.45,5,15,389.59,2597.25,2207.66,Credit Card,9,No,,4.2
+ORD10831,2023-09-22,CUST00454,18-25,Central,Paid Ads,Tablet,Clothing,Jeans,1344.21,2,20,537.68,2688.42,2150.74,Net Banking,7,No,,3.3
+ORD10832,2023-05-06,CUST00782,36-45,North,Organic Search,Mobile,Sports,Cricket Bat,1753.42,3,25,1315.07,5260.26,3945.19,Credit Card,3,No,,2.9
+ORD10833,2023-07-02,CUST00981,26-35,Central,Email,Desktop,Toys,LEGO Set,2657.54,1,15,398.63,2657.54,2258.91,UPI,4,No,,4.1
+ORD10834,2023-03-19,CUST00163,36-45,South,Organic Search,Tablet,Beauty,Shampoo,338.33,1,0,0.0,338.33,338.33,Debit Card,3,No,,2.9
+ORD10835,2023-08-31,CUST00786,18-25,Central,Referral,Mobile,Books,Fiction Novel,490.05,2,20,196.02,980.1,784.08,Net Banking,7,No,,3.8
+ORD10836,2023-06-23,CUST00308,36-45,South,Direct,Desktop,Electronics,Smart Watch,19038.87,5,15,14279.15,95194.35,80915.2,UPI,2,No,,4.4
+ORD10837,2023-11-15,CUST00174,26-35,North,Email,Desktop,Beauty,Face Cream,661.13,4,0,0.0,2644.52,2644.52,Debit Card,10,No,,4.2
+ORD10838,2023-08-10,CUST00033,18-25,North,Social Media,Desktop,Electronics,Laptop,93046.34,3,25,69784.76,279139.02,209354.26,Debit Card,6,Yes,Changed Mind,3.6
+ORD10839,2023-06-21,CUST00875,55+,East,Direct,Desktop,Books,Comic,216.52,3,20,129.91,649.56,519.65,COD,6,No,,3.4
+ORD10840,2023-12-10,CUST00918,18-25,North,Paid Ads,Desktop,Clothing,Jacket,2408.21,1,25,602.05,2408.21,1806.16,Credit Card,2,No,,5.0
+ORD10841,2023-01-05,CUST00350,46-55,West,Direct,Desktop,Clothing,Kurta,2083.06,1,0,0.0,2083.06,2083.06,Wallet,1,No,,3.2
+ORD10842,2023-02-11,CUST00239,26-35,South,Email,Mobile,Electronics,Tablet,16098.92,2,5,1609.89,32197.84,30587.95,Wallet,3,Yes,Defective,5.0
+ORD10843,2023-12-13,CUST00063,26-35,East,Paid Ads,Tablet,Books,Biography,638.45,4,10,255.38,2553.8,2298.42,COD,10,No,,4.0
+ORD10844,2023-04-06,CUST00857,36-45,West,Social Media,Desktop,Clothing,T-Shirt,1113.73,1,5,55.69,1113.73,1058.04,Wallet,6,No,,4.1
+ORD10845,2023-03-24,CUST00353,46-55,West,Organic Search,Tablet,Clothing,Kurta,414.66,3,10,124.4,1243.98,1119.58,Wallet,2,Yes,Changed Mind,4.8
+ORD10846,2023-10-19,CUST00831,26-35,South,Paid Ads,Tablet,Electronics,Earbuds,3146.62,3,0,0.0,9439.86,9439.86,Debit Card,5,No,,3.7
+ORD10847,2023-07-26,CUST00476,26-35,North,Paid Ads,Desktop,Electronics,Earbuds,2343.8,4,15,1406.28,9375.2,7968.92,Net Banking,8,No,,4.7
+ORD10848,2023-12-05,CUST00017,26-35,West,Paid Ads,Desktop,Toys,Board Game,1498.55,1,20,299.71,1498.55,1198.84,COD,3,No,,4.5
+ORD10849,2023-08-10,CUST00164,26-35,East,Direct,Desktop,Home & Kitchen,Mixer Grinder,3139.68,5,25,3924.6,15698.4,11773.8,COD,7,No,,3.8
+ORD10850,2023-08-02,CUST00319,36-45,East,Social Media,Tablet,Home & Kitchen,Mixer Grinder,3410.91,4,5,682.18,13643.64,12961.46,UPI,8,Yes,Not as Described,3.5
+ORD10851,2023-01-10,CUST00253,26-35,East,Direct,Desktop,Toys,Board Game,1423.92,4,0,0.0,5695.68,5695.68,UPI,8,No,,3.5
+ORD10852,2023-03-07,CUST00726,36-45,West,Organic Search,Desktop,Sports,Dumbbells,3224.32,3,5,483.65,9672.96,9189.31,COD,6,No,,2.4
+ORD10853,2023-02-11,CUST00618,46-55,West,Paid Ads,Desktop,Electronics,Smart Watch,15503.46,5,15,11627.59,77517.3,65889.71,Wallet,9,No,,3.2
+ORD10854,2023-05-07,CUST00495,36-45,East,Referral,Tablet,Clothing,Saree,6903.96,1,25,1725.99,6903.96,5177.97,Debit Card,4,No,,3.3
+ORD10855,2023-06-01,CUST00200,26-35,North,Social Media,Desktop,Toys,Board Game,2894.31,5,0,0.0,14471.55,14471.55,Debit Card,1,No,,5.0
+ORD10856,2023-07-08,CUST00392,36-45,East,Email,Desktop,Clothing,Saree,982.04,4,0,0.0,3928.16,3928.16,Debit Card,8,No,,4.9
+ORD10857,2023-06-15,CUST00889,26-35,West,Referral,Mobile,Beauty,Serum,1578.67,2,0,0.0,3157.34,3157.34,Wallet,1,No,,4.0
+ORD10858,2023-11-26,CUST00524,18-25,North,Paid Ads,Mobile,Books,Textbook,1032.86,3,0,0.0,3098.58,3098.58,Credit Card,5,No,,4.0
+ORD10859,2023-07-04,CUST00423,26-35,West,Direct,Desktop,Sports,Cricket Bat,5700.61,2,0,0.0,11401.22,11401.22,Wallet,6,No,,3.8
+ORD10860,2023-03-23,CUST00058,36-45,South,Email,Mobile,Clothing,Kurta,2127.98,2,25,1063.99,4255.96,3191.97,Credit Card,2,No,,4.4
+ORD10861,2023-06-15,CUST00687,26-35,West,Referral,Mobile,Clothing,Jeans,2874.92,2,15,862.48,5749.84,4887.36,Credit Card,7,No,,3.6
+ORD10862,2023-01-04,CUST00921,46-55,Central,Social Media,Desktop,Clothing,Kurta,475.61,2,25,237.81,951.22,713.41,COD,6,No,,8.5
+ORD10863,2023-06-21,CUST00267,26-35,Central,Email,Mobile,Home & Kitchen,Cookware Set,3636.31,2,10,727.26,7272.62,6545.36,Debit Card,4,No,,3.6
+ORD10864,2023-04-13,CUST00220,46-55,South,Referral,Desktop,Electronics,Smartphone,24272.99,1,5,1213.65,24272.99,23059.34,Debit Card,10,No,,3.6
+ORD10865,2023-06-20,CUST00738,26-35,South,Email,Desktop,Sports,Yoga Mat,1119.8,2,0,0.0,2239.6,2239.6,COD,4,No,,5.0
+ORD10866,2023-11-12,CUST00878,18-25,Central,Paid Ads,Mobile,Sports,Dumbbells,4139.01,-2,0,0.0,8278.02,8278.02,Credit Card,2,No,,4.7
+ORD10867,2023-02-08,CUST00023,26-35,West,Paid Ads,Mobile,Home & Kitchen,Mixer Grinder,5874.63,4,15,3524.78,23498.52,19973.74,Wallet,5,No,,3.1
+ORD10868,2023-01-08,CUST00712,36-45,South,Paid Ads,Mobile,Beauty,Face Cream,1344.38,4,0,0.0,5377.52,5377.52,Net Banking,2,Yes,Wrong Item,2.4
+ORD10869,2023-08-27,CUST00014,36-45,East,Direct,Desktop,Beauty,Lipstick,229.9,4,20,183.92,919.6,735.68,Wallet,7,No,,4.5
+ORD10870,2023-04-07,CUST00046,46-55,West,Paid Ads,Tablet,Books,Self Help,600.97,1,10,60.1,600.97,540.87,Wallet,4,No,,5.0
+ORD10871,2023-08-22,CUST00383,36-45,East,Email,Mobile,Electronics,Earbuds,2138.16,5,15,1603.62,10690.8,9087.18,COD,8,No,,1.5
+ORD10872,2023-03-17,CUST00089,36-45,West,Email,Tablet,Books,Textbook,1147.97,3,10,344.39,3443.91,3099.52,Wallet,8,No,,2.3
+ORD10873,2023-10-04,CUST00588,18-25,North,Email,Mobile,Clothing,T-Shirt,646.49,2,15,193.95,1292.98,1099.03,COD,3,No,,5.0
+ORD10874,2023-05-11,CUST00727,36-45,East,Referral,Desktop,Sports,Yoga Mat,1539.14,5,0,0.0,7695.7,7695.7,COD,9,No,,4.3
+ORD10875,2023-12-19,CUST00660,26-35,North,Referral,Mobile,Beauty,Lipstick,419.07,3,20,251.44,1257.21,1005.77,Net Banking,2,No,,4.5
+ORD10876,2023-07-27,CUST00835,18-25,North,Organic Search,Desktop,Clothing,T-Shirt,,3,5,165.51,3310.26,3144.75,Net Banking,5,No,,3.7
+ORD10877,2023-12-24,CUST00398,26-35,Central,Referral,Mobile,Electronics,Smart Watch,19007.74,4,0,0.0,76030.96,76030.96,Wallet,10,No,,3.9
+ORD10878,2023-05-11,CUST00101,26-35,West,Organic Search,Desktop,Books,Fiction Novel,375.0,3,0,0.0,1125.0,1125.0,Credit Card,8,No,,3.3
+ORD10879,2023-02-12,CUST00733,36-45,Central,Email,Mobile,Books,Fiction Novel,363.69,5,0,0.0,1818.45,1818.45,UPI,4,No,,4.7
+ORD10880,2023-11-11,CUST00029,55+,Central,Email,Tablet,Home & Kitchen,Cookware Set,5774.4,4,5,1154.88,23097.6,21942.72,Wallet,7,Yes,Wrong Item,3.0
+ORD10881,2023-03-31,CUST00167,18-25,North,Paid Ads,Desktop,Beauty,Face Cream,529.17,1,25,132.29,529.17,396.88,Net Banking,8,No,,3.3
+ORD10882,2023-01-23,CUST00866,26-35,North,Organic Search,Mobile,Clothing,T-Shirt,703.49,2,20,281.4,1406.98,1125.58,Debit Card,5,No,,3.3
+ORD10883,2023-07-07,CUST00651,26-35,West,Organic Search,Mobile,Clothing,Kurta,1581.82,4,25,1581.82,6327.28,4745.46,Credit Card,7,Yes,Not as Described,5.0
+ORD10884,2023-03-12,CUST00457,36-45,South,Referral,Desktop,Home & Kitchen,Bedsheet,1686.56,5,5,421.64,8432.8,8011.16,Credit Card,2,Yes,Defective,2.9
+ORD10885,2023-03-10,CUST00523,36-45,North,Social Media,Mobile,Sports,Yoga Mat,964.5,2,10,192.9,1929.0,1736.1,UPI,7,Yes,Defective,3.5
+ORD10886,2023-09-02,CUST00643,26-35,Central,Paid Ads,Mobile,Clothing,Jacket,5006.13,2,25,2503.07,10012.26,7509.19,Net Banking,8,No,,4.5
+ORD10887,2023-11-17,CUST00848,26-35,West,Organic Search,Mobile,Sports,Yoga Mat,1632.31,2,20,652.92,3264.62,2611.7,Wallet,6,No,,4.9
+ORD10888,2023-03-07,CUST00662,46-55,West,Organic Search,Desktop,Beauty,Perfume,2258.49,5,5,564.62,11292.45,10727.83,COD,8,No,,4.4
+ORD10889,2023-11-25,CUST00403,26-35,Central,Referral,Desktop,Electronics,Smart Watch,3194.01,1,0,0.0,3194.01,3194.01,UPI,1,No,,2.4
+ORD10890,2023-08-29,CUST00632,36-45,East,Referral,Tablet,Toys,Doll,1169.45,4,0,0.0,4677.8,4677.8,Debit Card,6,Yes,Changed Mind,5.0
+ORD10891,2023-06-28,CUST00344,26-35,South,Referral,Mobile,Home & Kitchen,Bedsheet,2768.04,5,5,692.01,13840.2,13148.19,Wallet,5,No,,3.8
+ORD10892,2023-04-15,CUST00898,26-35,East,Paid Ads,Tablet,Home & Kitchen,Mixer Grinder,6122.62,3,15,2755.18,18367.86,15612.68,Net Banking,8,No,,4.6
+ORD10893,2023-10-03,CUST00621,18-25,West,Organic Search,Mobile,Home & Kitchen,Mixer Grinder,4349.78,3,25,3262.34,13049.34,9787.0,Debit Card,6,No,,5.0
+ORD10894,2023-09-19,CUST00644,55+,North,Paid Ads,Mobile,Toys,Remote Car,3768.98,4,10,1507.59,15075.92,13568.33,Credit Card,10,No,,3.8
+ORD10895,2023-02-25,CUST00131,36-45,Central,Organic Search,Mobile,Home & Kitchen,Air Fryer,3369.31,1,10,336.93,3369.31,3032.38,Credit Card,9,No,,5.0
+ORD10896,2023-05-04,CUST00951,36-45,East,Paid Ads,Mobile,Home & Kitchen,Cookware Set,5457.65,3,20,3274.59,16372.95,13098.36,Net Banking,4,No,,2.9
+ORD10897,2023-10-20,CUST00277,46-55,South,Email,Tablet,Clothing,Kurta,1694.22,2,0,0.0,3388.44,3388.44,Debit Card,10,No,,3.2
+ORD10898,2023-12-10,CUST00457,26-35,West,Paid Ads,Tablet,Clothing,Jeans,1198.68,1,5,59.93,1198.68,1138.75,Net Banking,5,No,,5.0
+ORD10899,2023-04-16,CUST00897,26-35,West,Referral,Mobile,Toys,Puzzle,1175.9,1,10,117.59,1175.9,1058.31,UPI,8,No,,2.8
+ORD10900,2023-07-26,CUST00733,26-35,North,Direct,Tablet,Clothing,T-Shirt,981.24,4,0,0.0,3924.96,3924.96,Debit Card,4,No,,3.6
+ORD10901,2023-10-20,CUST00021,26-35,East,Social Media,Mobile,Beauty,Face Cream,787.92,1,20,157.58,787.92,630.34,UPI,6,No,,4.5
+ORD10902,2023-10-27,CUST00391,26-35,North,Referral,Tablet,Home & Kitchen,Bedsheet,1696.33,2,5,169.63,3392.66,3223.03,COD,9,No,,4.6
+ORD10903,2023-03-18,CUST00447,26-35,Central,Organic Search,Mobile,Electronics,Earbuds,856.65,3,25,642.49,2569.95,1927.46,Credit Card,5,No,,2.6
+ORD10904,2023-10-08,CUST00828,55+,East,Paid Ads,Tablet,Sports,Yoga Mat,1645.22,2,10,329.04,3290.44,2961.4,Credit Card,8,No,,4.5
+ORD10905,2023-03-20,CUST00252,36-45,North,Referral,Tablet,Toys,Doll,1240.85,3,0,0.0,3722.55,3722.55,Credit Card,9,No,,3.6
+ORD10906,2023-03-09,CUST00286,26-35,South,Direct,Tablet,Books,Self Help,283.5,4,0,0.0,1134.0,1134.0,Credit Card,4,No,,4.5
+ORD10907,2023-09-28,CUST00405,36-45,Central,Social Media,Tablet,Electronics,Smart Watch,4446.28,3,25,3334.71,13338.84,10004.13,COD,8,No,,3.1
+ORD10908,2023-03-27,CUST00076,36-45,West,Email,Desktop,Beauty,Lipstick,951.63,5,20,951.63,4758.15,3806.52,UPI,9,No,,4.2
+ORD10909,2023-04-21,CUST00769,18-25,East,Email,Mobile,Home & Kitchen,Air Fryer,5830.91,2,0,0.0,11661.82,11661.82,Debit Card,7,No,,4.2
+ORD10910,2023-07-24,CUST00134,26-35,North,Social Media,Desktop,Electronics,Laptop,111329.73,3,25,83497.3,333989.19,250491.89,Credit Card,8,No,,3.6
+ORD10911,2023-11-03,CUST00525,36-45,North,Social Media,Desktop,Home & Kitchen,Curtains,3710.05,4,0,0.0,14840.2,14840.2,Debit Card,5,No,,4.4
+ORD10912,2023-12-31,CUST00534,26-35,East,Referral,Desktop,Home & Kitchen,Cookware Set,2412.7,1,0,0.0,2412.7,2412.7,UPI,9,No,,4.6
+ORD10913,2023-08-13,CUST00527,18-25,North,Paid Ads,Desktop,Home & Kitchen,Air Fryer,10211.02,5,0,0.0,51055.1,51055.1,UPI,8,No,,4.1
+ORD10914,2023-03-14,CUST00046,26-35,West,Paid Ads,Desktop,Beauty,Lipstick,931.45,3,0,0.0,2794.35,2794.35,COD,4,Yes,Changed Mind,3.9
+ORD10915,2023-02-03,CUST00272,36-45,South,Direct,Desktop,Sports,Dumbbells,4959.79,2,0,0.0,9919.58,9919.58,Credit Card,3,No,,4.6
+ORD10916,2023-08-29,CUST00760,26-35,Central,Referral,Tablet,Electronics,Smart Watch,16610.42,3,15,7474.69,49831.26,42356.57,UPI,5,No,,2.4
+ORD10917,2023-01-12,CUST00337,55+,North,Referral,Desktop,Toys,Puzzle,1211.78,2,5,121.18,2423.56,2302.38,UPI,7,No,,3.5
+ORD10918,2023-08-26,CUST00423,36-45,South,Referral,Desktop,Electronics,Laptop,79951.27,2,5,7995.13,159902.54,151907.41,Wallet,3,No,,3.7
+ORD10919,2023-07-27,CUST00485,55+,West,Email,Desktop,Electronics,Earbuds,4667.56,1,20,933.51,4667.56,3734.05,COD,7,No,,3.1
+ORD10920,2023-05-05,CUST00608,26-35,North,Paid Ads,Tablet,Clothing,Jacket,3150.53,2,10,630.11,6301.06,5670.95,Net Banking,10,No,,3.4
+ORD10921,2023-01-02,CUST00137,26-35,East,Direct,Tablet,Books,Fiction Novel,570.47,2,0,0.0,1140.94,1140.94,Credit Card,8,No,,4.9
+ORD10922,2023-01-20,CUST00197,36-45,East,Referral,Desktop,Electronics,Laptop,110359.18,3,0,0.0,331077.54,331077.54,COD,10,Yes,Defective,2.9
+ORD10923,2023-03-12,CUST00873,26-35,Central,Paid Ads,Tablet,Toys,Puzzle,293.19,5,10,146.59,1465.95,1319.36,UPI,2,No,,3.0
+ORD10924,2023-08-20,CUST00835,26-35,East,Direct,Desktop,Electronics,Smart Watch,17338.82,2,25,8669.41,34677.64,26008.23,Debit Card,6,No,,3.6
+ORD10925,2023-02-10,CUST00121,18-25,East,Social Media,Tablet,Clothing,Jacket,1743.6,2,0,0.0,3487.2,3487.2,UPI,1,No,,5.0
+ORD10926,2023-03-04,CUST00918,26-35,North,Organic Search,Mobile,Sports,Cricket Bat,4593.2,4,20,3674.56,18372.8,14698.24,UPI,9,No,,3.6
+ORD10927,2023-12-30,CUST00836,26-35,Central,Direct,Mobile,Books,Self Help,606.26,4,20,485.01,2425.04,1940.03,Credit Card,6,No,,5.0
+ORD10928,2023-09-07,CUST00619,26-35,North,Organic Search,Tablet,Toys,Board Game,2885.72,4,0,0.0,11542.88,11542.88,UPI,6,No,,4.4
+ORD10929,2023-01-02,CUST00845,55+,Central,Social Media,Tablet,Beauty,Perfume,4100.94,3,15,1845.42,12302.82,10457.4,Net Banking,2,No,,3.6
+ORD10930,2023-08-11,CUST00552,55+,North,Email,Desktop,Sports,Badminton Set,2069.91,5,5,517.48,10349.55,9832.07,Net Banking,1,No,,8.4
+ORD10931,2023-08-19,CUST00668,46-55,West,Social Media,Mobile,Sports,Badminton Set,1154.27,3,5,173.14,3462.81,3289.67,COD,5,No,,3.0
+ORD10932,2023-07-23,CUST00281,26-35,East,Referral,Tablet,Clothing,T-Shirt,488.34,4,5,97.67,1953.36,1855.69,Credit Card,1,No,,9.5
+ORD10933,2023-03-01,CUST00399,36-45,West,Organic Search,Desktop,Books,Biography,367.38,5,10,183.69,1836.9,1653.21,Wallet,4,No,,3.6
+ORD10934,2023-03-28,CUST00209,36-45,Central,Direct,Tablet,Clothing,Jacket,1103.45,2,10,220.69,2206.9,1986.21,Wallet,5,No,,2.5
+ORD10935,2023-05-03,CUST00814,36-45,East,Organic Search,Tablet,Electronics,Smartphone,49278.17,1,0,0.0,49278.17,49278.17,COD,2,No,,4.9
+ORD10936,2023-02-12,CUST00194,26-35,North,Organic Search,Mobile,Books,Biography,317.15,-3,10,158.57,1585.75,1427.18,Debit Card,6,No,,3.5
+ORD10937,2023-09-03,CUST00812,36-45,South,Paid Ads,Mobile,Home & Kitchen,Mixer Grinder,5132.52,5,5,1283.13,25662.6,24379.47,COD,6,Yes,Changed Mind,4.6
+ORD10938,2023-12-03,CUST00378,18-25,East,Direct,Desktop,Beauty,Lipstick,973.46,1,5,48.67,973.46,924.79,Net Banking,8,No,,7.4
+ORD10939,2023-03-10,CUST00575,36-45,Central,Direct,Desktop,Beauty,Face Cream,1460.46,4,0,0.0,5841.84,5841.84,Credit Card,2,No,,4.2
+ORD10940,2023-06-09,CUST00057,55+,West,Paid Ads,Desktop,Sports,Yoga Mat,2072.29,3,5,310.84,6216.87,5906.03,UPI,9,No,,3.6
+ORD10941,2023-02-08,CUST00308,26-35,North,Paid Ads,Tablet,Toys,Doll,,5,15,1476.17,9841.15,8364.98,COD,8,No,,5.0
+ORD10942,2023-06-20,CUST00820,18-25,Central,Organic Search,Tablet,Sports,Yoga Mat,1225.06,1,10,122.51,1225.06,1102.55,COD,6,No,,4.2
+ORD10943,2023-02-21,CUST00042,26-35,North,Paid Ads,Mobile,Sports,Badminton Set,1313.3,5,10,656.65,6566.5,5909.85,Credit Card,7,No,,4.5
+ORD10944,2023-08-29,CUST00963,36-45,Central,Direct,Mobile,Sports,Yoga Mat,713.66,4,0,0.0,2854.64,2854.64,Wallet,6,No,,4.4
+ORD10945,2023-12-16,CUST00418,18-25,South,Email,Tablet,Toys,LEGO Set,3351.58,2,0,0.0,6703.16,6703.16,Debit Card,9,No,,4.3
+ORD10946,2023-09-28,CUST00933,36-45,West,Social Media,Tablet,Electronics,Smart Watch,5798.14,4,5,1159.63,23192.56,22032.93,COD,5,No,,3.1
+ORD10947,2023-05-10,CUST00834,36-45,North,Paid Ads,Mobile,Books,Fiction Novel,590.02,4,5,118.0,2360.08,2242.08,Wallet,3,No,,4.6
+ORD10948,2023-05-22,CUST00850,36-45,South,Direct,Tablet,Electronics,Smartphone,36730.86,2,5,3673.09,73461.72,69788.63,Credit Card,2,No,,3.3
+ORD10949,2023-12-04,CUST00455,36-45,South,Direct,Tablet,Toys,Remote Car,1840.36,4,20,1472.29,7361.44,5889.15,Debit Card,9,No,,3.0
+ORD10950,2023-05-10,CUST00854,18-25,East,Paid Ads,Desktop,Books,Comic,384.74,4,0,0.0,1538.96,1538.96,UPI,1,No,,4.8
+ORD10951,2023-10-28,CUST00660,26-35,West,Social Media,Mobile,Clothing,Jacket,4845.27,4,0,0.0,19381.08,19381.08,Net Banking,8,No,,5.0
+ORD10952,2023-11-27,CUST00658,55+,North,Social Media,Tablet,Clothing,Jacket,5524.03,1,5,276.2,5524.03,5247.83,COD,8,No,,5.0
+ORD10953,2023-10-18,CUST00290,26-35,Central,Referral,Tablet,Toys,Remote Car,3188.49,1,0,0.0,3188.49,3188.49,Debit Card,2,No,,3.9
+ORD10954,2023-01-11,CUST00350,18-25,West,Social Media,Tablet,Beauty,Lipstick,1177.45,1,0,0.0,1177.45,1177.45,UPI,6,No,,4.1
+ORD10955,2023-02-19,CUST00201,46-55,South,Referral,Desktop,Sports,Cricket Bat,4144.24,5,15,3108.18,20721.2,17613.02,Net Banking,7,No,,3.2
+ORD10956,2023-02-22,CUST00210,26-35,Central,Email,Tablet,Clothing,Jacket,5787.51,1,0,0.0,5787.51,5787.51,Debit Card,10,No,,4.2
+ORD10957,2023-05-12,CUST00419,18-25,South,Organic Search,Desktop,Clothing,Jeans,1046.18,1,0,0.0,1046.18,1046.18,Debit Card,1,No,,5.0
+ORD10958,2023-01-23,CUST00713,36-45,West,Social Media,Mobile,Sports,Yoga Mat,687.02,3,5,103.05,2061.06,1958.01,Credit Card,8,No,,2.9
+ORD10959,2023-01-01,CUST00958,26-35,North,Direct,Tablet,Sports,Badminton Set,1150.39,5,10,575.2,5751.95,5176.75,Credit Card,7,No,,3.7
+ORD10960,2023-01-24,CUST00472,18-25,South,Social Media,Tablet,Beauty,Perfume,1366.45,2,5,136.65,2732.9,2596.25,UPI,3,No,,4.1
+ORD10961,2023-08-31,CUST00036,26-35,South,Paid Ads,Mobile,Toys,Doll,561.68,1,0,0.0,561.68,561.68,Debit Card,7,Yes,Not as Described,4.4
+ORD10962,2023-09-24,CUST00606,46-55,South,Referral,Tablet,Books,Fiction Novel,345.58,2,10,69.12,691.16,622.04,Wallet,9,No,,2.3
+ORD10963,2023-11-09,CUST00267,36-45,South,Email,Desktop,Sports,Cricket Bat,5768.09,4,0,0.0,23072.36,23072.36,Net Banking,8,No,,3.7
+ORD10964,2023-12-22,CUST00973,46-55,South,Organic Search,Tablet,Toys,Puzzle,804.33,1,0,0.0,804.33,804.33,Debit Card,3,No,,4.2
+ORD10965,2023-09-18,CUST00076,26-35,East,Social Media,Desktop,Sports,Cricket Bat,4994.71,2,0,0.0,9989.42,9989.42,COD,10,No,,5.0
+ORD10966,2023-03-13,CUST00453,18-25,East,Email,Mobile,Clothing,Jeans,610.05,4,5,122.01,2440.2,2318.19,Wallet,4,No,,4.4
+ORD10967,2023-12-07,CUST00741,18-25,Central,Organic Search,Mobile,Home & Kitchen,Bedsheet,574.9,1,0,0.0,574.9,574.9,Wallet,1,No,,4.2
+ORD10968,2023-10-03,CUST00321,26-35,East,Social Media,Mobile,Clothing,Jacket,5765.44,1,25,1441.36,5765.44,4324.08,Credit Card,6,Yes,Defective,3.5
+ORD10969,2023-05-28,CUST00787,18-25,North,Social Media,Desktop,Sports,Cricket Bat,4001.74,5,25,5002.17,20008.7,15006.53,Net Banking,8,No,,1.7
+ORD10970,2023-11-03,CUST00652,26-35,West,Email,Tablet,Electronics,Tablet,31734.5,1,0,0.0,31734.5,31734.5,Credit Card,1,Yes,Not as Described,4.6
+ORD10971,2023-06-14,CUST00375,26-35,Central,Direct,Mobile,Clothing,Jacket,1746.37,3,5,261.96,5239.11,4977.15,Wallet,6,No,,3.5
+ORD10972,2023-11-05,CUST00018,36-45,Central,Paid Ads,Mobile,Books,Fiction Novel,333.03,2,20,133.21,666.06,532.85,Credit Card,10,No,,3.0
+ORD10973,2023-05-10,CUST00570,46-55,South,Referral,Desktop,Electronics,Earbuds,4108.97,1,20,821.79,4108.97,3287.18,Net Banking,9,No,,3.0
+ORD10974,2023-07-24,CUST00410,36-45,East,Email,Desktop,Clothing,Kurta,807.1,2,0,0.0,1614.2,1614.2,Debit Card,5,No,,3.8
+ORD10975,2023-09-28,CUST00318,55+,West,Social Media,Tablet,Electronics,Laptop,109150.15,2,15,32745.04,218300.3,185555.26,Net Banking,7,No,,3.6
+ORD10976,2023-01-22,CUST00349,26-35,North,Direct,Mobile,Clothing,Saree,7612.22,3,10,2283.67,22836.66,20552.99,Net Banking,3,No,,4.2
+ORD10977,2023-09-20,CUST00544,26-35,East,Paid Ads,Tablet,Books,Textbook,1057.91,3,10,317.37,3173.73,2856.36,Wallet,10,No,,5.0
+ORD10978,2023-03-10,CUST00349,18-25,South,Paid Ads,Mobile,Sports,Badminton Set,1028.29,3,15,462.73,3084.87,2622.14,Debit Card,8,No,,3.6
+ORD10979,2023-10-28,CUST00126,26-35,North,Direct,Tablet,Toys,Remote Car,1421.85,5,10,710.92,7109.25,6398.33,Net Banking,6,No,,2.9
+ORD10980,2023-11-07,CUST00505,26-35,West,Organic Search,Tablet,Sports,Cycle,23031.29,1,0,0.0,23031.29,23031.29,Credit Card,4,No,,5.0
+ORD10981,2023-07-19,CUST00513,46-55,North,Organic Search,Mobile,Electronics,Tablet,48067.68,4,15,28840.61,192270.72,163430.11,Debit Card,2,No,,4.7
+ORD10982,2023-06-21,CUST00014,26-35,East,Direct,Desktop,Toys,LEGO Set,5986.32,1,0,0.0,5986.32,5986.32,COD,7,Yes,Wrong Item,4.5
+ORD10983,2023-07-20,CUST00355,18-25,North,Referral,Tablet,Electronics,Smart Watch,18500.1,5,5,4625.02,92500.5,87875.48,COD,6,No,,3.2
+ORD10984,2023-07-23,CUST00775,55+,South,Referral,Tablet,Home & Kitchen,Air Fryer,7853.06,2,5,785.31,15706.12,14920.81,COD,9,No,,4.6
+ORD10985,2023-06-22,CUST00957,18-25,Central,Email,Tablet,Clothing,T-Shirt,512.19,3,15,230.49,1536.57,1306.08,Credit Card,7,Yes,Not as Described,3.1
+ORD10986,2023-09-10,CUST00532,36-45,North,Organic Search,Mobile,Toys,Remote Car,2817.53,3,5,422.63,8452.59,8029.96,Credit Card,7,No,,5.0
+ORD10987,2023-01-14,CUST00467,18-25,South,Social Media,Desktop,Sports,Cricket Bat,2806.61,4,0,0.0,11226.44,11226.44,UPI,7,No,,3.7
+ORD10988,2023-10-20,CUST00575,36-45,East,Social Media,Tablet,Electronics,Smart Watch,11163.36,2,20,4465.34,22326.72,17861.38,Credit Card,2,No,,4.5
+ORD10989,2023-09-28,CUST00351,26-35,Central,Paid Ads,Desktop,Electronics,Laptop,57360.56,5,0,0.0,286802.8,286802.8,Credit Card,8,No,,3.3
+ORD10990,2023-01-28,CUST00621,46-55,North,Social Media,Desktop,Clothing,Jeans,2112.84,5,0,0.0,10564.2,10564.2,COD,2,No,,2.8
+ORD10991,2023-10-26,CUST00613,36-45,Central,Email,Tablet,Clothing,T-Shirt,1129.05,4,10,451.62,4516.2,4064.58,UPI,3,No,,4.4
+ORD10992,2023-02-15,CUST00394,36-45,East,Organic Search,Tablet,Toys,Puzzle,1034.27,5,25,1292.84,5171.35,3878.51,UPI,9,No,,3.3
+ORD10993,2023-04-08,CUST00800,46-55,West,Email,Tablet,Sports,Badminton Set,2501.52,2,0,0.0,5003.04,5003.04,COD,2,No,,3.8
+ORD10994,2023-03-21,CUST00914,18-25,South,Referral,Tablet,Electronics,Smart Watch,13199.92,1,25,3299.98,13199.92,9899.94,Debit Card,7,No,,3.2
+ORD10995,2023-12-03,CUST00857,46-55,North,Paid Ads,Tablet,Home & Kitchen,Cookware Set,6493.23,-2,0,0.0,12986.46,12986.46,COD,9,No,,4.2
+ORD10996,2023-07-27,CUST00677,26-35,West,Direct,Mobile,Sports,Cycle,13533.49,5,0,0.0,67667.45,67667.45,Debit Card,10,No,,3.6
+ORD10997,2023-12-11,CUST00827,26-35,East,Paid Ads,Desktop,Electronics,Tablet,34096.45,4,0,0.0,136385.8,136385.8,Net Banking,3,No,,3.9
+ORD10998,2023-11-17,CUST00771,26-35,West,Email,Mobile,Sports,Cricket Bat,,3,10,660.9,6609.0,5948.1,Credit Card,1,No,,4.2
+ORD10999,2023-12-09,CUST00343,46-55,West,Referral,Mobile,Electronics,Smart Watch,11070.19,1,0,0.0,11070.19,11070.19,COD,4,No,,3.6
+ORD11000,2023-06-14,CUST00535,18-25,South,Organic Search,Tablet,Beauty,Perfume,860.47,5,0,0.0,4302.35,4302.35,UPI,1,No,,4.2
+ORD11001,2023-08-15,CUST00167,18-25,West,Direct,Mobile,Clothing,Saree,2744.87,4,25,2744.87,10979.48,8234.61,COD,10,No,,2.4
+ORD11002,2023-11-17,CUST00579,36-45,West,Referral,Tablet,Clothing,Saree,940.13,1,25,235.03,940.13,705.1,COD,8,No,,5.0
+ORD11003,2023-08-21,CUST00978,55+,West,Organic Search,Desktop,Home & Kitchen,Air Fryer,11732.67,2,5,1173.27,23465.34,22292.07,COD,4,Yes,Wrong Item,2.9
+ORD11004,2023-02-10,CUST00433,26-35,West,Referral,Tablet,Electronics,Smart Watch,2191.54,2,0,0.0,4383.08,4383.08,UPI,10,No,,3.6
+ORD11005,2023-12-08,CUST00271,36-45,North,Paid Ads,Desktop,Books,Fiction Novel,235.67,4,0,0.0,942.68,942.68,UPI,9,No,,4.4
+ORD11006,2023-05-22,CUST00257,46-55,West,Direct,Desktop,Sports,Yoga Mat,2446.16,1,20,489.23,2446.16,1956.93,Wallet,5,No,,4.0
+ORD11007,2023-03-24,CUST00916,46-55,East,Referral,Desktop,Sports,Cricket Bat,5575.85,1,0,0.0,5575.85,5575.85,Debit Card,2,No,,4.5
+ORD11008,2023-04-30,CUST00249,46-55,East,Email,Mobile,Sports,Badminton Set,1416.33,4,25,1416.33,5665.32,4248.99,UPI,7,No,,4.2
+ORD11009,2023-12-26,CUST00652,26-35,North,Email,Desktop,Clothing,Kurta,1975.57,1,25,493.89,1975.57,1481.68,Debit Card,10,No,,5.0
+ORD11010,2023-07-06,CUST00176,18-25,West,Direct,Tablet,Books,Biography,678.94,2,0,0.0,1357.88,1357.88,UPI,1,No,,4.7
+ORD11011,2023-12-18,CUST00154,36-45,Central,Paid Ads,Desktop,Electronics,Earbuds,2925.84,4,0,0.0,11703.36,11703.36,COD,5,No,,4.9
+ORD11012,2023-05-01,CUST00889,18-25,East,Organic Search,Tablet,Books,Comic,326.49,1,10,32.65,326.49,293.84,Wallet,7,No,,2.6
+ORD11013,2023-11-03,CUST00299,36-45,Central,Referral,Tablet,Beauty,Shampoo,580.5,5,20,580.5,2902.5,2322.0,Wallet,5,No,,3.6
+ORD11014,2023-01-19,CUST00459,26-35,North,Referral,Desktop,Electronics,Smartphone,19909.77,4,25,19909.77,79639.08,59729.31,UPI,8,Yes,Wrong Item,4.1
+ORD11015,2023-09-11,CUST00394,26-35,West,Direct,Mobile,Books,Fiction Novel,583.59,1,25,145.9,583.59,437.69,Debit Card,10,No,,5.0
+ORD11016,2023-11-26,CUST00191,36-45,North,Direct,Desktop,Home & Kitchen,Cookware Set,4672.42,4,0,0.0,18689.68,18689.68,Net Banking,9,No,,3.2
+ORD11017,2023-01-16,CUST00922,26-35,East,Paid Ads,Tablet,Books,Biography,432.53,4,0,0.0,1730.12,1730.12,Net Banking,2,No,,3.9
+ORD11018,2023-11-10,CUST00700,26-35,South,Paid Ads,Tablet,Books,Biography,466.74,2,15,140.02,933.48,793.46,COD,5,No,,4.0
+ORD11019,2023-12-17,CUST00780,26-35,East,Email,Mobile,Electronics,Earbuds,2322.05,3,0,0.0,6966.15,6966.15,COD,6,No,,5.0
+ORD11020,2023-06-25,CUST00882,55+,East,Organic Search,Tablet,Clothing,Jacket,5730.32,2,5,573.03,11460.64,10887.61,Net Banking,9,No,,3.9
+ORD11021,2023-01-09,CUST00500,36-45,Central,Organic Search,Tablet,Sports,Dumbbells,4816.29,5,15,3612.22,24081.45,20469.23,COD,10,No,,7.2
+ORD11022,2023-11-03,CUST00342,36-45,South,Email,Desktop,Toys,Puzzle,296.86,1,25,74.22,296.86,222.64,Credit Card,8,No,,4.5
+ORD11023,2023-04-14,CUST00178,26-35,Central,Organic Search,Mobile,Home & Kitchen,Bedsheet,1634.19,3,15,735.39,4902.57,4167.18,Net Banking,2,No,,5.0
+ORD11024,2023-03-18,CUST00795,26-35,North,Direct,Tablet,Books,Textbook,473.27,5,10,236.63,2366.35,2129.72,COD,2,No,,4.0
+ORD11025,2023-01-04,CUST00241,46-55,South,Paid Ads,Desktop,Books,Biography,283.08,2,25,141.54,566.16,424.62,COD,5,No,,3.7
+ORD11026,2023-08-19,CUST00505,36-45,East,Referral,Tablet,Toys,Doll,1007.34,3,20,604.4,3022.02,2417.62,UPI,9,No,,3.9
+ORD11027,2023-12-31,CUST00515,18-25,West,Social Media,Mobile,Beauty,Serum,1497.11,3,15,673.7,4491.33,3817.63,Debit Card,10,No,,4.5
+ORD11028,2023-06-07,CUST00075,55+,North,Social Media,Desktop,Toys,LEGO Set,5412.45,1,0,0.0,5412.45,5412.45,Credit Card,6,No,,2.6
+ORD11029,2023-09-25,CUST00436,36-45,Central,Referral,Tablet,Clothing,T-Shirt,621.17,4,0,0.0,2484.68,2484.68,Net Banking,4,No,,3.2
+ORD11030,2023-09-13,CUST00737,55+,Central,Direct,Tablet,Books,Biography,590.98,4,0,0.0,2363.92,2363.92,Debit Card,4,No,,7.5
+ORD11031,2023-03-30,CUST00109,36-45,South,Direct,Mobile,Home & Kitchen,Bedsheet,1022.88,1,5,51.14,1022.88,971.74,Wallet,9,No,,3.2
+ORD11032,2023-02-16,CUST00735,36-45,West,Referral,Tablet,Home & Kitchen,Cookware Set,2009.32,4,0,0.0,8037.28,8037.28,Credit Card,9,No,,4.0
+ORD11033,2023-09-03,CUST00765,55+,South,Referral,Mobile,Beauty,Lipstick,376.94,2,15,113.08,753.88,640.8,UPI,8,No,,4.5
+ORD11034,2023-12-03,CUST00890,18-25,North,Email,Tablet,Clothing,Kurta,589.49,4,20,471.59,2357.96,1886.37,Debit Card,9,No,,4.2
+ORD11035,2023-01-15,CUST00159,36-45,South,Organic Search,Tablet,Clothing,Jacket,4936.06,2,0,0.0,9872.12,9872.12,Net Banking,6,No,,4.2
+ORD11036,2023-11-24,CUST00171,26-35,Central,Paid Ads,Desktop,Toys,Remote Car,2903.19,5,0,0.0,14515.95,14515.95,COD,5,No,,3.4
+ORD11037,2023-09-10,CUST00403,26-35,East,Referral,Desktop,Home & Kitchen,Bedsheet,1544.69,4,25,1544.69,6178.76,4634.07,COD,4,No,,3.8
+ORD11038,2023-01-02,CUST00340,26-35,West,Direct,Mobile,Beauty,Face Cream,434.6,4,25,434.6,1738.4,1303.8,Debit Card,3,No,,3.6
+ORD11039,2023-03-08,CUST00138,36-45,Central,Paid Ads,Mobile,Books,Textbook,621.24,5,5,155.31,3106.2,2950.89,Credit Card,3,Yes,Defective,4.2
+ORD11040,2023-09-23,CUST00216,36-45,East,Paid Ads,Mobile,Electronics,Earbuds,3924.49,4,25,3924.49,15697.96,11773.47,Wallet,9,No,,3.3
+ORD11041,2023-01-09,CUST00242,55+,Central,Social Media,Mobile,Sports,Cycle,28107.56,1,5,1405.38,28107.56,26702.18,Net Banking,5,No,,3.7
+ORD11042,2023-10-20,CUST00950,36-45,East,Paid Ads,Desktop,Electronics,Earbuds,4258.33,2,5,425.83,8516.66,8090.83,UPI,2,Yes,Wrong Item,3.7
+ORD11043,2023-01-03,CUST00482,18-25,North,Paid Ads,Desktop,Beauty,Serum,901.41,5,5,225.35,4507.05,4281.7,Credit Card,10,No,,3.6
+ORD11044,2023-03-22,CUST00420,26-35,North,Organic Search,Mobile,Beauty,Shampoo,625.64,1,5,31.28,625.64,594.36,Net Banking,2,No,,5.0
+ORD11045,2023-03-03,CUST00458,18-25,West,Paid Ads,Mobile,Books,Fiction Novel,208.28,2,0,0.0,416.56,416.56,COD,10,No,,3.1
+ORD11046,2023-08-09,CUST00467,36-45,South,Social Media,Mobile,Beauty,Shampoo,174.06,5,5,43.52,870.3,826.78,Credit Card,7,No,,2.9
+ORD11047,2023-11-17,CUST00346,46-55,Central,Social Media,Desktop,Electronics,Earbuds,602.19,5,20,602.19,3010.95,2408.76,Debit Card,9,No,,3.7
+ORD11048,2023-07-14,CUST00954,26-35,Central,Email,Mobile,Electronics,Tablet,19682.69,3,15,8857.21,59048.07,50190.86,Credit Card,2,No,,4.0
+ORD11049,2023-08-06,CUST00553,26-35,North,Social Media,Mobile,Clothing,Jacket,1593.25,3,5,238.99,4779.75,4540.76,Wallet,6,No,,4.0
+ORD11050,2023-08-05,CUST00507,26-35,North,Email,Desktop,Toys,Board Game,564.11,4,0,0.0,2256.44,2256.44,COD,2,No,,4.3
+ORD11051,2023-09-29,CUST00268,55+,North,Paid Ads,Tablet,Electronics,Smart Watch,6107.62,2,10,1221.52,12215.24,10993.72,Wallet,2,No,,4.5
+ORD11052,2023-01-09,CUST00578,46-55,East,Referral,Mobile,Toys,Remote Car,903.63,1,0,0.0,903.63,903.63,UPI,10,No,,5.0
+ORD11053,2023-05-26,CUST00969,26-35,East,Email,Desktop,Books,Biography,622.39,3,15,280.08,1867.17,1587.09,Credit Card,7,No,,2.9
+ORD11054,2023-01-20,CUST00409,26-35,North,Referral,Mobile,Electronics,Smartphone,31307.54,1,0,0.0,31307.54,31307.54,COD,4,Yes,Changed Mind,3.7
+ORD11055,2023-02-25,CUST00475,18-25,North,Email,Tablet,Electronics,Earbuds,2514.93,2,0,0.0,5029.86,5029.86,Debit Card,6,No,,3.9
+ORD11056,2023-09-29,CUST00117,36-45,Central,Referral,Tablet,Home & Kitchen,Air Fryer,,3,15,5273.54,35156.94,29883.4,UPI,5,No,,4.3
+ORD11057,2023-09-12,CUST00575,18-25,South,Referral,Desktop,Books,Comic,311.02,5,10,155.51,1555.1,1399.59,Debit Card,1,No,,4.8
+ORD11058,2023-08-12,CUST00717,46-55,West,Email,Mobile,Toys,Doll,,4,20,1493.88,7469.4,5975.52,UPI,3,Yes,Defective,2.5
+ORD11059,2023-01-26,CUST00683,26-35,East,Referral,Mobile,Home & Kitchen,Cookware Set,1637.13,1,0,0.0,1637.13,1637.13,COD,8,No,,3.8
+ORD11060,2023-10-21,CUST00325,36-45,Central,Social Media,Tablet,Toys,Puzzle,288.33,5,10,144.16,1441.65,1297.49,COD,1,No,,3.4
+ORD11061,2023-11-24,CUST00204,26-35,Central,Referral,Tablet,Toys,Doll,1879.74,4,25,1879.74,7518.96,5639.22,UPI,4,No,,2.9
+ORD11062,2023-04-21,CUST00273,26-35,South,Direct,Tablet,Electronics,Smart Watch,18345.36,1,0,0.0,18345.36,18345.36,COD,8,No,,4.9
+ORD11063,2023-11-09,CUST00069,36-45,South,Organic Search,Mobile,Beauty,Serum,1947.32,5,0,0.0,9736.6,9736.6,Net Banking,8,No,,4.3
+ORD11064,2023-02-24,CUST00676,18-25,Central,Organic Search,Mobile,Electronics,Tablet,33037.09,5,0,0.0,165185.45,165185.45,UPI,2,No,,4.6
+ORD11065,2023-03-17,CUST00986,18-25,East,Direct,Tablet,Beauty,Serum,1886.06,5,25,2357.57,9430.3,7072.73,Credit Card,2,Yes,Changed Mind,3.0
+ORD11066,2023-06-05,CUST00902,46-55,West,Referral,Desktop,Toys,LEGO Set,5852.54,4,10,2341.02,23410.16,21069.14,Net Banking,9,No,,4.0
+ORD11067,2023-10-04,CUST00328,26-35,West,Referral,Mobile,Electronics,Tablet,18628.75,1,10,1862.88,18628.75,16765.87,UPI,1,No,,3.1
+ORD11068,2023-09-19,CUST00615,36-45,West,Referral,Tablet,Sports,Cycle,7287.59,1,0,0.0,7287.59,7287.59,Net Banking,8,No,,2.8
+ORD11069,2023-04-28,CUST00810,18-25,West,Referral,Tablet,Beauty,Face Cream,547.27,5,15,410.45,2736.35,2325.9,Debit Card,2,No,,3.2
+ORD11070,2023-06-20,CUST00818,46-55,North,Referral,Desktop,Clothing,Jacket,2420.59,5,5,605.15,12102.95,11497.8,Wallet,7,No,,4.2
+ORD11071,2023-10-07,CUST00959,36-45,North,Email,Mobile,Beauty,Perfume,,4,20,3406.31,17031.56,13625.25,Debit Card,4,No,,3.1
+ORD11072,2023-07-02,CUST00556,26-35,South,Social Media,Tablet,Sports,Dumbbells,,2,0,0.0,2458.56,2458.56,Net Banking,10,No,,4.4
+ORD11073,2023-03-12,CUST00155,55+,West,Organic Search,Tablet,Sports,Badminton Set,1147.08,1,20,229.42,1147.08,917.66,Credit Card,5,No,,3.3
+ORD11074,2023-07-03,CUST00210,36-45,North,Social Media,Mobile,Electronics,Earbuds,832.34,1,5,41.62,832.34,790.72,Debit Card,10,No,,4.8
+ORD11075,2023-07-25,CUST00718,18-25,East,Email,Mobile,Electronics,Earbuds,1945.48,5,0,0.0,9727.4,9727.4,UPI,6,No,,5.0
+ORD11076,2023-04-09,CUST00866,18-25,North,Referral,Mobile,Electronics,Tablet,14868.07,3,0,0.0,44604.21,44604.21,Wallet,5,No,,4.2
+ORD11077,2023-10-07,CUST00747,18-25,East,Organic Search,Desktop,Home & Kitchen,Cookware Set,4460.32,5,0,0.0,22301.6,22301.6,UPI,9,No,,3.2
+ORD11078,2023-06-17,CUST00272,26-35,South,Direct,Tablet,Books,Biography,716.28,1,5,35.81,716.28,680.47,Net Banking,10,No,,3.4
+ORD11079,2023-10-18,CUST00888,18-25,North,Organic Search,Mobile,Beauty,Serum,1828.84,3,20,1097.3,5486.52,4389.22,COD,5,No,,4.5
+ORD11080,2023-07-04,CUST00360,18-25,South,Referral,Tablet,Clothing,Kurta,1827.0,1,25,456.75,1827.0,1370.25,COD,4,No,,3.1
+ORD11081,2023-07-30,CUST00336,26-35,Central,Direct,Tablet,Toys,Doll,652.14,3,5,97.82,1956.42,1858.6,COD,3,Yes,Not as Described,4.8
+ORD11082,2023-04-02,CUST00886,26-35,West,Email,Desktop,Home & Kitchen,Mixer Grinder,3792.28,5,10,1896.14,18961.4,17065.26,Credit Card,1,No,,3.4
+ORD11083,2023-06-11,CUST00502,36-45,East,Social Media,Mobile,Home & Kitchen,Curtains,1638.82,1,10,163.88,1638.82,1474.94,Debit Card,7,No,,4.5
+ORD11084,2023-03-08,CUST00897,26-35,East,Direct,Desktop,Toys,Puzzle,1246.84,1,20,249.37,1246.84,997.47,Credit Card,4,No,,3.0
+ORD11085,2023-04-28,CUST00165,46-55,West,Email,Desktop,Electronics,Smart Watch,13387.23,5,15,10040.42,66936.15,56895.73,Wallet,1,Yes,Changed Mind,5.0
+ORD11086,2023-11-10,CUST00727,55+,East,Referral,Tablet,Beauty,Lipstick,510.62,2,15,153.19,1021.24,868.05,Wallet,2,No,,4.4
+ORD11087,2023-02-25,CUST00406,26-35,North,Paid Ads,Tablet,Books,Fiction Novel,152.75,5,0,0.0,763.75,763.75,COD,8,No,,4.3
+ORD11088,2023-08-17,CUST00169,36-45,South,Organic Search,Mobile,Home & Kitchen,Curtains,3778.32,1,10,377.83,3778.32,3400.49,COD,3,No,,3.5
+ORD11089,2023-04-27,CUST00603,36-45,East,Direct,Mobile,Home & Kitchen,Mixer Grinder,6412.49,4,15,3847.49,25649.96,21802.47,UPI,7,No,,4.3
+ORD11090,2023-12-10,CUST00260,26-35,West,Social Media,Desktop,Home & Kitchen,Cookware Set,2461.56,2,0,0.0,4923.12,4923.12,Wallet,9,No,,4.1
+ORD11091,2023-04-11,CUST00158,55+,West,Direct,Tablet,Home & Kitchen,Bedsheet,2130.52,3,0,0.0,6391.56,6391.56,Wallet,2,Yes,Wrong Item,4.7
+ORD11092,2023-05-05,CUST00174,18-25,South,Organic Search,Desktop,Toys,LEGO Set,3253.75,4,5,650.75,13015.0,12364.25,UPI,5,No,,3.8
+ORD11093,2023-11-07,CUST00847,18-25,Central,Paid Ads,Desktop,Beauty,Face Cream,1051.57,1,0,0.0,1051.57,1051.57,Wallet,7,No,,3.6
+ORD11094,2023-06-19,CUST00884,36-45,West,Email,Desktop,Sports,Badminton Set,2591.38,3,5,388.71,7774.14,7385.43,COD,4,No,,5.0
+ORD11095,2023-03-30,CUST00939,36-45,Central,Paid Ads,Tablet,Home & Kitchen,Cookware Set,6477.52,4,15,3886.51,25910.08,22023.57,UPI,5,No,,4.1
+ORD11096,2023-08-19,CUST00151,26-35,Central,Direct,Desktop,Beauty,Face Cream,817.64,5,5,204.41,4088.2,3883.79,COD,9,Yes,Not as Described,4.1
+ORD11097,2023-12-20,CUST00493,36-45,West,Direct,Mobile,Sports,Badminton Set,1621.4,5,0,0.0,8107.0,8107.0,UPI,10,Yes,Not as Described,5.0
+ORD11098,2023-12-30,CUST00571,36-45,Central,Organic Search,Mobile,Books,Self Help,218.21,1,20,43.64,218.21,174.57,Credit Card,5,No,,4.4
+ORD11099,2023-10-18,CUST00530,46-55,South,Paid Ads,Mobile,Beauty,Serum,1699.92,4,0,0.0,6799.68,6799.68,Credit Card,4,No,,4.4
+ORD11100,2023-01-02,CUST00047,46-55,Central,Direct,Desktop,Electronics,Smartphone,8625.92,2,0,0.0,17251.84,17251.84,Wallet,1,Yes,Changed Mind,3.2
+ORD11101,2023-04-07,CUST00096,26-35,East,Direct,Mobile,Books,Fiction Novel,155.04,1,10,15.5,155.04,139.54,Wallet,6,No,,4.2
+ORD11102,2023-05-22,CUST00142,18-25,North,Organic Search,Mobile,Electronics,Tablet,35516.74,1,25,8879.18,35516.74,26637.56,Debit Card,7,No,,4.1
+ORD11103,2023-01-02,CUST00286,55+,North,Social Media,Mobile,Beauty,Face Cream,794.16,4,0,0.0,3176.64,3176.64,Wallet,6,No,,3.0
+ORD11104,2023-05-18,CUST00089,36-45,East,Organic Search,Desktop,Electronics,Smart Watch,9791.32,4,20,7833.06,39165.28,31332.22,COD,2,Yes,Changed Mind,4.6
+ORD11105,2023-11-13,CUST00377,36-45,East,Referral,Mobile,Home & Kitchen,Air Fryer,6589.41,5,10,3294.7,32947.05,29652.35,Net Banking,8,Yes,Defective,3.7
+ORD11106,2023-07-18,CUST00444,36-45,Central,Direct,Tablet,Sports,Badminton Set,1955.04,4,0,0.0,7820.16,7820.16,Wallet,10,No,,4.6
+ORD11107,2023-10-30,CUST00465,46-55,Central,Paid Ads,Mobile,Books,Biography,289.96,1,15,43.49,289.96,246.47,Credit Card,7,No,,4.1
+ORD11108,2023-11-20,CUST00016,26-35,Central,Social Media,Mobile,Electronics,Laptop,68845.17,3,25,51633.88,206535.51,154901.63,Credit Card,9,No,,4.3
+ORD11109,2023-03-02,CUST00298,36-45,Central,Paid Ads,Mobile,Toys,Doll,914.05,5,15,685.54,4570.25,3884.71,Credit Card,8,No,,3.6
+ORD11110,2023-03-12,CUST00489,26-35,East,Direct,Tablet,Sports,Badminton Set,947.17,1,20,189.43,947.17,757.74,UPI,7,No,,4.6
+ORD11111,2023-12-15,CUST00854,46-55,Central,Paid Ads,Mobile,Home & Kitchen,Mixer Grinder,2631.41,5,15,1973.56,13157.05,11183.49,UPI,5,No,,4.9
+ORD11112,2023-02-02,CUST00282,55+,West,Paid Ads,Tablet,Books,Fiction Novel,469.64,1,0,0.0,469.64,469.64,Debit Card,7,No,,3.8
+ORD11113,2023-01-30,CUST00668,55+,West,Paid Ads,Mobile,Sports,Badminton Set,1387.44,3,0,0.0,4162.32,4162.32,Debit Card,2,No,,3.3
+ORD11114,2023-01-04,CUST00772,55+,Central,Paid Ads,Desktop,Books,Fiction Novel,325.27,5,15,243.95,1626.35,1382.4,Credit Card,8,Yes,Not as Described,5.0
+ORD11115,2023-01-23,CUST00837,46-55,North,Organic Search,Desktop,Toys,LEGO Set,2574.92,4,0,0.0,10299.68,10299.68,Credit Card,6,No,,3.6
+ORD11116,2023-09-05,CUST00899,26-35,East,Paid Ads,Tablet,Toys,Doll,1309.2,1,0,0.0,1309.2,1309.2,Debit Card,5,No,,4.6
+ORD11117,2023-07-31,CUST00264,26-35,North,Referral,Tablet,Toys,Puzzle,878.47,4,5,175.69,3513.88,3338.19,COD,6,No,,3.0
+ORD11118,2023-04-20,CUST00575,36-45,East,Paid Ads,Tablet,Clothing,Jacket,2010.92,3,0,0.0,6032.76,6032.76,UPI,2,Yes,Not as Described,4.7
+ORD11119,2023-03-19,CUST00416,46-55,West,Paid Ads,Tablet,Books,Textbook,1238.43,2,15,371.53,2476.86,2105.33,COD,7,No,,4.2
+ORD11120,2023-10-08,CUST00944,55+,South,Referral,Mobile,Clothing,Saree,7215.17,5,5,1803.79,36075.85,34272.06,UPI,5,No,,3.8
+ORD11121,2023-12-27,CUST00460,36-45,South,Referral,Mobile,Home & Kitchen,Air Fryer,7009.64,4,10,2803.86,28038.56,25234.7,Wallet,1,No,,4.5
+ORD11122,2023-06-16,CUST00615,18-25,West,Referral,Desktop,Toys,LEGO Set,3970.33,5,15,2977.75,19851.65,16873.9,Credit Card,2,Yes,Not as Described,3.9
+ORD11123,2023-12-16,CUST00173,36-45,East,Social Media,Tablet,Sports,Yoga Mat,784.65,3,25,588.49,2353.95,1765.46,Credit Card,7,Yes,Wrong Item,2.8
+ORD11124,2023-04-04,CUST00366,46-55,North,Organic Search,Desktop,Beauty,Shampoo,798.84,1,0,0.0,798.84,798.84,Credit Card,8,No,,4.4
+ORD11125,2023-12-02,CUST00649,46-55,West,Organic Search,Desktop,Home & Kitchen,Mixer Grinder,7176.94,2,15,2153.08,14353.88,12200.8,Wallet,10,No,,2.3
+ORD11126,2023-07-01,CUST00683,36-45,Central,Paid Ads,Desktop,Clothing,Jeans,1659.24,-2,0,0.0,8296.2,8296.2,Wallet,10,No,,2.9
+ORD11127,2023-01-02,CUST00961,18-25,East,Organic Search,Mobile,Electronics,Laptop,92102.64,5,0,0.0,460513.2,460513.2,COD,5,No,,2.6
+ORD11128,2023-11-12,CUST00779,36-45,North,Social Media,Desktop,Home & Kitchen,Cookware Set,6504.22,2,15,1951.27,13008.44,11057.17,Credit Card,10,No,,4.7
+ORD11129,2023-11-26,CUST00439,55+,West,Direct,Desktop,Electronics,Smartphone,25117.4,4,0,0.0,100469.6,100469.6,Net Banking,1,No,,3.8
+ORD11130,2023-09-14,CUST00224,36-45,East,Paid Ads,Mobile,Home & Kitchen,Air Fryer,10004.65,2,25,5002.32,20009.3,15006.98,Credit Card,5,No,,5.0
+ORD11131,2023-06-17,CUST00649,26-35,East,Social Media,Mobile,Books,Comic,,2,15,71.26,475.08,403.82,Net Banking,1,No,,5.0
+ORD11132,2023-04-05,CUST00798,18-25,North,Organic Search,Tablet,Clothing,Saree,1561.53,5,10,780.76,7807.65,7026.89,Credit Card,10,Yes,Wrong Item,3.4
+ORD11133,2023-07-02,CUST00523,26-35,West,Email,Desktop,Sports,Yoga Mat,,4,0,0.0,7145.2,7145.2,Debit Card,4,Yes,Changed Mind,3.1
+ORD11134,2023-12-14,CUST00773,46-55,East,Referral,Mobile,Toys,Board Game,2040.67,1,10,204.07,2040.67,1836.6,Credit Card,6,No,,4.8
+ORD11135,2023-03-27,CUST00430,36-45,South,Email,Desktop,Clothing,Kurta,1947.59,4,10,779.04,7790.36,7011.32,UPI,7,Yes,Wrong Item,3.6
+ORD11136,2023-01-13,CUST00821,26-35,South,Paid Ads,Desktop,Sports,Cricket Bat,1388.69,4,25,1388.69,5554.76,4166.07,Wallet,10,No,,4.3
+ORD11137,2023-02-04,CUST00538,36-45,East,Referral,Mobile,Clothing,T-Shirt,1041.15,5,0,0.0,5205.75,5205.75,Net Banking,6,No,,3.8
+ORD11138,2023-06-20,CUST00583,36-45,North,Email,Tablet,Electronics,Smartphone,29131.58,2,15,8739.47,58263.16,49523.69,COD,9,No,,3.8
+ORD11139,2023-09-03,CUST00717,36-45,South,Referral,Tablet,Electronics,Smartphone,39517.32,3,5,5927.6,118551.96,112624.36,Net Banking,9,No,,2.4
+ORD11140,2023-12-03,CUST00489,18-25,Central,Paid Ads,Tablet,Clothing,Kurta,979.83,3,0,0.0,2939.49,2939.49,Debit Card,2,No,,4.8
+ORD11141,2023-05-23,CUST00671,26-35,North,Organic Search,Desktop,Clothing,Jeans,647.9,1,10,64.79,647.9,583.11,UPI,8,No,,5.0
+ORD11142,2023-11-18,CUST00284,55+,West,Email,Desktop,Sports,Badminton Set,2305.3,1,0,0.0,2305.3,2305.3,Debit Card,1,No,,2.5
+ORD11143,2023-03-08,CUST00908,18-25,North,Social Media,Tablet,Beauty,Face Cream,516.81,2,0,0.0,1033.62,1033.62,COD,9,Yes,Not as Described,2.3
+ORD11144,2023-10-27,CUST00701,18-25,North,Email,Desktop,Clothing,Jacket,3284.59,3,20,1970.75,9853.77,7883.02,Net Banking,2,No,,4.2
+ORD11145,2023-03-03,CUST00863,55+,West,Paid Ads,Mobile,Toys,Puzzle,253.14,2,5,25.31,506.28,480.97,COD,1,No,,5.0
+ORD11146,2023-01-08,CUST00862,26-35,North,Email,Mobile,Electronics,Laptop,114499.74,4,25,114499.74,457998.96,343499.22,Wallet,9,Yes,Changed Mind,3.3
+ORD11147,2023-07-05,CUST00798,36-45,West,Email,Mobile,Books,Self Help,242.06,5,20,242.06,1210.3,968.24,Wallet,6,Yes,Not as Described,3.7
+ORD11148,2023-06-26,CUST00195,18-25,North,Organic Search,Desktop,Home & Kitchen,Cookware Set,5736.16,2,20,2294.46,11472.32,9177.86,Debit Card,1,No,,3.6
+ORD11149,2023-12-02,CUST00273,36-45,North,Referral,Tablet,Home & Kitchen,Mixer Grinder,6714.98,2,15,2014.49,13429.96,11415.47,Net Banking,9,No,,3.7
+ORD11150,2023-03-17,CUST00674,36-45,East,Paid Ads,Mobile,Sports,Badminton Set,835.41,5,20,835.41,4177.05,3341.64,Wallet,4,No,,5.0
+ORD11151,2023-12-08,CUST00242,26-35,South,Organic Search,Mobile,Home & Kitchen,Curtains,3917.15,2,15,1175.14,7834.3,6659.16,Wallet,1,No,,3.3
+ORD11152,2023-07-27,CUST00479,36-45,West,Social Media,Desktop,Toys,Remote Car,3514.69,5,25,4393.36,17573.45,13180.09,Net Banking,1,No,,3.9
+ORD11153,2023-07-04,CUST00578,26-35,Central,Referral,Desktop,Sports,Dumbbells,3831.33,3,5,574.7,11493.99,10919.29,Credit Card,4,No,,3.2
+ORD11154,2023-04-01,CUST00009,36-45,East,Referral,Mobile,Books,Self Help,652.97,2,0,0.0,1305.94,1305.94,UPI,6,No,,5.0
+ORD11155,2023-10-22,CUST00865,26-35,East,Paid Ads,Mobile,Clothing,Jacket,3979.72,3,15,1790.87,11939.16,10148.29,UPI,7,No,,9.5
+ORD11156,2023-07-17,CUST00977,26-35,South,Email,Mobile,Toys,Puzzle,1483.49,3,0,0.0,4450.47,4450.47,UPI,2,No,,3.4
+ORD11157,2023-08-20,CUST00674,36-45,North,Organic Search,Tablet,Toys,Remote Car,3635.62,2,0,0.0,7271.24,7271.24,Wallet,10,No,,5.0
+ORD11158,2023-03-27,CUST00458,18-25,East,Direct,Desktop,Beauty,Face Cream,844.39,5,15,633.29,4221.95,3588.66,Wallet,3,No,,5.0
+ORD11159,2023-05-13,CUST00667,46-55,South,Direct,Tablet,Clothing,Jacket,5445.9,5,25,6807.38,27229.5,20422.12,Credit Card,5,No,,4.6
+ORD11160,2023-04-24,CUST00699,26-35,North,Direct,Mobile,Beauty,Serum,1468.4,3,0,0.0,4405.2,4405.2,Wallet,8,No,,4.6
+ORD11161,2023-01-13,CUST00532,36-45,South,Direct,Mobile,Beauty,Perfume,4168.81,4,0,0.0,16675.24,16675.24,Credit Card,6,No,,4.6
+ORD11162,2023-08-06,CUST00811,18-25,North,Email,Mobile,Home & Kitchen,Mixer Grinder,3918.73,2,0,0.0,7837.46,7837.46,Credit Card,1,No,,4.2
+ORD11163,2023-06-29,CUST00401,18-25,West,Paid Ads,Desktop,Clothing,T-Shirt,457.55,5,15,343.16,2287.75,1944.59,Debit Card,3,No,,5.0
+ORD11164,2023-05-01,CUST00454,26-35,South,Organic Search,Desktop,Beauty,Perfume,4848.62,3,5,727.29,14545.86,13818.57,UPI,3,No,,3.1
+ORD11165,2023-04-26,CUST00438,18-25,North,Referral,Desktop,Toys,Doll,1475.02,2,15,442.51,2950.04,2507.53,Credit Card,3,No,,2.9
+ORD11166,2023-09-16,CUST00015,26-35,Central,Paid Ads,Tablet,Sports,Cricket Bat,2945.45,4,0,0.0,11781.8,11781.8,Wallet,3,No,,4.1
+ORD11167,2023-12-29,CUST00265,36-45,South,Paid Ads,Mobile,Sports,Cricket Bat,4530.43,4,20,3624.34,18121.72,14497.38,Debit Card,5,No,,4.2
+ORD11168,2023-11-21,CUST00355,36-45,South,Paid Ads,Tablet,Beauty,Shampoo,242.06,2,0,0.0,484.12,484.12,UPI,2,No,,3.3
+ORD11169,2023-04-19,CUST00922,26-35,South,Organic Search,Tablet,Books,Fiction Novel,319.66,5,15,239.75,1598.3,1358.55,Credit Card,6,No,,5.0
+ORD11170,2023-02-23,CUST00313,36-45,South,Email,Mobile,Sports,Yoga Mat,1043.11,4,10,417.24,4172.44,3755.2,Net Banking,4,Yes,Not as Described,8.6
+ORD11171,2023-04-28,CUST00485,36-45,West,Organic Search,Desktop,Beauty,Face Cream,861.33,3,20,516.8,2583.99,2067.19,UPI,10,No,,5.0
+ORD11172,2023-07-08,CUST00580,36-45,Central,Direct,Mobile,Home & Kitchen,Cookware Set,1899.97,2,0,0.0,3799.94,3799.94,COD,2,No,,3.9
+ORD11173,2023-08-19,CUST00825,18-25,South,Direct,Mobile,Beauty,Lipstick,792.43,-1,15,237.73,1584.86,1347.13,Credit Card,9,No,,6.7
+ORD11174,2023-06-07,CUST00441,46-55,West,Email,Mobile,Sports,Cycle,7402.35,1,0,0.0,7402.35,7402.35,COD,2,No,,2.8
+ORD11175,2023-09-09,CUST00818,36-45,North,Email,Desktop,Sports,Cycle,10390.49,2,20,4156.2,20780.98,16624.78,Wallet,8,No,,3.4
+ORD11176,2023-06-30,CUST00702,36-45,Central,Organic Search,Tablet,Sports,Badminton Set,1883.44,4,20,1506.75,7533.76,6027.01,Net Banking,4,No,,5.0
+ORD11177,2023-04-04,CUST00047,18-25,East,Email,Desktop,Home & Kitchen,Bedsheet,970.94,5,15,728.21,4854.7,4126.49,UPI,4,No,,3.3
+ORD11178,2023-01-04,CUST00314,26-35,Central,Email,Tablet,Home & Kitchen,Cookware Set,5020.46,3,25,3765.34,15061.38,11296.04,Net Banking,1,Yes,Changed Mind,4.9
+ORD11179,2023-06-27,CUST00035,26-35,East,Direct,Mobile,Home & Kitchen,Air Fryer,6778.11,2,20,2711.24,13556.22,10844.98,Net Banking,7,No,,3.8
+ORD11180,2023-10-17,CUST00113,46-55,West,Paid Ads,Desktop,Clothing,T-Shirt,965.52,4,10,386.21,3862.08,3475.87,Debit Card,7,No,,4.8
+ORD11181,2023-07-08,CUST00474,26-35,East,Referral,Desktop,Electronics,Earbuds,3171.04,1,0,0.0,3171.04,3171.04,COD,6,Yes,Wrong Item,3.8
+ORD11182,2023-06-28,CUST00339,36-45,South,Social Media,Tablet,Sports,Badminton Set,2617.19,3,20,1570.31,7851.57,6281.26,UPI,5,No,,3.4
+ORD11183,2023-07-22,CUST00604,26-35,East,Social Media,Tablet,Toys,LEGO Set,4958.54,3,0,0.0,14875.62,14875.62,Net Banking,10,No,,4.3
+ORD11184,2023-05-16,CUST00575,18-25,South,Referral,Tablet,Home & Kitchen,Mixer Grinder,5449.52,3,20,3269.71,16348.56,13078.85,Net Banking,1,No,,3.5
+ORD11185,2023-02-21,CUST00991,18-25,South,Organic Search,Desktop,Beauty,Shampoo,792.41,5,10,396.2,3962.05,3565.85,Credit Card,4,No,,3.0
+ORD11186,2023-04-09,CUST00484,46-55,North,Organic Search,Desktop,Books,Textbook,882.17,5,15,661.63,4410.85,3749.22,UPI,5,No,,4.2
+ORD11187,2023-03-17,CUST00056,46-55,South,Organic Search,Mobile,Sports,Cycle,26206.41,4,0,0.0,104825.64,104825.64,Wallet,10,No,,3.2
+ORD11188,2023-09-28,CUST00694,46-55,North,Referral,Tablet,Toys,Doll,866.64,4,15,519.98,3466.56,2946.58,Debit Card,10,No,,3.6
+ORD11189,2023-04-07,CUST00407,26-35,East,Organic Search,Mobile,Electronics,Earbuds,3676.17,5,10,1838.09,18380.85,16542.76,UPI,5,No,,4.6
+ORD11190,2023-01-18,CUST00417,26-35,Central,Email,Tablet,Clothing,Jeans,2572.03,2,0,0.0,5144.06,5144.06,Wallet,4,No,,3.5
+ORD11191,2023-01-17,CUST00973,36-45,East,Email,Tablet,Beauty,Lipstick,981.43,5,0,0.0,4907.15,4907.15,Credit Card,9,No,,4.1
+ORD11192,2023-05-27,CUST00213,46-55,East,Organic Search,Mobile,Clothing,T-Shirt,1040.62,4,25,1040.62,4162.48,3121.86,Debit Card,2,No,,4.1
+ORD11193,2023-07-20,CUST00770,26-35,South,Paid Ads,Tablet,Toys,Puzzle,992.35,3,20,595.41,2977.05,2381.64,Debit Card,6,No,,4.2
+ORD11194,2023-06-19,CUST00011,26-35,North,Direct,Tablet,Sports,Cricket Bat,1046.6,1,0,0.0,1046.6,1046.6,Credit Card,7,No,,4.4
+ORD11195,2023-08-13,CUST00490,36-45,North,Paid Ads,Desktop,Beauty,Lipstick,983.31,3,0,0.0,2949.93,2949.93,Wallet,7,No,,4.3
+ORD11196,2023-10-25,CUST00030,26-35,South,Referral,Desktop,Home & Kitchen,Mixer Grinder,2336.3,2,5,233.63,4672.6,4438.97,Net Banking,9,No,,4.2
+ORD11197,2023-08-21,CUST00678,36-45,West,Social Media,Tablet,Electronics,Tablet,50474.97,1,0,0.0,50474.97,50474.97,COD,3,No,,3.6
+ORD11198,2023-06-14,CUST00959,46-55,Central,Paid Ads,Tablet,Books,Fiction Novel,524.26,4,25,524.26,2097.04,1572.78,Net Banking,5,No,,2.9
+ORD11199,2023-04-03,CUST00042,46-55,Central,Social Media,Tablet,Clothing,Jacket,4144.61,3,0,0.0,12433.83,12433.83,UPI,3,No,,2.9
+ORD11200,2023-11-18,CUST00191,18-25,West,Referral,Mobile,Sports,Cricket Bat,5735.77,4,5,1147.15,22943.08,21795.93,Debit Card,4,No,,4.0
+ORD11201,2023-11-11,CUST00913,55+,West,Social Media,Tablet,Beauty,Perfume,4921.34,5,20,4921.34,24606.7,19685.36,Credit Card,1,No,,3.7
+ORD11202,2023-10-28,CUST00326,36-45,South,Paid Ads,Desktop,Toys,Board Game,1995.66,3,0,0.0,5986.98,5986.98,Net Banking,10,No,,3.8
+ORD11203,2023-04-04,CUST00154,18-25,East,Referral,Tablet,Beauty,Perfume,1623.98,5,25,2029.97,8119.9,6089.93,Net Banking,3,Yes,Not as Described,3.5
+ORD11204,2023-04-14,CUST00019,26-35,East,Organic Search,Desktop,Toys,Board Game,2771.93,1,5,138.6,2771.93,2633.33,Net Banking,5,No,,2.4
+ORD11205,2023-09-17,CUST00195,36-45,South,Email,Desktop,Electronics,Laptop,30929.2,3,20,18557.52,92787.6,74230.08,Wallet,6,Yes,Not as Described,4.6
+ORD11206,2023-08-01,CUST00327,36-45,West,Organic Search,Desktop,Beauty,Shampoo,253.97,5,15,190.48,1269.85,1079.37,UPI,4,No,,3.1
+ORD11207,2023-01-15,CUST00950,18-25,West,Paid Ads,Mobile,Sports,Yoga Mat,783.52,5,0,0.0,3917.6,3917.6,Debit Card,6,No,,4.3
+ORD11208,2023-04-30,CUST00662,26-35,South,Organic Search,Desktop,Sports,Dumbbells,2126.38,5,20,2126.38,10631.9,8505.52,Net Banking,7,No,,3.3
+ORD11209,2023-11-27,CUST00200,26-35,North,Organic Search,Desktop,Electronics,Earbuds,3484.6,5,0,0.0,17423.0,17423.0,COD,9,No,,2.7
+ORD11210,2023-11-25,CUST00178,36-45,North,Direct,Desktop,Sports,Cricket Bat,4521.86,2,0,0.0,9043.72,9043.72,COD,2,No,,5.0
+ORD11211,2023-07-25,CUST00107,36-45,North,Email,Desktop,Clothing,Jacket,3717.2,5,25,4646.5,18586.0,13939.5,UPI,5,No,,5.0
+ORD11212,2023-07-18,CUST00453,36-45,West,Direct,Desktop,Toys,Board Game,2592.93,1,0,0.0,2592.93,2592.93,UPI,3,No,,2.1
+ORD11213,2023-03-08,CUST00185,18-25,South,Organic Search,Mobile,Toys,Doll,1573.19,1,20,314.64,1573.19,1258.55,Debit Card,4,No,,4.0
+ORD11214,2023-03-25,CUST00289,36-45,North,Organic Search,Desktop,Electronics,Earbuds,3605.8,1,10,360.58,3605.8,3245.22,COD,10,No,,4.4
+ORD11215,2023-10-22,CUST00527,36-45,West,Email,Desktop,Books,Self Help,612.69,4,10,245.08,2450.76,2205.68,Credit Card,9,Yes,Wrong Item,5.0
+ORD11216,2023-06-28,CUST00406,18-25,South,Social Media,Mobile,Beauty,Shampoo,609.05,1,0,0.0,609.05,609.05,COD,4,No,,3.5
+ORD11217,2023-08-02,CUST00798,36-45,West,Paid Ads,Desktop,Clothing,Kurta,1890.55,3,0,0.0,5671.65,5671.65,Net Banking,10,No,,3.9
+ORD11218,2023-09-14,CUST00209,26-35,East,Direct,Mobile,Clothing,Jeans,943.28,5,5,235.82,4716.4,4480.58,Wallet,10,No,,3.2
+ORD11219,2023-05-07,CUST00989,36-45,Central,Paid Ads,Mobile,Sports,Cycle,,4,0,0.0,37703.32,37703.32,Debit Card,7,No,,2.5
+ORD11220,2023-06-28,CUST00542,26-35,North,Email,Desktop,Beauty,Serum,796.12,5,5,199.03,3980.6,3781.57,Net Banking,3,No,,2.7
+ORD11221,2023-10-25,CUST00877,36-45,West,Referral,Desktop,Books,Fiction Novel,442.79,4,15,265.67,1771.16,1505.49,Net Banking,3,Yes,Defective,3.1
+ORD11222,2023-10-31,CUST00710,26-35,South,Direct,Desktop,Electronics,Smart Watch,18527.98,1,15,2779.2,18527.98,15748.78,Net Banking,7,No,,3.4
+ORD11223,2023-10-22,CUST00459,26-35,South,Social Media,Desktop,Home & Kitchen,Curtains,2508.37,2,15,752.51,5016.74,4264.23,Debit Card,2,No,,3.9
+ORD11224,2023-06-02,CUST00643,26-35,East,Organic Search,Desktop,Sports,Dumbbells,3618.88,1,25,904.72,3618.88,2714.16,COD,3,No,,3.3
+ORD11225,2023-10-11,CUST00703,36-45,Central,Social Media,Desktop,Sports,Cycle,17110.78,5,0,0.0,85553.9,85553.9,UPI,10,No,,3.5
+ORD11226,2023-02-27,CUST00967,36-45,Central,Organic Search,Desktop,Electronics,Tablet,19677.06,5,10,9838.53,98385.3,88546.77,UPI,7,No,,3.8
+ORD11227,2023-06-11,CUST00171,36-45,North,Organic Search,Mobile,Toys,Puzzle,893.82,3,10,268.15,2681.46,2413.31,Net Banking,1,No,,9.9
+ORD11228,2023-10-11,CUST00278,26-35,North,Referral,Tablet,Clothing,Jacket,1195.42,4,10,478.17,4781.68,4303.51,COD,10,No,,5.0
+ORD11229,2023-09-05,CUST00554,36-45,North,Referral,Desktop,Sports,Cricket Bat,5374.67,1,15,806.2,5374.67,4568.47,Net Banking,5,No,,4.1
+ORD11230,2023-01-07,CUST00779,36-45,East,Direct,Mobile,Toys,Board Game,536.42,4,15,321.85,2145.68,1823.83,Credit Card,1,Yes,Defective,3.5
+ORD11231,2023-10-17,CUST00555,36-45,North,Referral,Desktop,Home & Kitchen,Curtains,1736.91,5,10,868.46,8684.55,7816.09,Wallet,4,No,,2.8
+ORD11232,2023-11-26,CUST00126,18-25,East,Paid Ads,Tablet,Electronics,Smartphone,30294.42,2,20,12117.77,60588.84,48471.07,COD,1,Yes,Wrong Item,2.5
+ORD11233,2023-10-14,CUST00384,18-25,South,Organic Search,Desktop,Electronics,Smart Watch,10711.06,3,20,6426.64,32133.18,25706.54,UPI,7,No,,4.7
+ORD11234,2023-06-11,CUST00128,36-45,East,Email,Mobile,Sports,Badminton Set,1646.85,4,0,0.0,6587.4,6587.4,UPI,7,No,,4.6
+ORD11235,2023-10-05,CUST00334,26-35,South,Referral,Mobile,Books,Textbook,1168.64,4,10,467.46,4674.56,4207.1,UPI,5,No,,5.0
+ORD11236,2023-06-20,CUST00922,36-45,South,Organic Search,Mobile,Electronics,Smart Watch,,2,10,3389.57,33895.72,30506.15,Wallet,6,No,,4.8
+ORD11237,2023-09-11,CUST00278,26-35,East,Direct,Tablet,Toys,Doll,702.61,2,25,351.31,1405.22,1053.91,UPI,3,No,,5.0
+ORD11238,2023-03-29,CUST00119,55+,North,Organic Search,Desktop,Sports,Dumbbells,1518.07,5,10,759.03,7590.35,6831.32,Credit Card,6,No,,4.2
+ORD11239,2023-05-13,CUST00276,26-35,South,Social Media,Desktop,Sports,Yoga Mat,1226.55,5,0,0.0,6132.75,6132.75,COD,8,No,,3.7
+ORD11240,2023-07-02,CUST00205,26-35,South,Email,Tablet,Beauty,Perfume,1004.61,4,0,0.0,4018.44,4018.44,COD,10,No,,4.4
+ORD11241,2023-08-04,CUST00071,36-45,South,Email,Mobile,Electronics,Laptop,47571.22,5,5,11892.81,237856.1,225963.29,COD,2,No,,3.0
+ORD11242,2023-06-30,CUST00848,36-45,North,Email,Tablet,Books,Biography,544.22,2,0,0.0,1088.44,1088.44,UPI,3,No,,3.9
+ORD11243,2023-04-26,CUST00804,26-35,West,Direct,Desktop,Books,Textbook,1730.77,2,15,519.23,3461.54,2942.31,Debit Card,8,No,,4.0
+ORD11244,2023-09-03,CUST00408,36-45,West,Paid Ads,Tablet,Home & Kitchen,Bedsheet,2673.39,4,0,0.0,10693.56,10693.56,COD,8,No,,5.0
+ORD11245,2023-06-24,CUST00589,36-45,Central,Referral,Desktop,Sports,Dumbbells,,4,10,1812.95,18129.48,16316.53,Net Banking,1,No,,3.6
+ORD11246,2023-03-25,CUST00535,26-35,Central,Referral,Desktop,Clothing,Kurta,435.62,2,15,130.69,871.24,740.55,COD,2,No,,3.2
+ORD11247,2023-08-13,CUST00898,26-35,Central,Social Media,Tablet,Toys,Puzzle,1141.46,5,15,856.1,5707.3,4851.2,Debit Card,3,No,,3.8
+ORD11248,2023-03-15,CUST00624,36-45,South,Social Media,Tablet,Sports,Yoga Mat,2185.17,1,0,0.0,2185.17,2185.17,COD,2,No,,2.9
+ORD11249,2023-08-25,CUST00769,36-45,North,Social Media,Mobile,Clothing,Kurta,2305.34,4,0,0.0,9221.36,9221.36,Net Banking,1,No,,3.3
+ORD11250,2023-02-12,CUST00515,26-35,Central,Paid Ads,Tablet,Books,Self Help,461.54,4,0,0.0,1846.16,1846.16,Net Banking,3,No,,3.6
+ORD11251,2023-01-12,CUST00888,55+,North,Email,Desktop,Toys,Puzzle,303.72,3,0,0.0,911.16,911.16,COD,10,No,,3.6
+ORD11252,2023-08-05,CUST00644,46-55,West,Direct,Mobile,Electronics,Earbuds,1920.3,5,20,1920.3,9601.5,7681.2,Wallet,10,No,,4.3
+ORD11253,2023-03-04,CUST00807,36-45,Central,Email,Desktop,Home & Kitchen,Mixer Grinder,,4,0,0.0,11036.88,11036.88,Debit Card,2,No,,3.3
+ORD11254,2023-01-22,CUST00877,26-35,South,Social Media,Mobile,Beauty,Perfume,2073.03,2,20,829.21,4146.06,3316.85,Wallet,10,Yes,Not as Described,4.7
+ORD11255,2023-04-16,CUST00144,46-55,Central,Email,Tablet,Books,Self Help,400.23,3,25,300.17,1200.69,900.52,Debit Card,7,No,,2.7
+ORD11256,2023-12-27,CUST00770,46-55,West,Direct,Mobile,Clothing,Saree,2542.36,5,0,0.0,12711.8,12711.8,Credit Card,1,No,,1.9
+ORD11257,2023-10-27,CUST00366,26-35,West,Direct,Tablet,Beauty,Perfume,4373.48,4,5,874.7,17493.92,16619.22,Credit Card,8,No,,3.4
+ORD11258,2023-09-06,CUST00432,55+,South,Social Media,Mobile,Beauty,Shampoo,694.91,2,25,347.45,1389.82,1042.37,COD,3,No,,4.6
+ORD11259,2023-12-27,CUST00639,55+,South,Social Media,Tablet,Electronics,Smart Watch,16530.28,3,0,0.0,49590.84,49590.84,Wallet,7,Yes,Defective,3.2
+ORD11260,2023-03-05,CUST00503,55+,West,Paid Ads,Tablet,Home & Kitchen,Curtains,,1,15,517.55,3450.35,2932.8,Credit Card,1,No,,4.0
+ORD11261,2023-09-28,CUST00325,36-45,North,Email,Desktop,Home & Kitchen,Bedsheet,2191.08,4,0,0.0,8764.32,8764.32,Net Banking,10,No,,4.0
+ORD11262,2023-03-30,CUST00522,26-35,North,Direct,Mobile,Home & Kitchen,Cookware Set,4946.83,1,0,0.0,4946.83,4946.83,UPI,9,No,,5.0
+ORD11263,2023-08-21,CUST00022,36-45,North,Organic Search,Desktop,Sports,Cycle,8394.62,4,0,0.0,33578.48,33578.48,UPI,5,No,,2.5
+ORD11264,2023-09-17,CUST00368,55+,West,Email,Mobile,Toys,LEGO Set,2015.48,2,0,0.0,4030.96,4030.96,UPI,8,No,,2.9
+ORD11265,2023-11-15,CUST00358,18-25,South,Referral,Mobile,Electronics,Laptop,94571.41,5,0,0.0,472857.05,472857.05,Net Banking,2,No,,4.2
+ORD11266,2023-05-15,CUST00916,18-25,South,Organic Search,Desktop,Clothing,Saree,2704.45,2,0,0.0,5408.9,5408.9,UPI,2,No,,4.8
+ORD11267,2023-02-21,CUST00278,26-35,North,Referral,Desktop,Electronics,Smartphone,10377.08,4,10,4150.83,41508.32,37357.49,Wallet,10,No,,5.0
+ORD11268,2023-05-22,CUST00572,26-35,Central,Email,Mobile,Sports,Dumbbells,1214.92,2,0,0.0,2429.84,2429.84,Debit Card,9,No,,5.0
+ORD11269,2023-03-15,CUST00272,46-55,North,Organic Search,Tablet,Clothing,Saree,1362.53,4,10,545.01,5450.12,4905.11,COD,3,No,,4.2
+ORD11270,2023-02-20,CUST00409,26-35,North,Organic Search,Tablet,Electronics,Smartphone,16081.59,4,20,12865.27,64326.36,51461.09,UPI,7,No,,3.6
+ORD11271,2023-02-05,CUST00420,55+,East,Organic Search,Mobile,Toys,Board Game,1477.31,-2,0,0.0,5909.24,5909.24,Credit Card,10,No,,4.1
+ORD11272,2023-01-14,CUST00798,18-25,Central,Email,Tablet,Books,Self Help,268.28,5,0,0.0,1341.4,1341.4,Credit Card,8,No,,3.5
+ORD11273,2023-09-11,CUST00026,46-55,East,Direct,Desktop,Beauty,Serum,1628.8,1,20,325.76,1628.8,1303.04,Credit Card,3,No,,4.1
+ORD11274,2023-08-31,CUST00149,46-55,South,Paid Ads,Desktop,Books,Fiction Novel,406.27,5,0,0.0,2031.35,2031.35,Debit Card,1,No,,3.7
+ORD11275,2023-04-20,CUST00085,18-25,Central,Social Media,Desktop,Electronics,Smart Watch,2277.14,3,0,0.0,6831.42,6831.42,Wallet,10,No,,4.8
+ORD11276,2023-07-12,CUST00324,18-25,West,Referral,Desktop,Toys,Doll,1656.32,4,0,0.0,6625.28,6625.28,Wallet,10,Yes,Wrong Item,3.0
+ORD11277,2023-06-26,CUST00360,18-25,North,Social Media,Tablet,Sports,Yoga Mat,2441.02,2,10,488.2,4882.04,4393.84,COD,6,No,,4.5
+ORD11278,2023-12-26,CUST00262,26-35,West,Paid Ads,Mobile,Toys,LEGO Set,1853.65,4,20,1482.92,7414.6,5931.68,Net Banking,5,No,,4.5
+ORD11279,2023-06-09,CUST00524,36-45,Central,Organic Search,Tablet,Books,Fiction Novel,558.53,5,10,279.26,2792.65,2513.39,Credit Card,8,No,,2.4
+ORD11280,2023-02-13,CUST00744,36-45,South,Email,Tablet,Books,Textbook,1391.54,5,0,0.0,6957.7,6957.7,Wallet,7,No,,5.0
+ORD11281,2023-05-23,CUST00448,26-35,South,Referral,Tablet,Beauty,Shampoo,691.84,3,5,103.78,2075.52,1971.74,Net Banking,9,No,,4.3
+ORD11282,2023-03-28,CUST00703,55+,South,Organic Search,Mobile,Home & Kitchen,Bedsheet,1579.23,-2,0,0.0,3158.46,3158.46,Credit Card,2,No,,6.8
+ORD11283,2023-07-26,CUST00114,36-45,Central,Organic Search,Mobile,Electronics,Tablet,,2,10,7189.97,71899.72,64709.75,UPI,8,No,,5.0
+ORD11284,2023-07-16,CUST00143,36-45,Central,Referral,Tablet,Electronics,Smart Watch,16369.78,1,0,0.0,16369.78,16369.78,Net Banking,10,No,,3.0
+ORD11285,2023-06-03,CUST00974,18-25,East,Email,Mobile,Beauty,Serum,516.3,1,15,77.44,516.3,438.86,Credit Card,9,No,,2.9
+ORD11286,2023-12-17,CUST00856,26-35,North,Social Media,Mobile,Electronics,Smartphone,46697.09,5,10,23348.54,233485.45,210136.91,Wallet,4,No,,4.3
+ORD11287,2023-09-14,CUST00986,46-55,North,Organic Search,Desktop,Sports,Badminton Set,2149.83,-3,15,967.42,6449.49,5482.07,Debit Card,3,No,,4.2
+ORD11288,2023-08-17,CUST00291,36-45,South,Direct,Mobile,Home & Kitchen,Mixer Grinder,3666.4,4,0,0.0,14665.6,14665.6,Credit Card,6,No,,3.0
+ORD11289,2023-12-28,CUST00706,26-35,Central,Social Media,Mobile,Electronics,Tablet,16897.41,1,0,0.0,16897.41,16897.41,Debit Card,9,No,,3.5
+ORD11290,2023-09-12,CUST00809,46-55,South,Social Media,Desktop,Books,Self Help,216.84,3,0,0.0,650.52,650.52,Credit Card,5,No,,4.7
+ORD11291,2023-10-14,CUST00340,18-25,South,Direct,Desktop,Electronics,Earbuds,892.35,5,0,0.0,4461.75,4461.75,UPI,3,No,,3.5
+ORD11292,2023-01-17,CUST00437,26-35,South,Email,Mobile,Sports,Yoga Mat,1073.73,4,0,0.0,4294.92,4294.92,Credit Card,1,No,,4.1
+ORD11293,2023-02-05,CUST00671,46-55,West,Social Media,Mobile,Electronics,Laptop,48045.35,2,20,19218.14,96090.7,76872.56,Wallet,6,Yes,Defective,8.9
+ORD11294,2023-12-02,CUST00225,46-55,Central,Organic Search,Desktop,Toys,Remote Car,1798.58,1,10,179.86,1798.58,1618.72,Debit Card,3,No,,4.8
+ORD11295,2023-09-09,CUST00359,36-45,South,Paid Ads,Desktop,Electronics,Earbuds,2746.49,2,10,549.3,5492.98,4943.68,Credit Card,3,No,,3.9
+ORD11296,2023-08-20,CUST00397,55+,South,Social Media,Mobile,Beauty,Shampoo,686.93,2,20,274.77,1373.86,1099.09,COD,1,No,,4.7
+ORD11297,2023-11-16,CUST00850,18-25,North,Organic Search,Desktop,Books,Comic,355.69,4,10,142.28,1422.76,1280.48,Credit Card,5,No,,3.0
+ORD11298,2023-06-04,CUST00215,26-35,West,Referral,Mobile,Toys,Puzzle,594.3,5,25,742.88,2971.5,2228.62,Credit Card,3,No,,3.8
+ORD11299,2023-11-06,CUST00263,36-45,East,Social Media,Tablet,Clothing,T-Shirt,637.16,4,10,254.86,2548.64,2293.78,Credit Card,6,No,,4.6
+ORD11300,2023-04-11,CUST00003,46-55,Central,Social Media,Tablet,Toys,LEGO Set,1505.38,5,25,1881.72,7526.9,5645.18,COD,9,No,,3.1
+ORD11301,2023-10-28,CUST00415,26-35,North,Paid Ads,Mobile,Toys,Board Game,2310.04,-1,10,1155.02,11550.2,10395.18,Debit Card,7,No,,3.8
+ORD11302,2023-04-06,CUST00319,36-45,South,Email,Mobile,Toys,Remote Car,1795.21,3,0,0.0,5385.63,5385.63,Credit Card,4,No,,4.6
+ORD11303,2023-03-25,CUST00207,18-25,North,Organic Search,Mobile,Beauty,Serum,1401.13,1,5,70.06,1401.13,1331.07,UPI,1,No,,4.5
+ORD11304,2023-05-04,CUST00843,26-35,North,Direct,Desktop,Electronics,Smartphone,16813.98,4,0,0.0,67255.92,67255.92,Debit Card,2,No,,3.6
+ORD11305,2023-09-17,CUST00866,55+,North,Direct,Mobile,Toys,Remote Car,2987.98,5,0,0.0,14939.9,14939.9,Credit Card,5,Yes,Not as Described,4.0
+ORD11306,2023-12-28,CUST00858,26-35,Central,Organic Search,Tablet,Clothing,Jacket,2703.63,3,0,0.0,8110.89,8110.89,Debit Card,2,Yes,Wrong Item,2.9
+ORD11307,2023-01-15,CUST00114,36-45,South,Direct,Tablet,Books,Fiction Novel,575.47,1,20,115.09,575.47,460.38,COD,9,No,,3.6
+ORD11308,2023-10-02,CUST00900,26-35,Central,Organic Search,Tablet,Beauty,Lipstick,451.31,4,0,0.0,1805.24,1805.24,Wallet,4,No,,9.2
+ORD11309,2023-09-14,CUST00686,46-55,West,Paid Ads,Mobile,Beauty,Serum,1352.47,3,25,1014.35,4057.41,3043.06,Credit Card,1,Yes,Not as Described,3.8
+ORD11310,2023-10-10,CUST00021,26-35,Central,Direct,Mobile,Books,Biography,270.93,4,20,216.74,1083.72,866.98,Debit Card,6,No,,3.9
+ORD11311,2023-06-14,CUST00859,26-35,West,Organic Search,Mobile,Sports,Dumbbells,3727.32,2,0,0.0,7454.64,7454.64,Debit Card,1,No,,5.0
+ORD11312,2023-03-22,CUST00635,26-35,East,Referral,Mobile,Home & Kitchen,Air Fryer,11813.03,5,10,5906.52,59065.15,53158.63,Debit Card,5,No,,3.6
+ORD11313,2023-11-04,CUST00324,46-55,West,Email,Tablet,Electronics,Smartphone,20659.97,1,20,4131.99,20659.97,16527.98,UPI,2,No,,2.8
+ORD11314,2023-05-06,CUST00239,26-35,East,Email,Desktop,Toys,Puzzle,1485.91,-1,20,891.55,4457.73,3566.18,UPI,4,No,,5.0
+ORD11315,2023-03-04,CUST00566,26-35,Central,Organic Search,Desktop,Toys,Board Game,1726.46,5,20,1726.46,8632.3,6905.84,Net Banking,6,No,,3.4
+ORD11316,2023-10-16,CUST00386,46-55,West,Paid Ads,Mobile,Home & Kitchen,Air Fryer,4205.88,5,15,3154.41,21029.4,17874.99,Wallet,8,No,,3.7
+ORD11317,2023-07-09,CUST00474,26-35,West,Paid Ads,Mobile,Books,Fiction Novel,219.08,3,20,131.45,657.24,525.79,COD,5,No,,4.5
+ORD11318,2023-09-30,CUST00499,26-35,West,Social Media,Mobile,Books,Fiction Novel,312.74,3,25,234.56,938.22,703.66,UPI,4,No,,3.9
+ORD11319,2023-01-26,CUST00341,26-35,South,Email,Mobile,Sports,Dumbbells,3763.85,2,20,1505.54,7527.7,6022.16,COD,3,No,,3.4
+ORD11320,2023-08-08,CUST00700,26-35,South,Social Media,Mobile,Sports,Dumbbells,4987.53,4,20,3990.02,19950.12,15960.1,Wallet,5,No,,2.4
+ORD11321,2023-11-06,CUST00542,26-35,North,Social Media,Tablet,Sports,Cycle,16897.2,2,15,5069.16,33794.4,28725.24,COD,3,No,,4.6
+ORD11322,2023-12-22,CUST00356,36-45,South,Email,Mobile,Books,Biography,623.68,2,0,0.0,1247.36,1247.36,COD,6,No,,4.1
+ORD11323,2023-08-08,CUST00322,18-25,West,Referral,Tablet,Books,Fiction Novel,580.65,3,25,435.49,1741.95,1306.46,Net Banking,5,No,,3.4
+ORD11324,2023-02-09,CUST00540,26-35,South,Email,Tablet,Books,Textbook,950.82,2,20,380.33,1901.64,1521.31,Debit Card,10,No,,5.0
+ORD11325,2023-09-04,CUST00856,26-35,North,Email,Mobile,Clothing,T-Shirt,1118.02,2,0,0.0,2236.04,2236.04,Net Banking,2,Yes,Defective,4.3
+ORD11326,2023-02-28,CUST00239,18-25,Central,Organic Search,Mobile,Clothing,T-Shirt,1213.27,2,15,363.98,2426.54,2062.56,COD,5,No,,3.0
+ORD11327,2023-10-19,CUST00189,36-45,Central,Organic Search,Mobile,Toys,Board Game,967.95,2,20,387.18,1935.9,1548.72,Net Banking,9,Yes,Not as Described,3.7
+ORD11328,2023-04-10,CUST00012,55+,West,Paid Ads,Desktop,Books,Fiction Novel,564.72,1,20,112.94,564.72,451.78,UPI,8,No,,4.7
+ORD11329,2023-03-23,CUST00455,26-35,Central,Organic Search,Tablet,Books,Biography,373.13,1,25,93.28,373.13,279.85,Net Banking,10,No,,4.2
+ORD11330,2023-11-12,CUST00619,26-35,West,Paid Ads,Tablet,Toys,Remote Car,1632.35,2,15,489.7,3264.7,2775.0,Credit Card,10,No,,3.6
+ORD11331,2023-06-28,CUST00791,36-45,West,Email,Desktop,Clothing,Kurta,647.53,4,5,129.51,2590.12,2460.61,Wallet,1,No,,3.9
+ORD11332,2023-07-02,CUST00601,26-35,North,Email,Tablet,Home & Kitchen,Mixer Grinder,4721.7,-3,10,944.34,9443.4,8499.06,Net Banking,4,No,,3.9
+ORD11333,2023-01-23,CUST00579,55+,North,Social Media,Desktop,Home & Kitchen,Curtains,3508.76,1,0,0.0,3508.76,3508.76,Debit Card,9,Yes,Defective,5.0
+ORD11334,2023-10-27,CUST00254,26-35,North,Paid Ads,Desktop,Sports,Yoga Mat,,5,0,0.0,5294.95,5294.95,Wallet,4,No,,5.0
+ORD11335,2023-11-13,CUST00291,26-35,West,Referral,Tablet,Toys,Remote Car,1900.97,1,0,0.0,1900.97,1900.97,COD,4,No,,5.0
+ORD11336,2023-05-06,CUST00942,18-25,Central,Direct,Tablet,Toys,Puzzle,570.29,-3,5,57.03,1140.58,1083.55,COD,4,No,,3.8
+ORD11337,2023-02-16,CUST00059,26-35,Central,Referral,Tablet,Beauty,Shampoo,229.59,3,10,68.88,688.77,619.89,Debit Card,3,No,,4.6
+ORD11338,2023-04-12,CUST00164,18-25,East,Direct,Mobile,Electronics,Smartphone,,4,20,11192.8,55964.0,44771.2,COD,2,No,,3.7
+ORD11339,2023-04-03,CUST00720,26-35,West,Social Media,Desktop,Clothing,Jacket,2709.49,1,0,0.0,2709.49,2709.49,UPI,7,No,,4.7
+ORD11340,2023-07-16,CUST00636,26-35,Central,Referral,Mobile,Clothing,Kurta,1722.07,4,10,688.83,6888.28,6199.45,Wallet,2,No,,4.1
+ORD11341,2023-05-19,CUST00723,18-25,North,Social Media,Mobile,Beauty,Serum,2746.2,3,0,0.0,8238.6,8238.6,UPI,1,No,,4.1
+ORD11342,2023-05-02,CUST00473,36-45,East,Paid Ads,Mobile,Clothing,Jeans,750.92,1,10,75.09,750.92,675.83,Credit Card,1,No,,2.3
+ORD11343,2023-12-25,CUST00605,18-25,North,Email,Desktop,Sports,Badminton Set,1167.04,-3,15,525.17,3501.12,2975.95,Wallet,9,No,,4.6
+ORD11344,2023-03-29,CUST00367,46-55,Central,Direct,Desktop,Books,Biography,359.05,2,5,35.91,718.1,682.19,Net Banking,10,No,,3.3
+ORD11345,2023-09-27,CUST00757,26-35,West,Paid Ads,Desktop,Home & Kitchen,Air Fryer,10950.78,3,15,4927.85,32852.34,27924.49,Debit Card,9,No,,3.7
+ORD11346,2023-12-04,CUST00883,36-45,Central,Email,Mobile,Electronics,Tablet,23306.27,4,0,0.0,93225.08,93225.08,COD,10,No,,2.8
+ORD11347,2023-02-24,CUST00747,36-45,East,Email,Mobile,Clothing,Jeans,958.92,3,0,0.0,2876.76,2876.76,COD,9,No,,5.0
+ORD11348,2023-11-27,CUST00281,18-25,West,Email,Mobile,Books,Self Help,494.49,3,0,0.0,1483.47,1483.47,Wallet,1,Yes,Wrong Item,6.1
+ORD11349,2023-05-15,CUST00054,55+,East,Direct,Mobile,Books,Fiction Novel,210.47,4,0,0.0,841.88,841.88,Credit Card,6,No,,3.4
+ORD11350,2023-10-22,CUST00182,18-25,Central,Paid Ads,Desktop,Beauty,Shampoo,549.44,1,0,0.0,549.44,549.44,Credit Card,4,No,,4.1
+ORD11351,2023-08-25,CUST00329,26-35,North,Email,Desktop,Beauty,Face Cream,745.83,1,0,0.0,745.83,745.83,Debit Card,8,No,,3.0
+ORD11352,2023-01-06,CUST00278,26-35,South,Direct,Mobile,Books,Textbook,749.42,5,15,562.07,3747.1,3185.03,Debit Card,1,No,,4.1
+ORD11353,2023-11-26,CUST00730,18-25,North,Email,Desktop,Toys,Board Game,2466.25,1,0,0.0,2466.25,2466.25,UPI,10,No,,4.5
+ORD11354,2023-04-02,CUST00489,55+,South,Social Media,Tablet,Toys,Remote Car,1172.17,2,25,586.09,2344.34,1758.25,UPI,8,No,,4.8
+ORD11355,2023-02-05,CUST00349,18-25,West,Referral,Tablet,Clothing,Kurta,2446.82,-1,20,1468.09,7340.46,5872.37,COD,8,No,,3.4
+ORD11356,2023-03-28,CUST00274,18-25,East,Paid Ads,Tablet,Clothing,Jeans,1249.45,2,0,0.0,2498.9,2498.9,Net Banking,5,No,,3.4
+ORD11357,2023-07-03,CUST00379,36-45,Central,Organic Search,Desktop,Sports,Dumbbells,2684.27,1,0,0.0,2684.27,2684.27,Wallet,5,No,,4.2
+ORD11358,2023-02-02,CUST00513,46-55,East,Paid Ads,Mobile,Books,Self Help,298.93,4,10,119.57,1195.72,1076.15,Net Banking,1,No,,4.7
+ORD11359,2023-01-17,CUST00489,26-35,West,Direct,Mobile,Beauty,Perfume,1555.05,5,0,0.0,7775.25,7775.25,UPI,10,No,,4.0
+ORD11360,2023-05-22,CUST00556,36-45,West,Social Media,Desktop,Clothing,Jacket,3525.94,5,10,1762.97,17629.7,15866.73,Net Banking,4,No,,3.4
+ORD11361,2023-07-08,CUST00090,26-35,North,Paid Ads,Desktop,Clothing,Jacket,4775.09,4,0,0.0,19100.36,19100.36,Net Banking,5,No,,4.5
+ORD11362,2023-09-22,CUST00858,36-45,West,Organic Search,Desktop,Beauty,Shampoo,,1,0,0.0,524.96,524.96,Credit Card,5,No,,3.6
+ORD11363,2023-04-19,CUST00661,26-35,North,Referral,Mobile,Clothing,Jeans,1610.52,4,5,322.1,6442.08,6119.98,Debit Card,1,No,,2.9
+ORD11364,2023-02-11,CUST00337,26-35,North,Email,Desktop,Beauty,Shampoo,423.41,4,10,169.36,1693.64,1524.28,Debit Card,10,Yes,Changed Mind,3.0
+ORD11365,2023-07-24,CUST00323,36-45,East,Referral,Mobile,Sports,Cycle,10108.76,2,25,5054.38,20217.52,15163.14,Debit Card,1,No,,4.0
+ORD11366,2023-11-28,CUST00886,26-35,South,Organic Search,Mobile,Toys,LEGO Set,4472.35,1,10,447.24,4472.35,4025.11,Net Banking,9,No,,3.9
+ORD11367,2023-04-09,CUST00786,46-55,Central,Paid Ads,Desktop,Toys,Board Game,1944.7,1,25,486.18,1944.7,1458.52,Credit Card,10,No,,3.7
+ORD11368,2023-04-30,CUST00316,36-45,South,Direct,Tablet,Sports,Cricket Bat,3093.4,3,5,464.01,9280.2,8816.19,COD,8,Yes,Defective,2.5
+ORD11369,2023-06-17,CUST00656,36-45,Central,Email,Desktop,Sports,Cricket Bat,,1,5,293.12,5862.38,5569.26,Credit Card,5,No,,3.7
+ORD11370,2023-10-03,CUST00544,18-25,East,Direct,Mobile,Books,Biography,348.8,5,15,261.6,1744.0,1482.4,Credit Card,8,No,,2.2
+ORD11371,2023-10-03,CUST00515,46-55,East,Direct,Mobile,Beauty,Shampoo,,1,25,164.71,658.83,494.12,Wallet,2,No,,5.0
+ORD11372,2023-02-22,CUST00944,36-45,East,Organic Search,Mobile,Electronics,Earbuds,4473.63,5,0,0.0,22368.15,22368.15,Net Banking,7,No,,4.0
+ORD11373,2023-07-31,CUST00209,18-25,North,Email,Mobile,Toys,LEGO Set,1572.19,1,0,0.0,1572.19,1572.19,Net Banking,5,Yes,Defective,5.0
+ORD11374,2023-11-30,CUST00970,18-25,Central,Social Media,Tablet,Clothing,Kurta,747.77,4,0,0.0,2991.08,2991.08,Debit Card,5,No,,4.4
+ORD11375,2023-08-03,CUST00737,36-45,West,Email,Desktop,Beauty,Lipstick,831.35,1,0,0.0,831.35,831.35,Debit Card,9,Yes,Defective,3.4
+ORD11376,2023-05-03,CUST00180,55+,East,Social Media,Mobile,Electronics,Tablet,11654.68,2,0,0.0,23309.36,23309.36,UPI,10,No,,5.0
+ORD11377,2023-06-21,CUST00897,26-35,East,Direct,Tablet,Toys,Puzzle,,2,10,139.19,1391.86,1252.67,Debit Card,9,No,,4.5
+ORD11378,2023-07-28,CUST00229,26-35,Central,Email,Desktop,Home & Kitchen,Mixer Grinder,5945.78,3,5,891.87,17837.34,16945.47,Wallet,10,Yes,Defective,4.4
+ORD11379,2023-03-09,CUST00326,18-25,East,Paid Ads,Tablet,Electronics,Laptop,84904.04,4,0,0.0,339616.16,339616.16,Net Banking,5,No,,3.8
+ORD11380,2023-07-08,CUST00847,36-45,North,Social Media,Tablet,Home & Kitchen,Cookware Set,5646.45,5,25,7058.06,28232.25,21174.19,COD,5,No,,5.0
+ORD11381,2023-12-31,CUST00203,55+,West,Referral,Tablet,Books,Comic,174.63,3,10,52.39,523.89,471.5,COD,7,No,,3.7
+ORD11382,2023-10-25,CUST00909,36-45,South,Referral,Tablet,Books,Textbook,1336.49,2,15,400.95,2672.98,2272.03,Net Banking,5,No,,2.2
+ORD11383,2023-01-06,CUST00075,55+,South,Social Media,Desktop,Clothing,Jeans,2903.12,5,0,0.0,14515.6,14515.6,COD,7,No,,4.2
+ORD11384,2023-04-21,CUST00410,36-45,East,Email,Mobile,Sports,Badminton Set,2177.53,2,5,217.75,4355.06,4137.31,UPI,6,No,,3.8
+ORD11385,2023-09-25,CUST00833,26-35,Central,Organic Search,Mobile,Electronics,Laptop,52932.63,2,0,0.0,105865.26,105865.26,Debit Card,5,No,,2.4
+ORD11386,2023-06-02,CUST00409,18-25,East,Direct,Tablet,Books,Fiction Novel,163.2,1,10,16.32,163.2,146.88,Wallet,1,No,,3.5
+ORD11387,2023-04-22,CUST00529,46-55,Central,Email,Mobile,Clothing,T-Shirt,1331.93,5,0,0.0,6659.65,6659.65,Credit Card,5,Yes,Wrong Item,3.2
+ORD11388,2023-06-02,CUST00304,46-55,North,Referral,Mobile,Sports,Badminton Set,1896.35,3,20,1137.81,5689.05,4551.24,Debit Card,3,No,,3.4
+ORD11389,2023-08-08,CUST00105,36-45,Central,Referral,Mobile,Home & Kitchen,Mixer Grinder,2185.88,4,20,1748.7,8743.52,6994.82,Wallet,10,No,,2.9
+ORD11390,2023-02-13,CUST00460,36-45,East,Email,Mobile,Toys,Remote Car,2087.35,2,0,0.0,4174.7,4174.7,Wallet,8,No,,4.0
+ORD11391,2023-05-07,CUST00124,36-45,West,Direct,Tablet,Beauty,Perfume,4323.08,1,10,432.31,4323.08,3890.77,UPI,5,No,,5.0
+ORD11392,2023-09-08,CUST00994,26-35,South,Organic Search,Mobile,Toys,Doll,464.79,1,25,116.2,464.79,348.59,Wallet,8,No,,4.5
+ORD11393,2023-10-30,CUST00199,26-35,East,Social Media,Desktop,Home & Kitchen,Cookware Set,5593.16,5,0,0.0,27965.8,27965.8,Net Banking,4,No,,4.8
+ORD11394,2023-08-09,CUST00132,36-45,North,Direct,Desktop,Home & Kitchen,Cookware Set,4849.14,3,25,3636.86,14547.42,10910.56,Net Banking,1,No,,4.8
+ORD11395,2023-08-30,CUST00705,36-45,South,Direct,Mobile,Home & Kitchen,Air Fryer,9996.53,5,0,0.0,49982.65,49982.65,COD,1,No,,3.8
+ORD11396,2023-04-09,CUST00002,26-35,North,Social Media,Desktop,Sports,Dumbbells,1129.52,3,20,677.71,3388.56,2710.85,UPI,5,Yes,Defective,3.3
+ORD11397,2023-11-05,CUST00049,36-45,North,Direct,Desktop,Home & Kitchen,Cookware Set,3658.2,-2,5,548.73,10974.6,10425.87,UPI,2,No,,7.0
+ORD11398,2023-11-06,CUST00698,26-35,North,Paid Ads,Tablet,Home & Kitchen,Air Fryer,7856.19,1,5,392.81,7856.19,7463.38,UPI,9,No,,4.9
+ORD11399,2023-12-04,CUST00013,18-25,West,Social Media,Tablet,Toys,Puzzle,921.09,3,0,0.0,2763.27,2763.27,Net Banking,8,No,,4.5
+ORD11400,2023-06-25,CUST00480,26-35,North,Email,Desktop,Beauty,Serum,937.28,2,5,93.73,1874.56,1780.83,Credit Card,7,No,,4.5
+ORD11401,2023-01-22,CUST00630,18-25,East,Paid Ads,Mobile,Sports,Badminton Set,1940.13,1,0,0.0,1940.13,1940.13,Credit Card,2,No,,4.2
+ORD11402,2023-02-19,CUST00352,18-25,Central,Direct,Desktop,Clothing,Jeans,2526.89,4,0,0.0,10107.56,10107.56,Credit Card,6,No,,3.0
+ORD11403,2023-01-10,CUST00927,26-35,East,Social Media,Desktop,Home & Kitchen,Curtains,,2,0,0.0,6711.82,6711.82,Wallet,6,No,,3.7
+ORD11404,2023-02-10,CUST00843,36-45,West,Email,Desktop,Beauty,Face Cream,1322.61,2,5,132.26,2645.22,2512.96,Debit Card,8,No,,3.7
+ORD11405,2023-01-02,CUST00014,18-25,South,Social Media,Desktop,Toys,Doll,605.66,3,20,363.4,1816.98,1453.58,COD,6,No,,5.0
+ORD11406,2023-01-25,CUST00406,26-35,Central,Direct,Mobile,Books,Fiction Novel,247.24,-1,20,197.79,988.96,791.17,Wallet,6,No,,4.6
+ORD11407,2023-01-06,CUST00607,18-25,North,Paid Ads,Desktop,Beauty,Lipstick,465.98,1,0,0.0,465.98,465.98,Debit Card,4,No,,4.2
+ORD11408,2023-08-24,CUST00879,18-25,North,Referral,Tablet,Electronics,Tablet,23114.62,2,5,2311.46,46229.24,43917.78,COD,6,No,,3.7
+ORD11409,2023-09-10,CUST00264,46-55,East,Social Media,Tablet,Books,Fiction Novel,209.87,4,15,125.92,839.48,713.56,COD,5,No,,3.3
+ORD11410,2023-09-21,CUST00736,26-35,East,Social Media,Desktop,Sports,Dumbbells,3712.64,3,5,556.9,11137.92,10581.02,Net Banking,2,No,,5.0
+ORD11411,2023-03-18,CUST00507,18-25,West,Organic Search,Desktop,Books,Self Help,633.48,5,15,475.11,3167.4,2692.29,Debit Card,2,No,,4.1
+ORD11412,2023-06-01,CUST00944,26-35,East,Referral,Desktop,Home & Kitchen,Cookware Set,3826.81,4,0,0.0,15307.24,15307.24,Credit Card,8,No,,4.5
+ORD11413,2023-08-14,CUST00651,55+,North,Social Media,Tablet,Electronics,Earbuds,4797.02,1,0,0.0,4797.02,4797.02,Net Banking,4,No,,4.7
+ORD11414,2023-06-04,CUST00581,26-35,East,Paid Ads,Mobile,Sports,Yoga Mat,1246.84,2,10,249.37,2493.68,2244.31,Wallet,2,No,,3.4
+ORD11415,2023-06-13,CUST00956,36-45,Central,Email,Desktop,Toys,Remote Car,3022.07,4,0,0.0,12088.28,12088.28,Wallet,8,No,,3.6
+ORD11416,2023-07-18,CUST00622,26-35,North,Social Media,Tablet,Home & Kitchen,Curtains,2658.36,4,15,1595.02,10633.44,9038.42,Net Banking,2,No,,4.2
+ORD11417,2023-02-15,CUST00877,18-25,Central,Social Media,Desktop,Electronics,Laptop,117351.22,4,25,117351.22,469404.88,352053.66,Net Banking,9,No,,4.7
+ORD11418,2023-04-19,CUST00266,18-25,South,Email,Desktop,Clothing,Jeans,974.13,2,25,487.06,1948.26,1461.2,Net Banking,3,No,,4.8
+ORD11419,2023-08-13,CUST00637,55+,South,Organic Search,Mobile,Sports,Badminton Set,2166.58,3,0,0.0,6499.74,6499.74,Debit Card,8,No,,4.0
+ORD11420,2023-12-19,CUST00529,26-35,North,Referral,Tablet,Beauty,Shampoo,164.1,1,10,16.41,164.1,147.69,COD,1,Yes,Wrong Item,4.2
+ORD11421,2023-06-14,CUST00276,36-45,West,Social Media,Desktop,Clothing,Kurta,419.09,4,15,251.45,1676.36,1424.91,COD,2,No,,5.0
+ORD11422,2023-03-05,CUST00219,36-45,South,Paid Ads,Desktop,Beauty,Serum,2018.07,2,5,201.81,4036.14,3834.33,Net Banking,1,Yes,Changed Mind,4.6
+ORD11423,2023-09-17,CUST00412,55+,North,Paid Ads,Tablet,Books,Comic,165.5,1,20,33.1,165.5,132.4,UPI,1,No,,1.8
+ORD11424,2023-11-11,CUST00646,26-35,East,Direct,Mobile,Electronics,Laptop,64060.69,1,15,9609.1,64060.69,54451.59,Debit Card,6,No,,3.3
+ORD11425,2023-07-07,CUST00465,26-35,West,Paid Ads,Mobile,Books,Textbook,429.6,4,25,429.6,1718.4,1288.8,Credit Card,9,No,,4.0
+ORD11426,2023-11-21,CUST00747,18-25,Central,Paid Ads,Mobile,Clothing,Jacket,1954.55,5,15,1465.91,9772.75,8306.84,COD,7,No,,4.5
+ORD11427,2023-10-22,CUST00863,55+,Central,Email,Mobile,Clothing,Kurta,1867.86,5,25,2334.82,9339.3,7004.48,COD,9,No,,2.1
+ORD11428,2023-05-25,CUST00427,36-45,South,Referral,Desktop,Beauty,Serum,2710.73,3,0,0.0,8132.19,8132.19,Net Banking,10,No,,3.8
+ORD11429,2023-12-05,CUST00296,36-45,West,Email,Tablet,Electronics,Laptop,39075.99,5,0,0.0,195379.95,195379.95,Wallet,2,No,,6.3
+ORD11430,2023-09-12,CUST00350,26-35,Central,Referral,Tablet,Clothing,Jeans,2774.05,5,10,1387.03,13870.25,12483.22,Debit Card,5,No,,4.9
+ORD11431,2023-01-30,CUST00996,46-55,North,Direct,Mobile,Clothing,Jeans,1625.63,5,25,2032.04,8128.15,6096.11,Wallet,6,No,,3.3
+ORD11432,2023-06-06,CUST00891,55+,West,Direct,Desktop,Beauty,Perfume,3089.91,3,20,1853.95,9269.73,7415.78,COD,8,No,,3.1
+ORD11433,2023-12-14,CUST00004,46-55,North,Organic Search,Tablet,Home & Kitchen,Cookware Set,5762.74,4,5,1152.55,23050.96,21898.41,Credit Card,9,No,,3.5
+ORD11434,2023-03-09,CUST00461,36-45,Central,Email,Desktop,Sports,Cricket Bat,3085.9,4,20,2468.72,12343.6,9874.88,UPI,1,Yes,Not as Described,3.6
+ORD11435,2023-03-30,CUST00282,18-25,West,Referral,Mobile,Toys,Remote Car,3643.1,3,0,0.0,10929.3,10929.3,UPI,5,No,,4.6
+ORD11436,2023-06-30,CUST00883,26-35,East,Organic Search,Mobile,Beauty,Face Cream,664.64,4,20,531.71,2658.56,2126.85,Debit Card,5,No,,5.0
+ORD11437,2023-01-09,CUST00857,26-35,North,Paid Ads,Desktop,Clothing,Kurta,1253.73,5,20,1253.73,6268.65,5014.92,Debit Card,9,No,,5.0
+ORD11438,2023-04-19,CUST00711,26-35,North,Referral,Desktop,Electronics,Tablet,24914.95,3,0,0.0,74744.85,74744.85,Wallet,9,No,,4.2
+ORD11439,2023-10-26,CUST00844,36-45,Central,Email,Mobile,Electronics,Laptop,54220.33,5,0,0.0,271101.65,271101.65,UPI,7,No,,4.1
+ORD11440,2023-07-05,CUST00937,18-25,West,Social Media,Tablet,Home & Kitchen,Mixer Grinder,5331.43,1,5,266.57,5331.43,5064.86,Credit Card,7,No,,3.3
+ORD11441,2023-12-13,CUST00599,46-55,West,Organic Search,Mobile,Sports,Dumbbells,2892.71,2,10,578.54,5785.42,5206.88,Wallet,1,No,,3.9
+ORD11442,2023-02-16,CUST00341,26-35,East,Paid Ads,Mobile,Sports,Dumbbells,1935.11,1,5,96.76,1935.11,1838.35,Debit Card,6,No,,2.9
+ORD11443,2023-05-27,CUST00372,36-45,Central,Email,Tablet,Electronics,Tablet,47205.09,4,25,47205.09,188820.36,141615.27,UPI,9,No,,3.2
+ORD11444,2023-09-14,CUST00806,36-45,East,Organic Search,Tablet,Beauty,Serum,2276.25,2,0,0.0,4552.5,4552.5,Net Banking,9,No,,4.8
+ORD11445,2023-08-08,CUST00370,36-45,West,Email,Desktop,Clothing,Jeans,2116.76,2,0,0.0,4233.52,4233.52,UPI,1,No,,4.8
+ORD11446,2023-12-25,CUST00673,55+,Central,Organic Search,Desktop,Sports,Cricket Bat,1493.28,4,5,298.66,5973.12,5674.46,COD,1,No,,4.4
+ORD11447,2023-07-05,CUST00425,36-45,South,Paid Ads,Mobile,Sports,Cricket Bat,2474.51,2,20,989.8,4949.02,3959.22,Net Banking,6,No,,5.0
+ORD11448,2023-08-19,CUST00906,18-25,West,Social Media,Desktop,Beauty,Shampoo,293.04,4,0,0.0,1172.16,1172.16,Wallet,10,No,,2.0
+ORD11449,2023-08-27,CUST00721,26-35,East,Paid Ads,Tablet,Sports,Cycle,6390.72,5,10,3195.36,31953.6,28758.24,COD,8,No,,2.9
+ORD11450,2023-04-18,CUST00506,36-45,Central,Direct,Tablet,Electronics,Tablet,37039.35,1,25,9259.84,37039.35,27779.51,Net Banking,8,No,,3.8
+ORD11451,2023-10-09,CUST00211,26-35,West,Organic Search,Mobile,Clothing,Jacket,5133.87,2,10,1026.77,10267.74,9240.97,Debit Card,9,No,,4.2
+ORD11452,2023-11-20,CUST00827,26-35,Central,Direct,Desktop,Sports,Cycle,22031.47,2,0,0.0,44062.94,44062.94,Wallet,10,Yes,Not as Described,3.9
+ORD11453,2023-11-29,CUST00398,36-45,North,Email,Tablet,Toys,LEGO Set,3553.72,2,0,0.0,7107.44,7107.44,Debit Card,8,Yes,Changed Mind,3.0
+ORD11454,2023-07-18,CUST00724,26-35,West,Organic Search,Mobile,Clothing,Jacket,4896.68,5,0,0.0,24483.4,24483.4,Wallet,9,No,,4.1
+ORD11455,2023-09-19,CUST00532,36-45,East,Direct,Desktop,Home & Kitchen,Air Fryer,6786.51,3,25,5089.88,20359.53,15269.65,Credit Card,10,No,,4.6
+ORD11456,2023-12-03,CUST00865,36-45,North,Referral,Desktop,Toys,Doll,1051.84,1,0,0.0,1051.84,1051.84,COD,4,Yes,Not as Described,3.9
+ORD11457,2023-01-23,CUST00522,26-35,West,Organic Search,Tablet,Sports,Cricket Bat,3582.89,3,10,1074.87,10748.67,9673.8,Wallet,5,No,,4.2
+ORD11458,2023-04-12,CUST00769,26-35,North,Referral,Tablet,Electronics,Laptop,114258.81,3,0,0.0,342776.43,342776.43,Net Banking,7,No,,3.3
+ORD11459,2023-03-14,CUST00310,46-55,East,Email,Desktop,Toys,Doll,1350.45,5,0,0.0,6752.25,6752.25,COD,4,No,,4.2
+ORD11460,2023-08-07,CUST00138,36-45,South,Organic Search,Desktop,Toys,Remote Car,879.17,2,20,351.67,1758.34,1406.67,COD,5,No,,4.5
+ORD11461,2023-12-06,CUST00522,26-35,South,Referral,Mobile,Books,Textbook,1124.81,2,0,0.0,2249.62,2249.62,UPI,8,No,,4.2
+ORD11462,2023-04-27,CUST00755,26-35,South,Referral,Desktop,Sports,Dumbbells,4671.42,3,0,0.0,14014.26,14014.26,Net Banking,4,No,,5.0
+ORD11463,2023-07-16,CUST00399,18-25,Central,Social Media,Tablet,Electronics,Smart Watch,18386.88,3,10,5516.06,55160.64,49644.58,Credit Card,8,No,,4.8
+ORD11464,2023-08-06,CUST00920,18-25,North,Direct,Desktop,Beauty,Lipstick,467.73,5,0,0.0,2338.65,2338.65,Credit Card,2,No,,3.0
+ORD11465,2023-12-24,CUST00262,46-55,North,Direct,Mobile,Clothing,Saree,6832.0,4,20,5465.6,27328.0,21862.4,COD,1,No,,5.0
+ORD11466,2023-04-14,CUST00357,55+,West,Direct,Mobile,Toys,Board Game,1840.04,3,5,276.01,5520.12,5244.11,Credit Card,1,No,,2.6
+ORD11467,2023-03-05,CUST00426,26-35,South,Social Media,Mobile,Sports,Cricket Bat,3078.08,-2,25,3078.08,12312.32,9234.24,Credit Card,10,No,,4.7
+ORD11468,2023-11-11,CUST00743,26-35,East,Referral,Tablet,Clothing,Jeans,834.1,2,10,166.82,1668.2,1501.38,Credit Card,10,No,,5.0
+ORD11469,2023-06-17,CUST00283,46-55,South,Paid Ads,Desktop,Electronics,Smart Watch,17556.4,5,0,0.0,87782.0,87782.0,Credit Card,3,No,,5.0
+ORD11470,2023-06-07,CUST00563,26-35,Central,Referral,Desktop,Books,Textbook,1762.35,3,20,1057.41,5287.05,4229.64,Wallet,3,No,,3.8
+ORD11471,2023-10-26,CUST00498,36-45,East,Referral,Mobile,Beauty,Lipstick,1093.63,3,15,492.13,3280.89,2788.76,Credit Card,3,No,,4.2
+ORD11472,2023-06-25,CUST00801,55+,Central,Email,Desktop,Clothing,Kurta,1079.09,2,15,323.73,2158.18,1834.45,Debit Card,2,No,,5.0
+ORD11473,2023-06-03,CUST00980,26-35,North,Social Media,Tablet,Clothing,Kurta,2312.27,2,0,0.0,4624.54,4624.54,Net Banking,8,No,,3.8
+ORD11474,2023-02-17,CUST00530,26-35,North,Social Media,Mobile,Home & Kitchen,Cookware Set,6062.02,2,15,1818.61,12124.04,10305.43,COD,2,No,,4.2
+ORD11475,2023-08-06,CUST00054,36-45,Central,Email,Mobile,Home & Kitchen,Bedsheet,1109.65,4,20,887.72,4438.6,3550.88,Credit Card,2,No,,3.1
+ORD11476,2023-02-03,CUST00647,18-25,Central,Email,Mobile,Home & Kitchen,Mixer Grinder,5493.78,3,0,0.0,16481.34,16481.34,Credit Card,5,No,,3.2
+ORD11477,2023-06-04,CUST00466,46-55,South,Email,Tablet,Sports,Cycle,20771.55,3,20,12462.93,62314.65,49851.72,Wallet,3,No,,4.1
+ORD11478,2023-05-15,CUST00055,18-25,East,Direct,Tablet,Clothing,Jeans,2811.24,1,15,421.69,2811.24,2389.55,UPI,3,No,,4.3
+ORD11479,2023-05-28,CUST00028,26-35,East,Direct,Tablet,Beauty,Face Cream,1077.86,2,0,0.0,2155.72,2155.72,COD,2,Yes,Wrong Item,4.8
+ORD11480,2023-05-08,CUST00874,18-25,Central,Paid Ads,Mobile,Clothing,T-Shirt,324.08,4,20,259.26,1296.32,1037.06,Wallet,4,No,,3.6
+ORD11481,2023-02-18,CUST00871,18-25,South,Referral,Mobile,Clothing,T-Shirt,684.17,2,0,0.0,1368.34,1368.34,Debit Card,10,No,,3.9
+ORD11482,2023-03-01,CUST00853,46-55,South,Referral,Desktop,Clothing,Jeans,1409.04,5,20,1409.04,7045.2,5636.16,UPI,4,No,,3.9
+ORD11483,2023-03-30,CUST00441,26-35,Central,Social Media,Mobile,Toys,Remote Car,2750.12,4,0,0.0,11000.48,11000.48,Net Banking,5,No,,3.4
+ORD11484,2023-05-22,CUST00484,46-55,South,Email,Desktop,Toys,Doll,1382.32,4,5,276.46,5529.28,5252.82,UPI,10,No,,3.6
+ORD11485,2023-09-07,CUST00379,36-45,West,Email,Desktop,Toys,Remote Car,2600.71,1,10,260.07,2600.71,2340.64,Credit Card,7,No,,3.6
+ORD11486,2023-05-08,CUST00900,26-35,West,Direct,Desktop,Home & Kitchen,Curtains,3304.82,3,5,495.72,9914.46,9418.74,Wallet,7,No,,3.8
+ORD11487,2023-03-07,CUST00348,36-45,West,Email,Tablet,Clothing,Saree,2300.32,5,20,2300.32,11501.6,9201.28,Debit Card,10,No,,3.6
+ORD11488,2023-11-25,CUST00202,36-45,East,Email,Tablet,Home & Kitchen,Air Fryer,6048.79,1,0,0.0,6048.79,6048.79,UPI,8,No,,3.7
+ORD11489,2023-07-31,CUST00552,18-25,Central,Referral,Tablet,Sports,Cycle,11158.78,5,0,0.0,55793.9,55793.9,Credit Card,2,No,,3.2
+ORD11490,2023-02-21,CUST00473,18-25,South,Email,Mobile,Books,Fiction Novel,309.52,2,0,0.0,619.04,619.04,Net Banking,7,No,,3.5
+ORD11491,2023-05-21,CUST00835,26-35,South,Email,Tablet,Beauty,Shampoo,653.76,1,0,0.0,653.76,653.76,UPI,9,No,,3.9
+ORD11492,2023-07-23,CUST00407,18-25,South,Email,Tablet,Sports,Cricket Bat,1589.12,1,10,158.91,1589.12,1430.21,UPI,4,No,,3.6
+ORD11493,2023-08-24,CUST00600,46-55,Central,Social Media,Tablet,Home & Kitchen,Curtains,1456.37,2,0,0.0,2912.74,2912.74,Wallet,3,No,,7.6
+ORD11494,2023-05-30,CUST00689,18-25,South,Referral,Mobile,Electronics,Smartphone,15623.93,4,20,12499.14,62495.72,49996.58,Credit Card,10,No,,3.4
+ORD11495,2023-02-28,CUST00253,36-45,North,Paid Ads,Mobile,Electronics,Smart Watch,3933.85,3,0,0.0,11801.55,11801.55,Debit Card,7,No,,3.4
+ORD11496,2023-12-03,CUST00289,18-25,North,Organic Search,Desktop,Home & Kitchen,Bedsheet,1038.61,4,25,1038.61,4154.44,3115.83,Net Banking,4,No,,3.8
+ORD11497,2023-02-23,CUST00593,36-45,North,Social Media,Tablet,Sports,Cricket Bat,1188.49,3,0,0.0,3565.47,3565.47,Debit Card,7,Yes,Not as Described,5.0
+ORD11498,2023-03-02,CUST00075,46-55,South,Social Media,Tablet,Electronics,Laptop,77667.32,4,20,62133.86,310669.28,248535.42,Wallet,7,No,,5.0
+ORD11499,2023-04-18,CUST00436,18-25,Central,Organic Search,Mobile,Home & Kitchen,Bedsheet,1883.79,2,0,0.0,3767.58,3767.58,COD,6,No,,4.0
